@@ -12,7 +12,7 @@ and open the template in the editor.
             .goodBalance {
                 color: #000;
                 background-color: #0f0;
-            } 
+            }
             
             .badBalance {
                 color: #00f;
