@@ -17,4 +17,5 @@
             
         <p>Lots can be viewed the prior day from 4pm until 7pm and again on Thursday morning from
          10am to noon.</p>
+        <?php include 'content/gents.php'; ?>
 
