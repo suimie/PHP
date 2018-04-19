@@ -15,15 +15,24 @@ and open the template in the editor.
             .align-right{
                 text-align: right;
             }
+            th{
+                width:120px;
+                text-align: left;
+                background-color: lightgoldenrodyellow;
+            }
         </style>
     </head>
     <body>
         <div>
             <?php 
-                global $firstname, $lastname, $email, $phone, $book, $os;
+                $firstname = $_POST["firstname"];
+                $lastname = $_POST["lastname"];
+                $email = $_POST["email"];
+                $phone = $_POST["phone"];
+                $os = $_POST["os"];
             ?>
-            <p>Hi <span><?php $firstname ?></span>. Thank you for completing the survey.</p>
-            <p>You have been added to the <span><?php $os ?></span> mailing list.</p>
+            <p>Hi <span><?php echo $firstname ?></span>. Thank you for completing the survey.</p>
+            <p>You have been added to the <span><?php echo $os ?></span> mailing list.</p>
             <br />
             <h4>The following information has been saved in our database:</h6>
             
@@ -36,10 +45,10 @@ and open the template in the editor.
                 </thead>
                 <tbody>
                     <tr>
-                        <td><?php $firstname . ' ' . $lastname ?></td>
-                        <td><?php $email ?></td>
-                        <td><?php $phone ?></td>
-                        <td><?php $os ?></td>
+                        <td><?php echo $firstname . ' ' . $lastname ?></td>
+                        <td><?php echo $email ?></td>
+                        <td><?php echo $phone ?></td>
+                        <td><?php echo $os ?></td>
                     </tr>
                 </tbody>
             </table>
