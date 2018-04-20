@@ -1,0 +1,166 @@
+Using Classes
+=============
+
+
+INSTANTIATING THE CLASS
+========================
+A class is a blueprint for creating objects. When you create an object you are instantiating the class—making an instance of the class. You can create multiple objects from the same class.
+
+They all start out the same, with properties empty or equal to a default and with the capability of performing all the actions detailed by the methods. They are all independent so when you change a property in one, it does not affect the property in any of the other objects made from that class. It is just like when you enter a contact in your cell phone; no one else's cell phone is affected.
+
+Instantiating the class is very easy. Make sure that the class code has been included. Use a require_once to include it. You need the file, so it should be a require rather than an include. You also want the class to be included only once because you get an error if you try to define the class a second time, even if it is identical. It is standard practice to include your common classes when you start the program. If you rarely use a class, you can include it before you create an object.
+
+If a class called Cellphone is in the cellphone.php file, the following code creates an object called $myPhone:
+
+<?php
+	require_once 'cellphone.php';
+	$myPhone = new Cellphone();
+
+The object called $myPhone is a regular variable that happens to be an object. You use all the same naming conventions for the variable as you do for other variables.
+
+
+If you want to create multiple objects, create multiple variables:
+
+<?php
+require_once 'cellphone.php';
+$myPhone = new Cellphone();
+$sallyPhone = new Cellphone();
+$georgePhone = new Cellphone();
+
+You can also use a variable to contain the name of the class:
+
+<?php
+$type = 'cell';
+//$type ='home';
+$classname = $type . 'phone';
+$myPhone = new $classname();
+$sallyPhone = new $classname();
+$georgePhone = new $classname();
+
+NOTE:
+======
+Be careful that you only use the $ when using a variable to specify the class name. If you use the actual name of the class, which is usual, do not use a $.
+
+
+USING OBJECTS
+===============
+To access an object's properties or classes use the “dash-greater-than” construction. If $myPhone is an object with a property of $phoneNumber, the following code assigns 555-555-7777 to that property:
+<?php
+$myPhone->phoneNumber = '555-555-7777';
+
+Assuming that the object has a method called $displayContacts(), the following code runs that method:
+
+<?php
+$myPhone->displayContacts();
+
+Often the purpose of a method is to give you a value, that is, to return a value. You capture this by assigning it to a variable or by using it. Here are two ways of getting the same information from countSongs():
+
+<?php
+$numberSongs = $myPhone->countSongs();
+echo $numberSongs;
+echo $myPhone->countSongs();
+
+Before this, you created the class Cellphone, which you put in the file cellphone.php.
+
+
+The first step is to include the class and create an object:
+<?php
+require_once 'cellphone.php';
+$myPhone = new Cellphone();
+
+Now put some data into the object. You can put data into the properties directly. This is how you load the cell phone's own number, model, and color:
+
+$myPhone->phoneNumber = '555-555-1111';
+$myPhone->model = '3GS';
+$myPhone->color = 'Black';
+
+Echo them back to verify that it worked. The results should look like Figure 14-1. This is what the full code looks like:
+
+<?php
+require_once 'cellphone.php';
+$myPhone = new Cellphone();
+$myPhone->phoneNumber = '555-555-1111';
+$myPhone->model = '3GS';
+$myPhone->color = 'Black';
+echo 'Phone number: ' . $myPhone->phoneNumber . '<br />';
+echo 'Model: ' . $myPhone->model . '<br />';
+echo 'Color: ' . $myPhone->color . '<br />';
+
+
+There are also a couple of methods that enable you to enter data into the properties:
+addContact() and addSongs(). Use addContact() to add to the $contacts property array by giving the name and phone number of the contact. Display the array to see that the contacts were added properly. Use print_r() to display an array rather than echo.
+
+$myPhone->addContact('555-555-1212', 'Sally Strange');
+$myPhone->addContact('555-555-1515', 'George Mason');
+print_r($myPhone->contacts);
+
+
+Use a method that prints the contacts. Replace the print_r() statement with a call to displayContacts().
+
+$myPhone->displayContacts();
+
+
+The addSongs() property is looking for either an array of filenames of songs or a single filename. Add an array of songs and then display the property to verify it. Putting the <pre> tags around print_r() makes the results easier to read when testing. 
+
+$myPhone->addSongs(array('ibelieve.mp3','heaven.mp3','song3.mp3'));
+echo '<pre>';print_r($myPhone->songs);echo '</pre>';
+
+The countSongs() method counts the number of songs and returns the number. It does not display the number, though, so you need to display it so you can see that you received it. Instead of printing out the song names, display how many songs are on the phone.
+
+echo 'My phone has ' . $myPhone->countSongs(). ' songs.<br />';
+
+Updating a property directly is convenient but best practices recommend using a method. Using a method enables you to handle any other actions that need to be done when you change the property.
+
+This could be error checking, filtering, or adding subsidiary information. Even if you only need to change the value now, at some point in the future you might need to add filtering. If you are updating through a method, the only place you need to change is in the class. If you are updating directly, you need to locate all those places and make changes to all of them.
+
+Two special methods help you fill in the properties when you create the object. The __construct() method is automatically called when you create an object. You pass arguments to the method, which can be used to update the methods or perform any other initializing tasks you need. As an example, add the following method to the cellphone class definition:
+
+public function __construct($phoneNumber, $model, $color) {
+	$this->phoneNumber = $phoneNumber;
+	$this->model = $model;
+	$this->color = $color;
+}
+
+Note that the method begins with a double underscore. You are taking the phone number, model, and color and using them to update those properties.
+
+
+Now create a new file and create some objects from the class and then display them. 
+<?php
+require_once 'cellphone.php';
+$myPhone = new Cellphone('555-555-1111', 'iPhone', 'Black');
+$yourPhone = new Cellphone('555-555-2222', 'Droid', 'Purple');
+$hisPhone = new Cellphone('555-555-3333', 'Blackberry', 'Pink');
+echo 'Phone number: ' . $myPhone->phoneNumber . '<br />';
+echo 'Model: ' . $myPhone->model . '<br />';
+echo 'Color: ' . $myPhone->color . '<br />';
+echo 'Phone number: ' . $yourPhone->phoneNumber . '<br />';
+echo 'Model: ' . $yourPhone->model . '<br />';
+echo 'Color: ' . $yourPhone->color . '<br />';
+echo 'Phone number: ' . $hisPhone->phoneNumber . '<br />';
+echo 'Model: ' . $hisPhone->model . '<br />';
+echo 'Color: ' . $hisPhone->color . '<br />';
+
+
+If PHP does not find a __construct() method, it looks for a method with the same name as the class. This is the old style and you should avoid it in new coding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

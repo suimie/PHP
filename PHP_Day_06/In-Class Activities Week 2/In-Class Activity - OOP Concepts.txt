@@ -1,0 +1,20 @@
+In-Class Activity
+==================
+Hints
+=====
+This is a conceptual exercise, not a PHP coding exercise.
+
+Step-by-Step
+=============
+Based on the contacts in Figure 11-About Us, write down the properties and methods that a Contact object might need.
+
+1. The properties are the pieces of information about the Contact.
+Properties include the following:
+• First name
+• Last name
+• Position
+• Email
+• Phone
+
+2. The methods are functions that the object would need.
+• A method that assembles a full name from first name and last name.

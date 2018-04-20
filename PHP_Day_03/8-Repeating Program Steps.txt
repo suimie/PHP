@@ -1,0 +1,150 @@
+Repeating Program Steps
+========================
+Loops let you repeat blocks of code multiple times. Depending on the type of loop, you can repeat the code a given amount of times or while a certain condition is true.
+
+♦ WHILE LOOPS
+While loops execute a block of while a given condition is true. This is the syntax of a while loop:
+while (condition) {
+lines of code here;
+as many as you need;
+}
+
+As with the other control structures, the while loop also has the alternative syntax that is preferred if you are mixing PHP and HTML:
+
+while (condition) :
+lines of code here;
+as many as you need;
+endwhile;
+
+
+♦ DO/WHILE LOOPS
+The do/while loops are the same as while loops except that the condition is checked after running the block of code instead of before. While loops that start with a false condition never run; do/while loops always run at least once.
+Following is the syntax for a do/while loop. The do/while loop does not have an alternate syntax.
+
+do {
+lines of code here;
+as many as you need;
+} while (condition);
+
+Here is the same example as the while loop, refactored as a do/while loop. 
+
+<h1>Print 1 through 4</h1>
+<?php
+$i = 1;
+do {
+echo "<p>The counter is $i.";
+$i++;
+} while ($i < 5);
+
+
+♦ FOR LOOPS
+The for loops execute a block of code a given number of times. Unlike while loops, for loops handle the incrementing/decrementing of the counter for you. This is the syntax of the for loop: 
+
+for (init; condition; increment) {
+lines of code here;
+as many as you need;
+}
+
+The for loop has alternative syntax as well:
+
+for (init; condition; increment) :
+lines of code here;
+as many as you need;
+endfor;
+
+Following is the same function used for the while loop, but refactored as a for loop. 
+
+<h1>Print 1 through 4</h1>
+<?php
+for ($i=1; $i < 5; $i++) {
+echo "<p>The counter is $i.";
+}
+
+
+♦ FOREACH LOOPS
+The foreach loop is a simple way of looping through all the elements in an array or object. Although you could do the same thing with a for loop, using a foreach loop is less complex and gives you advantages. This is the standard syntax:
+
+foreach ($array as $element) {
+code to be executed using $element;
+}
+
+
+<h1>Contacts</h1>
+<?php
+$contacts = array(
+array('name' => 'George Smith', 'email' => 'george@example.com'),
+array('name' => 'Sally Carpenter', 'email' => 'sally@example.com'),
+array('name' => 'Peter Jason', 'email' => 'peter@example.com'),
+array('name' => 'Lila Carhausen', 'email' => 'lila@example.com')
+);
+?>
+<ul>
+<?php foreach ($contacts as $contact) : ?>
+<li><?php echo $contact['name']; ?><br />
+<?php echo $contact['email']; ?></li>
+<?php endforeach; ?>
+</ul>
+
+If the array you are looping through is an associative array you can keep track of the index with the following syntax:
+
+foreach ($array as $key=>$value) {
+code to be executed using $element and/or $key;
+}
+foreach ($array as $key=>$element) :
+code to be executed using $element and/or ;
+endforeach;
+
+
+In the following code you loop through the array and use each key as a label for displaying the value. 
+<h1>Contact</h1>
+<?php
+$myArr = array('name' => 'George Smith',
+'email' => 'george@example.com',
+'phone' => '555-555-1212',
+'state' => 'MA');
+?>
+<ul>
+<?php foreach ($myArr as $key=>$value) : ?>
+<li><?php echo ucfirst($key); ?>:
+<?php echo $value; ?></li>
+<?php endforeach; ?>
+</ul>
+
+
+♦ CONTINUE/BREAK
+You use continue if you are done with a particular loop iteration and want to jump to the start of the next iteration. In the following example, the email value is skipped:
+
+<h1>Contact</h1>
+<?php
+$myArr = array('name' => 'George Smith',
+'email' => 'george@example.com',
+'phone' => '555-555-1212',
+'state' => 'MA');
+?>
+<ul>
+<?php foreach ($myArr as $key=>$value) :
+if ($key == 'email') :
+continue;
+endif; ?>
+<li><?php echo ucfirst($key); ?>:
+<?php echo $value; ?></li>
+<?php endforeach; ?>
+</ul>
+
+If you have multiple nested loops, you can use a numeric argument to skip to the next iteration of enclosing loops.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

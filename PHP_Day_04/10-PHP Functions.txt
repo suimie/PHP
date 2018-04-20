@@ -1,0 +1,276 @@
+PHP Functions
+==============
+You name functions with the same rules as naming variables. Functions do not have a $ before their name and they are immediately followed by parentheses. The simplest function definition looks like this:
+
+function functionname() {
+	// PHP code goes here;
+}
+
+It's easy to turn code into a function. This code displays "George Smith":
+
+<?php
+$name = "George Smith";
+echo $name;
+
+This is how you defi ne a function to display "George Smith":
+
+<?php
+function getName() {
+$name = "George Smith";
+echo $name;
+}
+
+
+This defines the function but does not run the function. To actually run the function and display "George Smith" you need to also call the function.
+
+<?php
+function getName() {
+$name = "George Smith";
+echo $name;
+}
+?>
+
+<h1>Contacts</h1>
+<p><?php getName(); ?></p>
+
+Each time you run a function, the variables in your function are new variables. If you change the value of a variable in a function, that change does not exist the next time the function is called.
+
+<?php
+function getCount() {
+	$count++;
+	echo "Count: " . $count. "<br />";
+}
+?>
+
+<h1>Count</h1>
+<?php for ($i=0; $i < 5; $i++) :
+	getCount();
+endfor; ?>
+
+
+When the getCount() in the preceding code is called, it adds 1 to $count using the $count++ command and then prints it out. So when you loop through the for loop fi ve times, $count prints out as 1 each time because every time getCount() is called $count is initialized to 0. This is a good thing because it keeps your functions clean and contained. You know that your variables start fresh every time you run the function.
+
+
+Every so often, however, you may want to have a variable stick around through all the times you run the function in a script. Two examples of this would be if you want to do something different the first time you run a function or if you are trying to keep a counter going. To do that you declare your variable as a static variable. Static variables maintain their values instead of reinitializing. 
+
+<?php
+function getCount() {
+	static $count;
+	$count++;
+	echo "Count: " . $count. "<br />";
+}
+?>
+
+<h1>Count</h1>
+<?php for ($i=0; $i < 5; $i++) :
+	getCount();
+endfor; ?>
+
+
+PASSING PARAMETERS
+==================
+All this function can do is print out "George Smith," which is not very useful. If, however, you could tell it to print any name you wanted, it would more useful. The parentheses following the function name are used to hold parameters, which are variables that can be passed from the calling program into the function. You pass different values to the function and the function uses those values when it processes its code.
+
+<?php
+function getName($name) {
+	echo $name;
+}
+?>
+
+<h1>Contacts</h1>
+<p><?php getName("George Smith"); ?></p>
+<p><?php getName("Sally Meyers"); ?></p>
+
+PARAMETERS AND ARGUMENTS
+You often hear the terms "parameters" and "arguments" used interchangeably. Technically, parameters are the list of variables in the function definition. Arguments are the actual values that are passed to the parameters when the function
+is used.
+
+<?php
+function getName($name) {
+	echo $name;
+}
+?>
+<h1>Contacts</h1>
+
+<?php
+$contacts = array("George Smith", "Sally Meyers");
+foreach ($contacts as $contact) :
+?>
+
+<p><?php getName($contact); ?></p>
+<?php endforeach; ?>
+
+
+Passing more than one parameter to a function
+<?php
+function getName($name, $department) {
+	echo $name . ' - ' . $department;
+}
+?>
+<h1>Contacts</h1>
+<?php
+$contacts = array("George Smith", "Sally Meyers");
+$department = "Office";
+foreach ($contacts as $contact) :
+?>
+<p><?php getName($contact, $department); ?></p>
+<?php endforeach; ?>
+
+
+If you want a variable in a function to be global, you must specifically declare it as global: global $myVariable;
+
+
+If you want to make changes to the original variable, you need to pass it by reference. When you pass a variable by reference you create a link, a shortcut, or an alias to the original variable rather than making a copy of it. You are creating multiple names for the same thing. Prefix the parameter in the function definition with an ampersand (&) to indicate it should pass by reference, rather than making a copy. In the following example, $name is passed by reference. When the function is called, it prints out the passed name and department and then changes those variables. When you echo
+$contact after calling the function, you see that the value variable passed by reference, $contact, has changed. On the other hand, $department was not passed by reference, so it is unchanged.
+
+
+?php
+function getName(&$name, $department) {
+	echo $name . ' - ' . $department;
+	$name = "Sally Meyers";
+	$department = "Techs";
+}
+?>
+<h1>Contacts</h1>
+<?php
+$contact = "George Smith";
+$department = "Office";
+?>
+<p><?php getName($contact, $department); ?></p>
+<p><?php echo $contact; ?></p>
+<p><?php echo $department; ?></p>
+
+
+Default value
+=============
+You can also assign a default to a parameter. If a parameter has a default value, that value is assigned if no argument is passed. You must pass an argument for every parameter without a default, so always put the arguments with defaults at the end. In the following code, notice that George has no department passed, so he gets the default, while Sally uses the department that is passed
+
+<?php
+function getName($name, $department="Office") {
+	echo $name . ' - ' . $department;
+}
+?>
+<h1>Contacts</h1>
+<?php
+$contact = "George Smith";
+$department = "Tech";
+?>
+<p><?php getName($contact); ?></p>
+<?php
+$contact = "Sally Meyers";
+?>
+<p><?php getName($contact, $department); ?></p>
+
+
+GETTING VALUES FROM FUNCTIONS
+==============================
+Often, you want a function to perform an action and then give you the results back. This "giving the result back" is called returning. For instance, you could have a function that takes two arguments and adds them together and returns the result. Give it two and three and it returns five.
+
+<?php
+function addNumbers($number1, $number2) {
+	$result = $number1 + $number2;
+	return $result;
+}
+$answer = addNumbers('2', '3');
+echo answer;
+
+
+If you want to know if a function performed correctly and it does not have data to return, you would return true or false. You could also return false if there were errors in calculating the data. The following code creates a function that checks to be sure that it received valid numbers and returns false if it received non-numeric data. The program uses the result of the function as the condition in an if statement to determine what to do.
+
+<?php
+function addNumbers($number1, $number2) {
+	if (is_numeric($number1) AND is_numeric($number2)) {
+	$result = $number1 + $number2;
+	return $result;
+} else {
+return false;
+}
+}
+
+$answer = addNumbers('2', 'all');
+if ($answer) {
+echo $answer;
+} else {
+echo 'Unable to calculate. Non-numeric data.';
+}
+
+
+If you want to pass multiple bits of data, you use an array. The following code uses an associative array to return the value of the calculation and a separate value for the success or failure.
+
+<?php
+function addNumbers($number1, $number2) {
+if (is_numeric($number1) AND is_numeric($number2)) {
+$result['answer'] = $number1 + $number2;
+$result['status'] = true;
+$result['message'] = "The answer is ";
+return $result;
+} else {
+$result['answer'] = null;
+$result['status'] = false;
+$result['message'] = "Unable to calculate. Non-numeric data.";
+return $result;
+}
+}
+$answer = addNumbers('2', 'all');
+if ($answer['status']) {
+echo $answer['message'] . $answer['answer'];
+} else {
+echo $answer['message'];
+}
+
+Change $answer = addNumbers('2', 'all'); 
+to 
+$answer = addNumbers('2', '3');
+which gives you a valid result.
+
+
+USING FUNCTIONS
+===============
+You are creating a program that takes a temperature, converts it from Fahrenheit to Celsius (or vice versa), and displays it.
+
+<?php
+// Set up the inputs
+$temperature = 70; // Enter the temperature to be converted
+$type = 'FtoC'; // Enter FtoC or CtoF for the type of conversion
+// Display the Results
+?>
+<html>
+<head>
+<title>Lesson 10t</title>
+</head>
+<body>
+<h1>Convert Temperature</h1>
+<p>Temperature: <?php echo formatDeg($temperature); ?></p>
+<p>Type: <?php echo expandType($type); ?>
+<p>Answer: <?php echo convertTemperature($temperature, $type); ?>
+</body>
+</html>
+
+This code is just the script. If you run it, you receive errors because it is calling several functions that you have not given it yet. Let's go through the script and the functions that need to be added to the start of the program.
+See the convertTemperature.php file
+
+
+INCLUDING OTHER FILES
+=======================
+With user functions you have moved from just writing scripts to the more upscale procedural programming where your code is in reusable modules. Procedural programming cuts down on redundant code and makes debugging and maintenance easier.
+
+You use the PHP commands include, include_once, require, and require_once to organize your files by grouping your functions in their own files and then "including" them in the code you are writing.
+
+Includes are different from functions. You can think of an include as an automatic copy/paste. PHP goes out, grabs the file, and plops it right down where the include command is. Include files can contain just straight PHP and HTML, which is executed immediately, or they can contain function definitions, which are now available to be called.
+
+These four commands, include, include_once, require, and require_once, all have the same syntax: the command and then the filename to be included: 
+<?php include 'content/home.php';
+
+The difference between include and require is that the two require commands give you a fatal error and stop if the file is missing, whereas the two include commands just issue a warning and keep going. The "once" on the end means that PHP loads the file only once. If the file is already loaded it won't try to load it again.
+
+
+
+
+
+
+
+
+
+
+
+

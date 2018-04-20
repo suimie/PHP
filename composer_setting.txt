@@ -1,0 +1,4 @@
+
+1. contact, about, registration, product
+2. home, catalog, login
+3. payment, shopping cart

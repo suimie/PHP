@@ -1,0 +1,49 @@
+Learning about Scope
+=====================
+Think of a program as a village where the houses have blinds on all their windows. Imagine that a variable is a person taking a walk down the street. He can talk and interact with all the other people outside, but he cannot be seen by anyone inside the houses nor can he see them. If he needs to talk with someone inside a house, he has to knock on the door and be let in first.
+
+This is the way that local scope works. Variables can be seen only where they are created. The houses are the user defined functions. If you create a variable outside a function, it cannot be seen inside the function. Conversely, if you create a variable inside a function, it can be seen only within that function.
+
+Global scope, on the other hand, is as if everyone can see everyone else at all times.
+Scope is local by default in PHP. Having local scope allows for encapsulation. Encapsulation means that you can create a function and know that nothing that goes on outside of that function will change anything inside the function unexpectedly. It also means that you are free to make changes inside the function and do not have to worry that you are messing up something outside the function. This makes your code easier to debug and more robust.
+
+GLOBAL VARIABLES
+=================
+Setting a variable to global scope is very easy. Just put the word global before the variable before you use it:
+<?php
+	global $myVar;
+	$myVar = '15';
+	
+In addition to regular globals, PHP has predefined variables called superglobals. These variables are automatically global. You used the superglobals $_GET, $_POST, and $_COOKIE. The rest of the superglobals work the same way.
+
+Notice that $GLOBALS does not have an underscore. It is the superglobal that has been around for the longest time.
+Globals have undergone many changes in the different versions of PHP. It is handy to be familiar with the old style so that you know not to copy it. Some of the old ways of doing things still work, but will be removed in later versions. That is another reason for moving right to the modern style.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

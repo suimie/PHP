@@ -1,0 +1,47 @@
+Debugging Code
+==============
+Display Errors while Developing
+You want errors to be displayed for you while you are developing your code. To do this, make sure that display_errors is on in your php.ini file. You can check this by running phpinfo(). If you are using XAMPP, display_errors is on by default because it is set up for development, not production. This is the code for running phpinfo():
+<?php
+phpinfo();
+
+If your display_errors is not on, edit the php.ini file so display_errors is on. If you are using XAMPP, the php.ini file is located at c:\xampp\php on a Windows PC and at /Applications/XAMPP/Xamppfiles/etc on a Mac OS X.
+
+	display_errors = on
+
+	display_errors determines if reported errors are displayed. error_reporting determines which errors should be reported. Errors have different levels, from minor notices to warning to severe.
+	
+Your error reporting level is also listed on the phpinfo() report, but it is in machine-readable code, so it is easier to look in your php.ini file. A good level for developing is to show all errors except for notices. The tilde (~) prefixed to E_NOTICE provides direction to not show those errors.
+
+	error_reporting = E_ALL & ~E_NOTICE
+
+	If you want to make sure you get all notices, including if you have a defined variable, do not exclude the notices. This is helpful if you have typos or problems remembering the right cases.
+	
+	error_reporting = E_ALL
+
+	If you want to go one step further, you can also display errors that don’t meet very strict PHP standards. The pipe symbol (|) means to display if the error violates E_ALL or E_STRICT.
+	
+	error_reporting = E_ALL | E_STRICT
+
+
+If you make changes to php.ini, be sure to stop your Apache web server and start it again.
+
+Take a look at what the errors look like when they are reported. Can you fi nd the error in the following code?
+<?php
+$firstName = 'Andy';
+$nameLength = str_len($firstName);
+$myVar = 'Hi, my name is ' . $nameLength. ' letters long.';
+echo $myVar;
+	
+	
+	
+
+
+
+
+
+
+
+
+
+

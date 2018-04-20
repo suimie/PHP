@@ -1,0 +1,179 @@
+Creating Forms
+==============
+Forms are ubiquitous on websites. They include not only obvious "fill in the blank" forms but also are the method used to interact with the user. Search boxes and drop-down filters, for instance, are contained within forms.
+
+<html>
+<head>
+<title>Contact</title>
+</head>
+    <body>
+        <form action=”index.php” method="get">
+            <fieldset>
+                <legend>Contact</legend>
+                <label for="fullname">Name</label>
+                <input id="fullname" name="fullname" type="text" />
+                <input name="contactForm" type="submit" value="Submit" />
+            </fieldset>
+
+            <fieldset>
+                <legend>What is your gender?</legend>
+                <input type="radio" id="genderf" name="gender" value="f" checked="checked" />
+                <label for="genderf"> Female</label>
+                <input type="radio" id="genderm" name="gender" value="m" />
+                <label for=”genderm”> Male</label>
+            </fieldset>
+        </form>
+    </body>
+</html>
+
+The <form> tag sets the action that occurs when the Submit button is clicked. This is the URI of the program that processes the form. It can either be a file specifically for processing forms or it can be an existing file that checks for whether form data was sent and automatically processes it.
+
+The <form> tag also assigns the method that is used to send the form data. You learned about the two methods, GET and POST. In general, use get, which is the default, for inquiries and use post for database changes or actions that should not be repeated. GET data is appended to the end of the URL and POST data is not.
+
+The for attribute in the <label> tag links to the <input> tag's id. The name attribute on the <input> tag is the name that is used to identify the data. The for, name, and id attributes are often the same, but only the for and the id need to match.
+
+PROCESSING FORMS
+=================
+When the form is submitted, the data is passed to either the GET or the POST variable, depending on the method attribute. Here is the code used for the <form> tag:
+<form action=processing_contacts.php" method="get">
+
+Normally you use a POST because this is data that you are probably using to update a database.
+
+I used the GET method here so that you can see the data being passed. Look at the data in the address bar. You see something similar to this:
+http://localhost/processing_contacts.php?fullname=George+Smith&address=123+Anywhich+Street%0D
+%0AAnywhere+XX+00000&gender=m&areatypes[]=rural&areatypes[]=city&level=gold&
+interests[]=1&interests[]=2&contactForm=Submit&id=12345
+
+This is dictated by the HTTP protocol, not PHP itself. Just after the filename processing_contacts.php is a question mark. That signals the start of a query string. The GET variables show as key=value pairs separated by ampersands within the query string. The name attribute from the form fields is the key and the value attribute (or equivalent) is the value.
+Only certain characters are allowed in a URL so characters that are not allowed are encoded to an allowable sequence. Notice that blanks are changed to + and the carriage return between the two lines of address is encoded as %0D%0A.
+
+You submit the form with <input type="submit" value="Submit" name="contactForm" /> so you should be able to find &contractForm=Submit in that query string. It's near the end of the string if you are having trouble locating it. You can have your program look for that value shortly.
+
+
+You add code to the top of the file to see if a form has been submitted. First, you check to see if there is a GET variable with the same name as the Submit button that contains the value of that Submit button. If you had used the POST method, you would look for it in POST. Because you are just doing a compare with this data, you do not need to worry about filtering it. If a form is submitted, you display a message to the user. It's a good idea to let the user know that she is successful in submitting the form and it also is a quick way to test your if statement.
+
+<?php
+if($_GET['contactForm'] == "Submit") {
+	echo 'Thank you for submitting the form';
+}
+?>
+
+
+Next, it is time to collect the rest of the data within the form. You do this using $_GET, $_POST, and the sanitizing methods you learned. Normally you would do something constructive with this data, such as update a database. For this example, you just display it on the screen.
+
+You can assign single values to a variable. The following code gets the value from the fullname form field, sanitizes it, and assigns it to $name. It does the same thing for the address, gender, and level form fields. You then display the data as a test. 
+
+<?php
+if($_GET['contactForm'] == "Submit") {
+	$name = filter_var($_GET['fullname'], FILTER_SANITIZE_STRING);
+	$address = filter_var($_GET['address'], FILTER_SANITIZE_STRING);
+	$gender = filter_var($_GET['gender'], FILTER_SANITIZE_STRING);
+	$level = filter_var($_GET['level'], FILTER_SANITIZE_STRING);
+	echo $name . '<br />';
+	echo $address . '<br />';
+	echo $gender . '<br />';
+	echo $level . '<br />';
+	echo 'Thank you for submitting the form';
+}
+
+Radio buttons are passed only if one is selected. If you don't require your user to answer the question, when you process the form you should check first to see if a value was passed. You can do this with the isset() function.
+
+Next you process the checkboxes. With checkboxes, the fi eld itself is passed only if the box was checked, so you want to see if the field exists. Take your single checkbox named imagesonly, which has a value of Yes. You check that the parameter was set and that it is equal to the value. If not, you know the checkbox was not checked.
+
+
+<?php
+if (isset($_GET['imagesonly']) && $_GET['imagesonly'] == 'Yes') {
+	$imagesonly = 'Yes';
+	} else {
+		$imagesonly = 'No';
+	}
+echo 'Images Only? ' . $imagesonly . '<br />';
+
+
+In the example you also had a group of checkboxes that you want to process as an array. You signified this by using the same name and suffixing the name with square brackets. Because the checkboxes are sent only if they are checked, you use isset() to see if any of the areatype checkboxes were selected at all. Then you loop through and filter each element of the array and build the filtered $areatypes array that you will display.
+
+if (isset($_GET['areatypes'])) {
+	$inputs = array();
+	$inputs = $_GET['areatypes'];
+	foreach ($inputs as $input) {
+	$areatypes[] = filter_var($input, FILTER_SANITIZE_STRING);
+	}
+	foreach ($areatypes as $areatype) {
+	echo $areatype . '<br />';
+	}
+	} else {
+		echo "You don't want to live anywhere.<br />";
+}
+
+You can use the same procedure for the multi-select box as well. The values here should be integers so you force them to integers as your filter.
+
+if (isset($_GET['interests'])) {
+	$inputs = array();
+	$inputs = $_GET['interests'];
+	foreach ($inputs as $input) {
+		$interests[] = (int) $input;
+	}
+	foreach ($interests as $interest) {
+		echo $interest . '<br />';
+	}
+	} else {
+		echo "You have no interests.<br />";
+}
+
+Hidden parameters are processed just like regular parameters. In this case your hidden parameter field id should be an integer, so you fi lter it by forcing it to an integer. 
+	$id = (int) $_GET['id'];
+	echo $id . '<br />';
+
+Now that you know how to read the data, you can run error checking to see if the form was filled out correctly. In this example, the only checking you need is to be sure that the user entered a name and address. You change the processing for the fullname and address parameters. You build an array with any errors and then loop through and display those errors. You fill in the same form, but submit it without an address.
+
+// initialize error array
+$errors = array();
+// see if the form was submitted
+if($_GET['contactForm'] == "Submit") {
+	// Process required fields
+	$name = filter_var($_GET['fullname'], FILTER_SANITIZE_STRING);
+if (!(trim($name))) {
+	$errors[] = "You must enter a name";
+}
+$address = filter_var($_GET['address'], FILTER_SANITIZE_STRING);
+if (!(trim($address))) {
+	$errors[] = "You must enter an address";
+}
+if ($errors) {
+	foreach ($errors as $error) {
+	echo $error . '<br />';
+}
+}
+
+
+REDIRECTING WITH HEADERS
+=========================
+Often when processing forms you need to send the user to another page, depending on the user's response. You can redirect the pages this way, using the header() function.
+
+Headers are part of the HTTP protocol that the Web uses to direct traffic and carry data. You see the HTTP every time you call a web page: http://www.example.com. HTTP consists of two parts: the headers and the body. The headers contain the address to go to as well as the GET information.
+
+The body is where the data goes, including HTML and POST data.
+
+HTTP sends the headers before the body of the message. If it comes across a body before it is given any headers, it automatically creates the headers. Any HTML that you create, even a blank line or an invisible newline character, is seen as part of the body. After headers have been created and the body started, any attempt to add another header results in an error. This is the reason for leaving off the final ?> tag at the end of PHP files (so no final control characters are seen as output) and why cookies have to be set before any HTML (because setting cookies involves creating headers). 
+
+When you use the header() function, you are creating headers, so you need to use this before you have created any HTML or echos or stray blank lines. The syntax of the header() function is
+	header("Location: filename.php");
+
+In this example you are echoing out information so you do not use the redirect. If instead you were saving the data to a database, you could choose to redirect to a different page upon successful completion or stay on the same page to allow the user to correct errors. You can also use redirects if you have a series of forms for the user to go through as in an order entry process.	
+
+
+Use GET when the same submission of the form can be processed multiple times, such as when making inquiries that don't change a database. GET parameters are part of the address and are displayed in the address bar so they are easily visible to users. Because they are part of the address they can be included in a bookmark.
+
+Use POST when the same submission of the form cannot be processed multiple times without making changes. For instance, a form that is part of registering a new user should be created using POST parameters rather than GET. You may have noticed this difference when you use the back button on your browser and you get a message that warns you that you are about to reprocess POST data. 
+POST data is not part of the address so it is not seen as easily. This also means that you cannot use POST to create different pages that can be bookmarked.
+
+
+
+
+
+
+
+
+
+
+

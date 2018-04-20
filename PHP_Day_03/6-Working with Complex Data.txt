@@ -1,0 +1,330 @@
+Working with Complex Data
+=========================
+WORKING WITH ARRAYS
+An array holds multiple values in a single variable. Within one variable you have an entire list of values. You refer to and access the entire array just by the array name as you would a regular variable, or you can use indexes to access the individual values. You can even nest arrays within arrays. These nested arrays are called multi-dimensional arrays.
+
+Let’s display a list of employees on a web page. You could assign each employee to a regular variable and then display each of those variables.
+
+<?php
+// Assign Value
+$employee1 = 'Sally Meyers';
+$employee2 = 'George Smith';
+$employee3 = 'Peter Hengel';
+?>
+
+<html>
+<head>
+<title>Working with array</title>
+</head>
+<body>
+<h1>Employee List</h1>
+<p><?php echo $employee1; ?></p>
+<p><?php echo $employee2; ?></p>
+<p><?php echo $employee3; ?></p>
+</body>
+</html>
+
+
+Now try it using an array. There are two types of arrays in PHP. The first type is a numeric array where the index is the position of the value in an array. You can assign the values in the array just by telling PHP this variable is an array and then listing the values:
+
+	$employee = array('Sally Meyers', 'George Smith', 'Peter Hengel');
+	
+Just like regular variables, you need quotes around text and not around numbers. To reference a single value, add the index in square brackets to the array variable name. 
+
+<?php
+$employee = array('Sally Meyers', 'George Smith', 'Peter Hengel' );
+echo $employee[1];
+
+You can also assign values using the same syntax you used to display the array element:
+$employee[0] = 'Sally Meyers';
+$employee[1] = 'George Smith';
+$employee[2] = 'Peter Hengel';
+
+To see what is in an array use the print_r() function instead of the echo statement you are familiar with. If you echo an array it displays the word "array" instead of the values in the array. Add the following line of code to display the values in the array $employee. 
+	print_r($employee);
+
+• The second type of array is the associative array. In addition to being able to access the element values by their position, you can assign a name (key) to each value, which you can use to reference the element. Instead of a list of employees, make a list of information about a particular employee:
+
+	$employee = array('name'=>'Sally Meyers', 'position'=>'President', 'yearEmployed'=>2017 );
+Alternatively, you can assign the values with the same syntax you use to display the elements:
+
+$employee['name'] = 'Sally Meyers';
+$employee['position'] = 'President';
+$employee['yearEmployed'] = 2017;
+
+print_r($employee);
+
+
+• You can combine these two arrays into a multi-dimensional array that holds information on all the employees. Use the HTML <pre> tag around the print_r() so that the display is easier to read.
+
+<?php
+$employees = array(
+array('name'=>'Sally Meyers', 'position'=>'President', 'yearEmployed'=>2017 ),
+array('name'=>'George Smith', 'position'=>'Treasurer', 'yearEmployed'=>2016 ),
+array('name'=>'Peter Hengel', 'position'=>'Clerk', 'yearEmployed'=>1992 ),
+);
+?>
+
+<pre>
+<?php print_r($employees); ?>
+</pre>
+
+If you want to reference a specific element, use both of the indexes. To reference Sally’s position, for example, use the following code:
+echo $employees[0]['position'];
+
+
+
+WORKING WITH LOGICAL VARIABLES
+==============================
+PHP has special types of variables to show simple true/false conditions and to indicate a variable with no value.
+A Boolean variable value is either true or false. You expressly set a variable to true or false using TRUE or FALSE.
+
+<?php
+$myVar1 = TRUE; // No quotes and case-insensitive
+$myVar2 = FALSE;
+?>
+
+<p>True: <?php echo $myVar1; ?></p>
+<p>False: <?php echo $myVar2; ?></p>
+
+As you see from the results, a TRUE resolves to 1 and FALSE is nothing. When PHP converts a different type of variable to Boolean, the following are false:
+• Numeric 0 or string '0'
+• An empty string or an array with no elements
+• A variable with no value
+
+Everything else evaluates to true.
+
+
+WORKING WITH CONSTANTS
+======================
+Variables are variable because they can change throughout the program. Sometimes you have a value that does not alter during the running of the program. Rather than directly using that value, you can assign it to a constant and use the constant instead. Constants are frequently used for configurations where different values may be assigned for different times you run the program.
+
+Constants use the same rules as variables for naming. They are not prefixed with a $. They are case sensitive, but by convention constants are all uppercase. Rather than using the assignment operator (=), you use the define() function:
+<?php
+define('DATABASE', 'mydatabase');
+define('USERNAME', 'andyt');
+define('PASSWORD', 's0mePassw0rd')
+?>
+
+<p>This program uses the <?php echo DATABASE;?> database with the user name <?php echo USERNAME;?> and password <?php echo PASSWORD?>.</p>
+
+As its name implies, you cannot change a constant after you have defined it. If you try to do so, you get an error message. You use the function defined() to see if the constant is already defined.
+
+defined('DATABASE') is true if the constant is already defined, and false if it is not.
+
+
+WORKING WITH DATES
+===================
+PHP uses Unix timestamps to represent dates. Unix timestamps represent a given date/time by the number of seconds since January 1, 1970. By translating dates into a number rather than actual dates, you can use ordinary math to manipulate the dates. Negative numbers show dates before
+January 1, 1970.
+
+Time Zone Functions
+It is important to be aware of time zones when dealing with dates. Your server has a time zone, which may be different from the local time zone. The following code displays your current default time zone:
+
+<?php
+echo 'Current timezone: ' . date_default_timezone_get() . '<br />';
+
+You can set your default time zone if it should be different. The following code changes the default time zone to that of New York City:
+<?php
+date_default_timezone_set('America/New_York');
+echo 'Current timezone: ' . date_default_timezone_get() . '<br />';
+
+Your time zone may also be set in the php.ini file. This is a best practice. By default, XAMPP adds the UTC time zone as shown in the following code:
+date.timezone = 'UTC'
+
+You change it by supplying a different supported time zone. The following code changes the time zone to that in New York City:
+date.timezone = 'America/New_York'
+
+
+Date/Time Functions
+======================
+Dealing with dates and times is complex because you are dealing with arbitrary measurements. PHP has a series of functions for getting the current time, dealing with time zones, and doing calculations with dates. The following is a list of some of the common functions that you will come across.
+
+♦ time()
+You use the time() function to get the current time as a timestamp. 
+<?php
+echo time();
+
+♦ date()
+You use the date() function to take a timestamp and format it so it is easier to read. By default, it uses the current time. The following code displays the current date in various formats.
+<?php
+echo date('c') . '<br />';
+echo date('m/d/Y') . '<br />';
+echo date('l, F n, Y') . '<br />';
+echo date('l ga') . '<br />';
+echo date('h:i a') . '<br />';
+
+
+♦ strftime()
+The strftime() function also formats dates. It has the advantage of begin able to convert based on the locale settings. However, it does not have some of the formatting options of date(). The syntax is the same, but, just to make things confusing, the formatting options are different. The following code performs the same function as the previous example for date(). 
+<?php
+echo '<p>Original date/time: ' . strftime('%A, %B %e, %Y %I:%M%p %Z') . '</p>';
+$myTime = time() + (60 * 60 * 24 * 7);
+
+echo '<p>New date/time in different formats: </p>';
+echo strftime('%c', $myTime) . '<br />';
+echo strftime('%m/%e/%Y', $myTime) . '<br />';
+echo strftime('%A, %B %e, %Y', $myTime) . '<br />';
+echo strftime('%A %I:%M%p %Z', $myTime) . '<br />';
+echo strftime('%I:%M %p', $myTime) . '<br />';
+
+
+♦ mktime()
+You use mktime() to put a date into a timestamp so that you can use it in other date/time functions.
+The syntax is as follows:
+mktime(hour, minute, second, month, day, is_dst)
+
+The last parameter, is_dst, is depreciated and not to be used. It was for specifying daylight savings time. The following code displays the date 12/5/2011:
+
+<?php
+$myDate = mktime(0,0,0,12,5,2011);
+echo date('n/j/Y', $myDate);
+
+A helpful feature of mktime() is that it converts out-of-bounds dates to valid dates. In other words, if you specify arithmetic that, for instance, gives you 14 months, it adds one to the year and changes the months to 2. The following code displays the date 2/5/2012:
+<?php
+$offset = 2;
+echo date('n/j/Y', mktime(0,0,0,12+$offset,5,2011));
+
+
+♦ strtotime()
+The strtotime() function is another way to get a Unix timestamp. With this function you translate a string into a timestamp. This is the syntax:
+strtotime(time, now);
+
+The first parameter is the text string of the date and/or time. It can be a simple date such as 12/5/2011 or a relative term such as yesterday. 
+<?php
+echo date('l, F j, Y', strtotime('12/5/2011')) . '<br />';
+echo date('l, F j, Y', strtotime('yesterday', strtotime('12/5/2011')))
+. ‘<br />';
+echo date('l, F j, Y', strtotime('yesterday')) . ‘<br />';
+echo date('l, F j, Y', strtotime('now')) . '<br />';
+echo date('l, F j, Y', strtotime('Dec 5 2011')) . '<br />';
+echo date('l, F j, Y', strtotime('+4 hours')) . '<br />';
+echo date('l, F j, Y', strtotime('+1 week')) . '<br />';
+echo date('l, F j, Y', strtotime('+2 weeks 1 day 4 hours 10 seconds'))
+. '<br />';
+echo date('l, F j, Y', strtotime('next Tuesday')) . '<br />';
+echo date('l, F j, Y', strtotime('last Monday'));
+
+
+♦ getdate()
+The getdate() function takes a Unix timestamp and puts the date and time information in an array. If there is no timestamp it uses the current
+time. 
+<pre><?php print_r(getdate()); ?></pre>
+
+
+WORKING WITH BUILT-IN FUNCTIONS
+==================================
+PHP has built-in functions for passing data and communicating.
+
+♦ $_GET
+The $_GET function stores values from a form sent with the
+method="get" or added to the URL. 
+<form action="process.php" method="get">
+<label for="username">User Name:</label><br />
+<input type="text" id="username" name="username" /><br />
+<label for="password">Password</label><br />
+<input type="text" name="password" id="password" /><br />
+<button type="submit">Submit</button>
+</form>
+
+<p>You entered <?php echo $_GET["username"] ?> as the User Name
+and <?php echo $_GET["password"] ?> as the Password.</p>
+
+
+When you type a username and password and click Submit, the screen looks the same, but the username and password are added to the URL address. If you type in "Andy" as the username and "12345" as the password you see ?username=andy&password=12345 added to the end of your address.
+
+The parameter section starts with a ? and each subsequent parameter starts with an &. The parameter names are taken from the name attribute of the input tag.
+PHP reads those parameters with the $_GET function. $_GET is an associative array of the GET variables. To select the appropriate parameter, put that name surrounded by quotes in square brackets, just as you would an associative array. The following code lets you enter a username and password and then displays them.
+
+♦ $_POST
+The $_POST function stores values from a form sent with the method="post". T
+<form action="process.php" method="post">
+<label for="username">User Name:</label><br />
+<input type="text" id="username" name="username" /><br />
+<label for="password">Password</label><br />
+<input type="text" name="password" /><br />
+<button type="submit">Submit</button>
+</form>
+
+When you type a username and password and click Submit, the screen looks the same though PHP has saved them. The following code uses $_POST to retrieve the values and display them. 
+<form action="process.php" method="post">
+<label for="username">User Name:</label><br />
+<input type="text" id="username" name="username" /><br />
+<label for="password">Password</label><br />
+<input type="text" name="password" /><br />
+<button type="submit">Submit</button>
+</form>
+<p>You entered <?php echo $_POST["username"] ?> as the User Name and <?php echo $_
+POST["password"] ?> as the Password.</p>
+
+Use the $_POST method if you are adding or updating data, doing something that should not be repeated, if the variables are more than 2,000 characters, or if the variables need to be private. As with GET, you should always filter the input that you receive. 
+
+♦ COOKIES
+Cookies are little files of data that the server puts on the user's computer. They are often used to identify a user and retain data needed in multiple screens.
+
+setcookie()
+
+You create a cookie with the setcookie() command and retrieve it with the $_COOKIE function that works just like $_GET and $_POST. The syntax of the setcookie() looks like:
+setcookie(name, value, expire, path, domain);
+
+The following code creates two " called "username" and "password" and assigns the values "andyt" and "12345" to them. It expires in one day. The setcookie() function must be before any HTML including the <html> tag.
+<?php
+setcookie("username", "andy", time()+(60*60*24));
+setcookie("password", "12345", time()+(60*60*24));
+
+You can view " in your browser. Each browser has a different way of viewing ".
+
+♦ $_COOKIE
+The following code displays the information in the two cookies with the $_COOKIE function:
+<p>You entered <?php echo $_COOKIE["username"] ?> as the User Name
+and <?php echo $_COOKIE["password"] ?> as the Password.</p>
+
+You should remember how easy it was to display the cookies in the browser when you decide what you want to save in plain text in a cookie.
+
+♦ filter_var()
+Any time you accept input from a user or an unknown source, you need to be sure that the data is in an appropriate format both to be sure you are not using garbage and to prevent against hacking attacks. PHP has a number of filters you can use to cleanse your data. You work with the filter_var() function to filter the built-in functions you have just learned.
+
+The filters can be used to either verify that you have good data (returns true or false) or to sanitize the data of particular issues (returns safe or usable data). The syntax of the filter_var() function is
+filter_var(variable, filter, options)
+
+The following code takes the $_POST data and sanitizes it before displaying the data:
+<form action="process.php" method="post">
+<label for="username">User Name:</label><br />
+<input type="text" id="username" name="username" /><br />
+<label for="password">Password</label><br />
+<input type="text" name="password" /><br />
+<button type="submit">Submit</button>
+</form>
+<p>You entered
+<?php echo filter_var($_POST["username"],
+FILTER_SANITIZE_STRING) ?>
+as the User Name and
+<?php echo filter_var($_POST["password"],
+FILTER_SANITIZE_STRING) ?>
+as the Password.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

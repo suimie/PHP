@@ -1,0 +1,297 @@
+Defining Classes
+=================
+Classes are the heart of object-oriented programming. They define what an object looks like, what information it can store, and what actions and calculations it can perform. 
+The basic syntax of a class looks like this:
+<?php
+class MyClassname
+{
+	// Properties
+	public $someProperty;
+	public $someOtherProperty;
+	
+	// Methods
+	public function someFunction($input = false) {
+		// php code
+	}
+	
+	public function anotherFunction() {
+	// php code
+	}
+}
+
+
+Begin a class declaration with the word Class followed by the name of the class. The body of the class goes in curly brackets. Put property definitions next, followed by the methods.
+
+The class name can be any combination of letters, numbers, or underscores. It can start with either a letter or an underscore, but, according to convention, a class name should begin with a capital letter. The name is case sensitive. Note that like functions, classes do not start with a $.
+
+It is standard practice to put each class in a file with the same name as the class. So the class Myclassname would go in a file called myclassname.php. This makes it easier to find the right file while you are programming and easier to reuse selected ones in different programs.
+
+
+If you document your classes with PHPDoc blocks, many editors are able to use them as help text as
+you program. The block for a class looks like this:
+
+/**
+* Class short description
+*
+* Class longer description if needed
+*
+* @package PackageName
+*/
+
+If the class is in its own file, you have both the page PHPDoc block and the class PHPDoc block.
+Up until now you have been able to run the code in the lessons. Classes do not actually do anything because they are just blueprints.
+
+
+DEFINING CLASS VARIABLES (PROPERTIES)
+=====================================
+Class variables, called properties, are where you put information that is specific to the object. Valid property names are the same as valid variable names. This is the syntax for a property:
+
+	public $someProperty = 'Mine';
+	public $someOtherProperty = true;
+	
+The declaration starts with the scope keyword (public, protected, or private) followed by the property. You learn more about the scope keywords. For now use public.
+
+You can initialize the property as you do with regular variables except that you can only initialize with a constant, including the Boolean literals. The following code is not valid because you cannot use variables:
+	
+	public $someOtherProperty = $myVar;
+
+Notice that these class variables are outside the functions. The functions themselves can have ordinary variables within them, but the properties are separate. When you create an object from a class, a brand new set of properties is initialized and set aside specifically for that object.
+
+To use a property in a method, you prefix the property name with $this->: 
+	$this->someProperty
+
+
+NOTE:
+====
+Notice that when using $this->, the property name does not have a $. If you put a $ in front of the property name, you are telling the program that you want to use the property name that is the value of the property, not that property.
+
+$someProperty = 'anotherProperty';
+$anotherProperty = 'Hello';
+echo $this->someProperty; // displays 'anotherProperty'
+echo $this->$someProperty; // displays 'Hello'
+	
+It’s important when you start working with methods that you recognize the difference between properties, which are defined in the class, and variables, which are defined in a method. The properties require $this and keep their value for the life of the object. Variables in methods (like variables in functions) do not use $this and start new each time the method is called.
+
+You should document each of your properties with a PHPDoc block. The comment includes a short description, any pertinent or confusing information, the @var tag to signal that this is a variable, and the type of variable expected, such as string, integer, fl oat, array, Boolean, or object.
+
+/**
+* The phone number of this cell phone
+* @var string
+*/
+
+
+DEFINING CLASS FUNCTIONS (METHODS)
+===================================
+Although properties have a vital difference from ordinary variables, methods act just like functions and are often called functions. The main difference between methods and functions (other than that one is inside a class and the other is not) is that methods are defined with a scope keyword. This scope affects access to the method, not to anything within the method. You learn more about scope for methods in Lesson 15. For now use public scope. This is the syntax for a method:
+
+public function myMethod($input) {
+	// php code
+}
+
+You can put anything in this function as you would in a regular function. In addition, you can use the properties by using the $this->someProperty form. If you want to call another method in the class you use $this as well. So to call yourMethod() use $this->yourMethod().
+
+Let’s go through a complete class, including the methods. The following is a class describing a cell phone.	
+	
+Start with the class name and the properties:
+class Cellphone
+{
+	// Properties
+	public $phoneNumber;
+	public $model;
+	public $color;
+	public $contacts;
+	public $songs;
+	
+	
+Next come the methods. The first is a method to add contacts. The Contact name and Contact phone number are passed in when the method is called. They are then added to the property contacts, which is an associative array. Notice the use of $this-> to reference the property.
+
+public function addContact($number, $name) {
+	$this->contacts[$name] = $number;
+}	
+	
+
+The following method adds songs to the cell phone. A song is passed into the method when it is called. If the argument is an array, the program loops through the array and adds the songs. If it is not an array, it adds the single song. Remember that empty square brackets on an array automatically add an element with the next available numeric index.
+
+public function addSongs($songs) {
+	if (is_array($songs)) {
+		foreach ($songs as $song) {
+		$this->songs[] = $song;
+	}
+	} else {
+		$this->songs[] = $songs;
+	}
+}
+	
+
+The following method displays the contacts, which are stored in the property $contacts. It uses a foreach loop that loops through the property $contacts, which is an array. Remember that this is just a class — a blueprint — so nothing runs until you create an object from it.
+
+public function displayContacts() {
+	// Notice that the property has -> and no $
+	// while the array has => and a $
+	foreach ($this->contacts as $name=>$number) {
+	echo $name . ' - ' . $number . '<br />';
+	}
+}
+
+
+
+NOTE:
+======
+It’s easy to get confused between -> and => as well as when you need a $ and when you don’t.
+
+The class construction uses a dash with the greater-than sign, and constructions working with associative arrays use the equal sign with the greater-than sign.
+
+The associative array uses the normal form for the second variable, so it has a $ in front of the second variable.
+
+There is normally no $ following $this->. You can think of the $ as meaning "use the value of what is inside." If you want to use the property $contacts, it is $this->contacts. You use the $ only if you want to use the value of what is in a property as the name of another property. The following two echo statements both display "George Smith":
+
+$this->field = 'contact';
+$this->contact = 'George Smith';
+echo $this->$field;
+echo $this->contact;
+
+
+
+The following method calls two other methods in the same class. It uses the same $this-> construction as used for properties.
+
+public function addThenDisplayContacts($newname, $newnumber) {
+	$this->addContacts($newnumber, $newname);
+	$this->displayContacts();
+}
+
+
+The next method counts the number of songs. It passes the result back via the return statement. 
+The earlier methods did what they needed within the method so they did not need to return anything.
+With this method, the whole point is to return an answer.
+public function countSongs() {
+	$result = count($this->songs);
+	return $result;
+}
+
+And, finally, you need the closing curly bracket for the class:
+}
+
+Document each of the methods with a PHPDoc block. You will find this invaluable when programming if you are using one of the many editors that are able to use it as dynamic help text. This is an example:
+
+/**
+* Add contacts
+* @param string $number
+* @param string $name
+* @return integer | boolean
+*/
+
+
+	
+The comment starts with a description. Include in the description anything about the method that might trip someone up. List all the parameters coming in, along with their type and parameter name. If you have a return in the method, document it here, along with the type. If it could be more than one type (such as a good value or false if there was an error), separate the types with a pipe symbol (|). Some of the editors even give you a skeleton of the comment. 
+
+This is what the full Cellphone class looks like, complete with documentation:
+<?php
+/**
+* cellphone.php
+*
+* Cellphone class file
+*
+* @version 1.2 2018-02-03
+* @package Phones
+* @copyright Copyright (c) 2018 Myself
+* @license GNU General Public License
+* @since Since Release 1.0
+*/
+/**
+* Cellphone class
+*
+* @package Phones
+*/
+	
+class Cellphone
+{
+	/**
+	* The phone number of this cell phone
+	* @var string
+	*/
+
+public $phoneNumber;
+	/**
+	* The model number
+	* @var string
+	*/
+
+public $model;
+	/**
+	* The color of the phone, using an id from the color file
+	* @var int
+	*/
+
+public $color;
+	/**
+	* Assoc. Array with contact name as the key, the phone number as the value
+	* @var array
+	*/
+
+public $contacts;
+	/**
+	* Array with filenames of song mp3 files
+	* @var array
+	*/
+
+public $songs;
+	/**
+	* Create a new Contact
+	* @param string $number
+	* @param string $name
+	*/
+
+public function addContact($number, $name) {
+	$this->contacts[$name] = $number;
+}
+
+/**
+* Add an array mp3 filename to the Songs array,
+* if it isn’t an array, then just add the single song
+* @param array|string $songs
+*/
+
+public function addSongs($songs) {
+	if (is_array($songs)) {
+	foreach ($songs as $song) {
+	$this->songs[] = $song;
+	}
+} else {
+	$this->songs[] = $songs;
+	}
+}
+
+/**
+* Display a list of the Contacts
+*/
+public function displayContacts() {
+	foreach ($this->contacts as $name=>$number) {
+	echo $name . ' - ' . $number . '<br />';
+}
+
+}
+
+/**
+* Create a new contact and then display all the contacts
+* @param string $newname
+* @param string $newnumber
+*/
+
+public function addThenDisplayContacts($newname, $newnumber) {
+	$this->addContacts($newnumber, $newname);
+	$this->displayContacts();
+}
+
+/**
+* Count the songs
+* @return int
+*/
+public function countSongs() {
+	$result = count($this->songs);
+	return $result;
+}
+
+}	
+	
+	
+	

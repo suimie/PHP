@@ -1,0 +1,67 @@
+php --version
+
+c:\\xampp\php.exe --version
+
+C:\>composer --version
+
+C:\>php -r "copy('https://getcomposer.org/installer', 'install.php');"
+
+C:\>dir
+03/19/2018  12:07 PM           305,459 install.php
+
+C:\>php install.php
+
+C:\>dir
+03/19/2018  12:10 PM         1,861,877 composer.phar
+
+
+
+C:\>composer require zendframework/zendframework
+Using version ^3.0 for zendframework/zendframework
+./composer.json has been created
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 101 installs, 0 updates, 0 removals
+  - Installing zendframework/zendxml (1.0.2): Downloading (connecting...)
+  
+  
+  
+  
+php composer.phar create-project -n -sdev zendframework/skeleton-application blog
+
+...
+...
+  - Removing zendframework/zend-skeleton-installer (0.1.4)
+    Removing optional packages from composer.json
+    Updating composer.json
+Removing zendframework/zend-skeleton-installer...
+    Removed plugin zendframework/zend-skeleton-installer.
+> post-create-project-cmd: @development-enable
+> development-enable: zf-development-mode enable
+    Removing from composer.json
+    Complete!
+You are now in development mode.
+
+C:\>
+C:\blog>php ..\composer.phar update
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 0 installs, 9 updates, 0 removals
+...
+  - Updating zendframework/zend-mvc (3.0.4 => 3.1.1): Loading from cache
+Writing lock file
+Generating autoload files
+
+C:\blog>
+
+C:\blog>php -S localhost:8080 -t public public/index.php
+PHP 7.2.2 Development Server started at Mon Mar 19 12:24:39 2018
+Listening on http://localhost:8080
+Document root is C:\blog\public
+Press Ctrl-C to quit.
+
+
+References:
+===========
+Install of Zend Framework
+https://framework.zend.com/downloads

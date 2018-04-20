@@ -1,0 +1,404 @@
+Using Advanced Techniques
+=========================
+In this lesson you learn easier ways of including the code for the class files and best practice techniques for updating and accessing properties. You learn how to use scope with classes to make your code more secure.
+
+INITIALIZING THE CLASS
+======================
+Best practice dictates that you create a new file for each of your classes. You also have to include any of those files once, and only once, to define the class before you can use it. You can use different techniques to do this.
+As you learned in the previous chapter, you can use require_once statements at the beginning of your program or just before you use your classes. This, however, can result in a lot of tedious code or a lot of extra code that might never be needed.
+
+PHP has what are called “magic methods.” These are functions that are called automatically at certain times. One magic method you are familiar with is __contruct(), which is called when you create a new object. Magic methods start with a double underscore.
+
+PHP has a magic function called __autoload() that is automatically called if you try to use a class that has not been defined. You define this function at the beginning of your program and you can use it to include your class files when they are needed.
+
+<?php
+require_once 'cellphone.php';
+
+The following code takes the class that is being instantiated, adds the .php extension, and includes that file if this is the first time it has been looked for:
+<?php
+function __autoload($class_name) {
+	require_once $class_name . '.php';
+}
+
+PHP calls this magic function if you have created it, but you have control over what happens when __autoload is called because you write the function. You need to include this function at the beginning of your code because it needs to exist or PHP will not call it.
+
+That code works if your server is case insensitive, but Cellphone.php and cellphone.php are considered two different files on most servers. So you need to take that class name and convert it to lowercase before you use it in as a filename. This assumes that you are following the convention of using all lowercase for your filenames. The following code shows the addition of this functionality:
+
+<?php
+function __autoload($class_name) {
+	require_once strtolower($class_name) . '.php';
+}
+
+UNDERSTANDING SCOPE
+====================
+Scope dictates who can see what; what has visibility. Variables have local scope (they can only been seen where they are created) unless they are declared as global. You have more options when using scope with classes.
+
+♦ Properties
+When you create a property in a class, you can use it in any of the methods in an object using the $this-> construction. This gives you the value for the property in the particular object you are in, as opposed to the values of the same property in other instances of the same class. You can think of it as “$this gives you the value in this object”. Remember that variables that are not properties (those ordinary variables in the methods) do not use $this. You can have a property and a variable with the same name, so in a method $this->myVar and $myVar refer to different variables. The first is a property and its value is accessible anywhere in the object; it is still there the next time you go into the same object. The second is an ordinary variable and is available only in that method; it is initialized every time you use the method.
+
+When you declare a property at the beginning of the class you preface the declaration with the scope. The scope keywords are public, protected, and private. So far in this book, you have been using public as the scope:
+	public $phoneNumber;	
+
+When a property is public, it can be accessed directly from outside the class. You indicate the object that the property is in to locate it. The following code gives you the public $phoneNumber from objects created from the Cellphone class. 
+
+<?php
+require_once 'cellphone.php';
+$myPhone = new Cellphone('555-555-1111', 'iPhone', 'Black');
+$yourPhone = new Cellphone('555-555-2222', 'Droid', 'Purple');
+echo 'Phone number: ' . $myPhone->phoneNumber . '<br />';
+echo 'Phone number: ' . $yourPhone->phoneNumber . '<br />';
+
+Protected properties cannot be seen outside the class except in inherited classes or parent classes. The following code is how you define a protected property in the class.
+
+	protected $_phoneNumber;
+
+Private properties are available only within the class itself. This code is an example of defining a private property:
+	private $_phoneNumber;
+
+
+NOTE
+=====
+Private and protected properties often start with a single underscore. This was the convention used in earlier versions of PHP, which did not have scope keywords. It was a signal to programmers not to use the property outside of the
+class. Many programmers continue the convention because it is a good reminder of which properties are private.
+However, just starting a variable name with an underscore does not make it private. You need to add the protected or private keyword.
+
+
+If you need to access these properties outside of the class, you use what are commonly called getter and setter methods. These are methods you write that return the property value (getters) or change the property value (setters). By convention, the method name begins with get or set followed by the property name with the fi rst letter capitalized. The following is the earlier example in which you directly retrieved the public property $phoneNumber:
+
+<?php
+require_once 'cellphone.php';
+$myPhone = new Cellphone('555-555-1111', 'iPhone', 'Black');
+$yourPhone = new Cellphone('555-555-2222', 'Droid', 'Purple');
+echo 'Phone number: ' . $myPhone->phoneNumber . '<br />';
+echo 'Phone number: ' . $yourPhone->phoneNumber . '<br />';
+
+
+This next example uses a protected phone number and retrieves the property with a getter method instead. This is the class defi nition that defi nes the protected property $phoneNumber and the new getter function getPhoneNumber():
+
+<?php
+class Cellphone
+{
+	protected $_phoneNumber;
+	public $model;
+	public $color;
+
+	public function __construct($phoneNumber, $model, $color) {
+		$this->_phoneNumber = $phoneNumber;
+		$this->model = $model;
+		$this->color = $color;
+	}
+
+	public function getPhoneNumber() {
+		return $this->_phoneNumber;
+	}
+}
+
+
+The following is the script that retrieves the protected property. Remember that the method requires parentheses.
+
+<?php
+require_once 'cellphone_v2.php';
+$myPhone = new Cellphone('555-555-1111', 'iPhone', 'Black');
+$yourPhone = new Cellphone('555-555-2222', 'Droid', 'Purple');
+echo 'Phone number: ' . $myPhone->getPhoneNumber() . '<br />';
+echo 'Phone number: ' . $yourPhone->getPhoneNumber() . '<br />';
+
+The getter method is simply returning the value of the $_phoneNumber property. However, at a later date, you could add more functionality to that method without needing to change any of the places that are calling it and they would all get the new version.
+
+
+Methods
+=======
+Methods have the same scope keywords as properties: public, protected, and private. If they have no scope keyword, public is assumed. Older code doesn't include the scope because it has been available only since PHP 5. Get into the habit of always using a scope keyword.
+
+If you use a method as a getter or setter for a property, the method should be public because only public methods work outside the class. 
+
+Private and protected methods are used when they are needed only within the class or they are using variables that are available only within the class. In the following example, the _formatDeg() method is only needed to format the information in the other class methods. Though you usually put the classes in a separate file, for the sake of demonstration, the class and script to use the class are in one file.
+
+<?php
+class Converter
+{
+	public function convertFtoC($temperature) {
+		$celsius = ($temperature - 32)* (5/9);
+		$result = $this->_formatDeg($temperature) . ' Fahrenheit is equal to '
+			. $this->_formatDeg($celsius) . ' Celsius.';
+		return $result;
+	}
+
+	public function convertCtoF($temperature) {
+	$fahren = $temperature * (9/5) + 32;
+	$result = $this->_formatDeg($temperature) . ' Celsius is equal to '
+		. $this->_formatDeg($fahren) . ' Fahrenheit.';
+	return $result;
+	}
+
+	private function _formatDeg($number) {
+		if (is_numeric($number)) {
+			return number_format($number, 1) . '&deg;';
+		} else {
+			return 0 . '&deg;';
+		}
+	}
+} // end of class
+
+// script to use the class
+$newTemp = new Converter;
+echo $newTemp->convertFtoC(70);
+
+
+Classes
+==========
+Classes do not use scope keywords, but you can prevent people from instantiating the class by making the __construct() method and the __clone() methods private or protected. The __construct() method is used to create the object so if it is not accessible, the object cannot be created. You don't need a __construct() method in your class to create an object, but if there is a __construct() method then it needs to be available. So if you don't need a __construct() method but don't want people to instantiate the class from outside the class, just create an empty protected or private __construct()
+method. You are still able to create an object from within itself or an inherited or parent class, depending on the scope. If you are wondering how you could create an object inside the class if you cannot create an object, you fi nd out when you learn about static methods later in this lesson. The __clone() method is used to create a copy of an object, so if you need to prevent anyone from creating a copy you need to make that method protected or private.
+
+
+UNDERSTANDING INHERITANCE
+=========================
+One of the powerful features of using classes is that you can extend them. You can make a base class and then create subclasses that inherit all the public and protected properties and methods in addition to their own properties and methods. You can also override existing parent methods with special ones for the child class by using the same name. Here is an example: 
+	class Child extends Parent
+
+The first file is the base file for the Cellphone class.
+
+<?php
+class Cellphone
+{
+	protected $_phoneNumber;
+	public $model;
+	public $color;
+
+	public function __construct($phoneNumber, $model, $color) {
+		$this->_phoneNumber = $phoneNumber;
+		$this->model = $model;
+		$this->color = $color;
+	}
+
+	public function getPhoneNumber() {
+		return $this->_phoneNumber;
+	}
+}
+
+The following code defines the Smartphone class. You add a public property for $apps that contains the names of apps stored on the phone in an array. In the __construct() method, you bring in all four properties; the one you add in this class, plus the three inherited from the Cellphone class. You can use all the inherited properties just as if you had created them in the child class. $app should be an array, so you use the shortcut if statement to cast it to an array
+if it isn't already.
+
+You also add a public function called displayApps() that creates an unordered list of the apps. The period before the = is a concatenation sign. It appends what is on the right side to the value on the left. This is a common way of building a long, complex string in an easy-to-read, easy to create way.
+
+<?php
+class Smartphone extends Cellphone
+{
+	public $apps;
+	
+	public function __construct($phoneNumber, $model, $color, $apps) {
+		$this->_phoneNumber = $phoneNumber;
+		$this->model = $model;
+		$this->color = $color;
+		$this->apps = is_array($apps) ? $apps : array($apps);
+	}
+
+	public function displayApps() {
+		$result = '<ul>';
+		foreach ($this->apps as $key=>$app) {
+		$result .= '<li>' . ($key + 1) . ' - ' . $app . '</li>';
+	}
+
+	$result .= '</ul>';
+	return $result;
+	}
+}
+
+The following is the script that uses the Smartphone class. First, include the code for the two classes. The parent class code must exist before the child class. Then populate two instances of Smartphone, my phone and your phone, with data. You can display the phone number using a method inherited from Cellphone and display the apps list from a method that you added in Smartphone.
+
+<?php
+require_once 'cellphone_v2.php';
+require_once 'smartphone_v1.php';
+
+$applist = array(“Angry Birds”, “Tetris”, “Pandora”);
+$myPhone = new Smartphone('555-555-1111', 'iPhone', 'Black', $applist);
+
+$applist = array(“CNN”, “Angry Birds”);
+$yourPhone = new Smartphone('555-555-2222', 'Droid', 'Purple', $applist);
+
+echo 'Phone number: ' . $myPhone->getPhoneNumber() . '<br />';
+echo 'List Apps: '. $myPhone->displayApps() . '<br />';
+echo 'Phone number: ' . $yourPhone->getPhoneNumber() . '<br />';
+echo 'List Apps: '. $yourPhone->displayApps() . '<br />';
+
+
+Take another look at the __construct() methods in Cellphone and Smartphone.
+
+From Cellphone:
+
+public function __construct($phoneNumber, $model, $color) {
+	$this->_phoneNumber = $phoneNumber;
+	$this->model = $model;
+	$this->color = $color;
+}
+
+From Smartphone:
+public function __construct($phoneNumber, $model, $color, $apps) {
+	$this->_phoneNumber = $phoneNumber;
+	$this->model = $model;
+	$this->color = $color;
+	$this->apps = is_array($apps) ? $apps : array($apps);
+}
+
+
+The only thing different is that the Smartphone pulls in the $apps and updates it. What you want to do is extend the __construct() method itself. You cannot extend methods but you can call the parent's version of a method.
+
+To call a parent's version of a method, use the scope resolution operator, which is a double colon (::), known affectionately as a Paamayim Nekudotayim. You may see this name in error messages. 
+
+This calls a parent's __construct() method:
+
+parent::__construct($phoneNumber, $model, $color);
+
+You could also use the class name instead of the keyword parent, but using a generic keyword is better in case your inheritance tree changes. The only change you need to make is to change the Smartphone's __construct() to the following:
+
+public function __construct($phoneNumber, $model, $color, $apps) {
+	parent::__construct($phoneNumber, $model, $color);
+	$this->apps = is_array($apps) ? $apps : array($apps);
+}
+
+You call the parent's __construct(), passing it the three parameters it is expecting. Then you use the fourth parameter to update the new property. Normally when you override a parent's method you should keep the same parameters. The __construct() method is the exception to that rule.
+
+You can override any of the parent's methods and call the parent's version of the method as well, if you need it.
+
+Abstract Class
+===============
+Often the classes that you extend are ordinary classes. When you are creating an application, however, you may find it makes sense to use abstract classes to extend. Abstract classes are classes that are only blueprints; you cannot create objects from them. They are there to act as a base for other classes, not to be used themselves. They are a template for creating classes. You declare a class abstract with the abstract keyword:
+
+	abstract class MyBaseClass
+
+
+An abstract class can contain both regular and abstract methods. Child classes inherit the regular methods. Abstract classes are empty in the parent and must be defined in the child class. In the following example, MyBaseClass is an abstract class. It requires that child classes create a method called getItem() and a method called quantity(), which has a parameter of $qty. This abstract class also has a regular method that the child classes inherit called listItem().
+
+<?php
+abstract class MyBaseClass
+{
+	abstract protected function getItem();
+	abstract protected function quantity($qty);
+	
+	public function listItem() {
+		$result = '<p>' . $this->getItem() . '</p>';
+		return $result;
+	}
+}
+
+
+The child class in the example, MyChildClass, defines the two abstract classes, one of which it changes to public scope so that it can be called from outside the class: 
+
+class MyChildClass extends MyBaseClass
+{
+	protected function getItem() {
+		return “This is an Item”;
+	}
+	
+	public function quantity($qty) {
+		return '<p>Your quantity is ' . $qty . '.</p>';
+	}
+}
+
+
+The script that uses these classes starts by instantiating (creating an object) from the MyChildClass:
+	$myObject = new MyChildClass
+
+Next, the script echoes out (displays on the screen) the result from $myObject->quantity(5). The object $myObject uses the public method in MyChildClass to create an HTML paragraph to display. 
+	echo $myObject->quantity(5);
+
+Finally, the script displays the result from the inherited public method listItem(), which calls a method in the child class and creates another HTML paragraph
+	echo $myObject->listItem();
+
+UNDERSTANDING STATIC METHODS AND PROPERTIES
+=================
+Static methods and properties are accessible without creating an object. As such, they do not have access to regular properties because it is the object that holds the property values.
+
+You might want to use static methods if you have a function that is related to a class but does not require the data from an object. For instance, take the Customer class example:
+• Properties: First name, last name, company, address, e-mail, phone number
+• Methods: Place an order, inquire about an order, change an e-mail address
+
+Say you have a function that pulls a list of all the customers from the database. You could just leave it as a function but if you put it in the class, you know where to find it and don't need to include more files. You do not want to make a customer object to get the list, however, because a customer object is one customer and what you want is an array with a list of customers.
+
+To move back to the Converter class, notice that it has no properties; all hat is happening is calculations based on data that passed to it. If you turn those into static methods, you do not have to take the expense of creating objects when you want to use the methods:	
+
+<?php
+class Converter
+{
+	static public function convertFtoC($temperature) {
+		$celsius = ($temperature - 32)* (5/9);
+		$result = self::_formatDeg($temperature) . ' Fahrenheit is equal to '
+			. self::_formatDeg($celsius) . ' Celsius.';
+		return $result;
+	}
+
+	static public function convertCtoF($temperature) {
+		$fahren = $temperature * (9/5) + 32;
+		$result = self::_formatDeg($temperature) . ' Celsius is equal to '
+			. self::_formatDeg($fahren) . ' Fahrenheit.';
+	return $result;
+	}
+
+	static private function _formatDeg($number) {
+		if (is_numeric($number)) {
+		return number_format($number, 1) . '&deg;';
+		} else {
+
+	return 0 . '&deg;';
+		}
+	}
+} // end of class	
+	
+
+To convert this to static, you add the static keyword to the method definitions. Because you do not have an object to work with, you cannot use $this-> because that refers to the object data. You use the self construction with the scope resolution parameter self:: instead of $this->. So calling the formatting class changes from $this->_formatDeg($celsius) to self::_formatDeg($celsius).	
+
+Now that there are static methods to call, you do not need to create an object. You can reference the class itself, using the same scope resolution parameter. 
+
+// script to use the class
+echo Converter::convertFtoC(70);
+
+Static properties can be used as a substitution for global variables. Because they can be accessible from anywhere and retain their values, they can hold or transfer data that needs to be available to many classes and programs. They can also be used as counters. The following is a class that is used to hold site-wide information:
+
+<?php
+class Sitewide
+{
+	public static $copyright ='&copy; 2011';
+	private static $site = 'Counting Site';
+	private static $count;
+	
+	public static function getSite() {
+		return self::$site;
+	}
+
+	public static function getCopyright() {
+		return self::$copyright;
+	}
+
+	public static function getCount() {
+		self::$count++; // add one to count
+		return self::$count; // return count
+	}
+}	
+	
+The following program could then reference it. You need to include the data either with a require_once or the autoloader. 
+<html>
+<head>	
+	<title><?php echo Sitewide::getSite(); ?></title>
+</head>
+<body>
+<h1><?php echo Sitewide::getSite(); ?></h1>
+<ul>
+<li><?php echo Sitewide::getCount(); ?></li>
+<li><?php echo Sitewide::getCount(); ?></li>
+<li><?php echo Sitewide::getCount(); ?></li>
+</ul>
+<p><?php echo Sitewide::$copyright; ?></p>
+</body>
+</html>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+

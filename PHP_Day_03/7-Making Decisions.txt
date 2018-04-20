@@ -1,0 +1,230 @@
+Making Decisions
+==================
+IF/ELSE
+The most recognizable conditional statement is the if statement. You use the if statement to tell the program to execute some code if a given condition is true. Optionally, you can add an else statement to tell the program what to do if the condition is not true.
+
+Basic If Statements
+The most basic if statement consists of the condition that is being evaluated along with the code to be executed enclosed in curly braces This is how you write a basic if statement:
+if (some condition) {
+some lines of PHP code here;
+that are performed;
+if the condition evaluated to true;
+}
+
+Example
+<html>
+<head>
+<title>if / else</title>
+</head>
+<body>
+<h1>Weather Report</h1>
+<?php
+$weather = 'sunny';
+if ($weather == 'rainy') {
+echo "<p>It will be rainy today. Use your umbrella.</p>";
+} else {
+echo "<p>It will be sunny today. Wear your sunglasses.</p>";
+}
+?>
+</body>
+</html>
+
+
+You can add a condition on the else statement by turning it into an elseif statement. In the following code, if it is not rainy, you check to see if it is actually sunny before you decide to wear your sunglasses.
+
+<html>
+<head>
+<title>if/else</title>
+</head>
+<body>
+<h1>Weather Report</h1>
+<?php
+$weather = 'sunny';
+if ($weather == 'rainy') {
+echo "<p>It will be rainy today. Use your umbrella.</p>";
+} elseif ($weather == 'sunny') {
+echo "<p>It will be sunny today. Wear your sunglasses.</p>";
+} elseif ($weather == 'snowy') {
+echo "<p>It will be snowy today. Bring your shovel.</p>";
+} else {
+echo "<p>I don't know what the weather is doing today.</p>";
+}
+?>
+</body>
+</html>
+
+
+Comparison Operators for If/Else Statements
+=============================================
+
+<html>
+<head>
+<title>if / else</title>
+</head>
+<body>
+<h1>If Statements</h1>
+<?php
+$a = 5;
+$b = 8;
+$c = 58;
+$d = 40;
+$date = date('D, M d, Y');
+if ($d < 50) {
+	if ($a >= strlen($data)) {
+	echo "<p>Position 1: $a</p>";
+	}
+echo "<p>Position 2: $d</p>";
+if (($d + $b) < ($c - $a)) {
+echo '<p>Position 3: ' . ($d + $b) .'</p>';
+} else {
+echo '<p>Position 4: ' . ($c - $a) . '</p>';
+}
+}
+?>
+<div>
+<?php if ($date) { ?>
+<p>Today is <?php echo $date; ?>.</p>
+<p>You can check to see if there's something
+in a variable before you print it.<p>
+<p>You can also jump in and out of PHP in the
+middle of an if statement.</p>
+<?php } ?>
+</div>
+</body>
+</html>
+
+
+• If/Else with Ternary Operator
+You can use a shortcut syntax with simple if-then-else statements that can make your code easier to read, especially if you are interspersing it in HTML code. The following code does a simple test for gender:
+<?php
+$gender = 'F';
+if ($gender == 'M') {
+echo 'Man';
+} else {
+echo 'Woman';
+}
+
+This same code can be written using the ternary operator (?) as:
+
+<?php
+$gender = 'F';
+echo ($gender == 'M') ? 'Man' : 'Woman';
+
+Ternary stands for three parts. This statement consists of the condition in parentheses followed by the ternary operator (the question mark), then the result-if-the-condition-is-true separated with a colon from the result-if-the-condition-is-false. Notice that there is no if in the ternary if statement at all as can be seen in the previous statement and in the following syntax statement:
+(condition) ? whentrue : whenfalse;
+
+This shorthand version of if/else is useful as well when assigning defaults. In the following code, if a variable is empty, you give it a value; otherwise you use whatever is in the variable:
+<?php
+echo (empty($_GET['task'])) ? 'home' : $_GET['task'];
+
+
+• SWITCH STATEMENTS
+switch statements are also used to perform specifi c blocks of code depending on conditions. They are used when you want to compare the same variable or expression to several different values.
+
+Take, for example, the following series of if statements:
+
+<html>
+<head>
+<title>Lesson 7m</title>
+</head>
+<body>
+<h1>Weather Report</h1>
+<?php
+$weather = 'sunny';
+if ($weather == 'rainy') {
+echo "<p>It will be rainy today. Use your umbrella.</p>";
+} elseif ($weather == 'sunny') {
+echo "<p>It will be sunny today. Wear your sunglasses.</p>";
+} elseif ($weather == 'snowy') {
+echo "<p>It will be snowy today. Bring your shovel.</p>";
+} else {
+echo "<p>I don't know what the weather is doing today.</p>";
+}
+?>
+</body>
+</html>
+
+
+Each if statement is comparing to the variable $weather. With a switch statement you write the same code in a clearer fashion. The following code performs the same functions:
+<html>
+<head>
+<title>Switch loop</title>
+</head>
+<body>
+<h1>Weather Report</h1>
+<?php
+$weather = 'sunny';
+switch ($weather) {
+case 'rainy':
+echo "<p>It will be rainy today. Use your umbrella.</p>";
+break;
+case 'sunny':
+echo "<p>It will be sunny today. Wear your sunglasses.</p>";
+break;
+case 'snowy':
+echo "<p>It will be snowy today. Bring your shovel.</p>";
+break;
+default:
+echo "<p>I don't know what the weather is doing today.</p>";
+}
+?>
+</body>
+</html>
+
+If you want to have two or more values perform the same actions, skip the break on the first value. It then drops through and executes the lines (regardless of matching any subsequent case statements) until it finds a break. In the following code the state is MA, so after it gets a match,
+
+it displays "Southern New England" because it continues until it finds a break;.
+
+<?php
+$state = 'MA';
+switch ($state) {
+case 'ME':
+case 'VT':
+case 'NH':
+echo "<p>Northern New England</p>";
+break;
+case 'CT':
+case 'MA':
+case 'RI':
+echo "<p>Southern New England</p>";
+break;
+default:
+echo "<p>$state is not in New England.</p>";
+
+
+• ALTERNATIVE SYNTAX
+====================
+There is an alternative syntax for the control structures. Curly braces have a tendency to get lost in long stretches of code, especially if you are hopping in and out of PHP and HTML. You often end up with lines that look like this:
+<?php } ?>
+
+This alternative syntax replaces the curly braces with a colon and an end word. The syntax for an if statement is as follows:
+if (condition) :
+some lines of PHP code here;
+that are performed;
+if the condition evaluated to true;
+elseif (condition) :
+some lines of PHP code here;
+else :
+some lines of PHP code here;
+endif;
+
+The switch statement uses this syntax:
+switch ($variable) :
+case value1:
+code to be executed if $variable is equal to value1;
+break;
+case value2:
+code to be executed if $variable is equal to value2;
+break;
+default:
+code to be executed if $variable is different from both value1 and value2;
+endswitch;
+
+The recommendation is to use this syntax if you are mixing HTML and PHP on a page and to use the curly brace syntax if you are doing straight PHP.
+
+
+
+
+
+
+

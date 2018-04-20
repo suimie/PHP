@@ -1,0 +1,126 @@
+PHP Basic Features 2 
+====================
+You can attach two string values together. They can either be actual strings or variables that have strings in them. This is called concatenation. You use a period (.) to concatenate the different strings:
+
+<?php
+$firstName = 'Andy';
+$lastName = 'Tarr';
+$myVar = 'Hi, my name is ' . $firstName. ' ' . $lastName . '.';
+echo $myVar;
+?>
+
+Working with String Functions
+=============================
+PHP Functions do not start with a dollar sign and they are immediately followed by parentheses.
+
+♦ strlen()
+String Length returns the length of the string. The following function returns a result of 4:
+<?php
+$myName = 'Andy';
+echo strlen($myName);
+?>
+
+♦ htmlspecialchars()
+HTML Special Characters takes a string and converts &, <, >, and double quotes to proper HTML entities.
+
+<p> Quantity must be > 5 or < 10 </p>
+
+<?php
+$myName = 'Andy & Amos';
+echo htmlspecialchars($myName);
+?>
+This code displays "Andy & Amos," but if you look at the source for the browser page, you see "Andy &amp; Amos."
+
+♦ ucfirst()
+Upper Case First changes the first character to uppercase. The following function returns a result of "The book of days":
+<?php
+$myVar = 'the book of days';
+echo ucfirst($myVar);
+?>
+
+♦ ucwords()
+Upper Case Words changes the first character of each word to uppercase. The following function returns "The Book Of Days":
+<?php
+$myVar = 'the book of days';
+echo ucwords($myVar);
+?>
+
+♦ trim()
+Trim removes any blank characters from the beginning and end of the string. The following function returns "the book of days":
+<?php
+$myVar = '      the book of days ';
+echo trim($myVar);
+?>
+
+♦ strtolower()
+String to Lower converts any uppercase letters to lowercase. The following function returns "the book of days":
+<?php
+$myVar = 'THE BOOK OF DAYS';
+echo strtolower($myVar);
+?>
+
+♦ strtoupper()
+String to Upper converts any lowercase letters to uppercase. The following function returns "THE BOOK OF DAYS":
+<?php
+$myVar = 'the book of days';
+echo strtoupper($myVar);
+?>
+
+
+You can nest the functions as well. The following code converts the text to lowercase and then capitalizes the first letter of each word, resulting in "The Book of Days":
+<?php
+$myVar = 'THE BOOK OF daYs';
+echo ucwords(strtolower($myVar));
+?>
+
+CHANGING BETWEEN TEXT AND NUMBERS
+=================================
+Various functions and operations require that the variables be of a particular type. For instance, you can multiply only numeric variables. PHP quietly converts variables to the right data type if it can. In the following code, $stringNumber is automatically converted to a number and 15 is displayed:
+
+<?php
+$stringNumber = '3';
+$number = 5;
+echo $stringNumber * $number;
+?>
+
+Here, the $stringNumber is converted to 15, giving 75 as the result:
+<?php
+$stringNumber = '15a4';
+$number = 5;
+echo $stringNumber * $number;
+?>
+
+And here, the $stringNumber is converted to 0, giving the result as 0 as well:
+<?php
+$stringNumber = 'aaa';
+$number = 5;
+echo $stringNumber * $number;
+?>
+
+The following code uses concatenation, which expects string variables. The variables are converted to strings and the result displayed is 35.
+<?php
+$stringNumber = 3;
+$number = 5;
+echo $stringNumber . $number;
+?>
+
+Here's another string function that takes a fl oat number and displays it as a formatted string. Because it expects $number to be a floating-point number, it converts it from a string to a float:
+<?php
+$number = '15';
+echo number_format($number, 2);
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

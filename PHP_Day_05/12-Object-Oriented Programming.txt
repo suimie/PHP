@@ -1,0 +1,63 @@
+Object-Oriented Programming
+===========================
+Object-oriented programming is a way of coding that organizes your programs, encourages consistency, reduces redundancy and complexity, increases flexibility, and promotes better security.
+
+It enables you to create building blocks of basic functionality. You can then reuse these blocks, add on to the blocks, or even override parts of the blocks to create more complex structures. Being able to reuse code in this flexible manner means you have fewer bugs when creating your programs, which makes them more reliable over time.
+
+OOP also uses what is called encapsulation. You use encapsulation every time you use local variables in functions because the variables have local scope and can’t be seen outside of the function. Encapsulation is the concept that what you do in one section of your program is not affected by and does not affect another section. OOP has similar structures that encapsulate data and actions. You are inside your house with the shades drawn and you control the door through which you receive and disseminate information.
+
+Additionally, OOP is well suited for implementing both design patterns, which are an advanced technique for modeling program designs, and MVC (Model-View-Controller), which is a software design technique for separating database interactions, presentation, and control systems much as you separate content from presentation with HTML and CSS.
+
+
+Objects and Classes
+===================
+OOP is a way of thinking about what you need to accomplish in terms of objects (nouns) that you need to define and actions (verbs) that you need to perform.
+
+An object is an instantiation of a class that contains properties and methods. This sounds like so much geek-speak, but you will understand it by the time you are done with this section.
+
+Let’s use the example of a cell phone. The cell phone itself is an object. This particular phone is 4.5 inches tall by 2.3 inches wide by .37 inches thick. It has 32GB of storage and weighs 4.8 ounces. 
+
+It contains specific songs, phone numbers, and ebooks. These are properties that the phone has. Properties are information.
+
+This cell phone can do actions. You can tell it to make phone calls, take pictures, browse the Internet, or play tunes. Each of those types of actions is a method. These are the verbs, the acts that can be performed.
+
+A class corresponds to the blueprint for creating this cell phone. A class is what defines the object. An object, such as this particular cell phone, is an instance of the class. You can imagine a manufacturing line just churning out instances (objects) of the class. The act of making an instance from a class is called instantiation.
+
+So you could say, "My cell phone was manufactured based on plans and it contains songs and a way for me to play them." An object is an instantiation of a class that contains properties and methods.
+
+To illustrate the concept more clearly, here are some other examples:
+
+Customer Class
+• Properties: First name, last name, company, address, e-mail, phone number
+• Methods: Place an order, inquire about an order, change an e-mail address Product Class
+• Properties: Product number, description, cost, price, quantity on hand, image of product
+• Methods: Increase quantity when product received, decrease quantity when product shipped, format the price, find an extended price for a given quantity Article Class
+• Properties: Title, author, abstract, content, ratings, permanent link 
+• Methods: Check for proper authority to see the article, save the article to the database, delete the article from the database, format the article for display
+
+To bring it into PHP terms, properties are variables for the class and the methods are functions that are in a class. 
+
+
+LEARNING VARIATIONS IN DIFFERENT PHP RELEASES
+===============================================
+OOP features are relatively new to PHP. They existed in PHP4 but were more fully developed in PHP5, especially 5.2. Also, PHP 5.3 introduced additional features.
+
+If you are writing your own code in 5.3, these differences are not important. If you are dipping into someone else’s code you should be aware of these changes so you can recognize a remnant of an older coding style:
+• Pass by Reference: When you assign an object to a variable it used to create a copy of the object. Now it creates a reference so that changes in either the original or the new object affect both.
+• Visibility & Final: The ability to alter the scope of properties and functions. 
+• Constructors: An optional method that is called when you create an object. In PHP4 this was the same name as the class. Now there is a special function, __construct(). 
+• Class Constants and Static Methods: This is a way to use classes without creating an object.
+• Abstract Classes: This is a special type of parent class that you can use to define other classes.
+• The __autoload Function: This is a way to automatically load your class definitions without needing long lists of require_once statements.
+
+
+
+
+
+
+
+
+
+
+
+
