@@ -16,7 +16,7 @@
     // get the lot information
 $lots = array();
 $lots[0]['lot_number'] = '1';
-$lots[0]['image'] = 'naval-19-173.jpg';
+$lots[0]['image'] = 'naval-19-173_.jpg';
 $lots[0]['name'] = "naval officer's formal tailcoat, 1840s";
 $lots[0]['description'] = 'Black wool broadcloth, double breast front, missing 3 of 18 raised round gold buttons  
                         crossed cannon barrels "Ordnance Corps" text, silver sequin  tinsel embroidered emblem 
@@ -47,8 +47,23 @@ $lots[2]['price'] = 3450;
     <?php
     foreach ($lots as $counter=>$lot) : ?>
         <li class="row<?php echo $counter % 2; ?>">					
-                <div class="list-photo"><a href="images/<?php echo $lot['image']; ?>">
+                <div class="list-photo">
+                    <?php
+                    // Set up the images
+                    $image = 'images/' . $lot['image'];
+                    
+                    $image_t = 'images/thumbnails/' . $lot['image'];
+                    if(!is_file($image_t)) :
+                        $image_t='images/thumbnails/nophoto.jpg';
+                    endif;
+                    
+                    if(is_file($image)) : ?>
+                    
+                    <a href="images/<?php echo $lot['image']; ?>">
                         <img src="images/thumbnails/<?php echo $lot['image']; ?>"  alt="" /></a>
+                    <?php else : ?>
+                    <img src="<?php echo $image_t; ?>" alt=""" />
+                    <?php endif ?>
                 </div>			
                 <div class="list-description">
                         <h2><?php echo ucwords($lot['name']); ?></h2>

@@ -19,7 +19,16 @@
  */
 
 function __autoload($class_name){
-    require_once 'includes/classes/' . strtolower($class_name) . '.php';
+    try{
+        $class_file = 'includes/2classes/' . strtolower($class_name) . '.php';
+        if (is_file($class_file)) {
+            require_once $class_file;
+        }else {
+            throw new Exception("Unable to load class $clas_name is file $class_file.");
+        }
+    } catch (Exception $ex) {
+        echo 'Exception caugh: ' , $e->getMessage(). "\n";
+    }   
 }
 
 // include required files

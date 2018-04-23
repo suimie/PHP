@@ -1,0 +1,123 @@
+Review Databases
+=================
+Before you can design your tables, you need to gather certain information. This part is not technical. It is fi nding out about the business. You need to know the problem you are trying to solve and the scope. You need to know the purpose and objectives of the database. You need to know the data that has to be retained and what the database needs to do. Ideally, the client provides this information for you, but if he doesn’t, you need to find it out.
+
+Find out what you already have. What are people already using? Are there existing databases? What do they contain? What are they missing? Are there spreadsheets that people are using? Forms? Reports? These all give you a handle on the data that that needs to be in the database as well as the type of data it is. MySQL has data types, just as PHP does, but they are more rigid so you need to know what type of data you can expect.
+
+If you have a chance, observing people gathering and working with the data is invaluable. It helps answer the “What did you know and when did you know it?” question. You need to know if there is a specific order when the users find out what certain data is or when they use the data, so you should be familiar with the standard workflow of the data. For instance, if you find out there is a vital required piece of data that is not known until late in the workflow, you know you won’t always have access to it. You also need to understand the exceptions that can occur.
+
+After you have all this information, you are ready to start designing your tables.
+
+DESIGNING YOUR TABLES
+======================
+At this point you have analyzed your data needs. Now it is time to organize a list of the different data pieces you have collected into tables and fields. The nouns (things) are likely to become tables. Adjectives and aspects of a thing are likely to become fields. Data that can be calculated generally does not belong in a database because you can create functions in PHP to do the calculations when they are needed. 
+
+Based on the information showing on the Case Study website, Table 18-1 shows you what a database would look like to provide the information needed:
+
+TABLE 		FIELDS
+=====		=======
+Contacts 	First name, last name, position, e-mail, phone
+Lots 		Category, lot name, description, image, lot number, price
+Categories 	Category, description, image
+
+The next task is to determine the characteristics of each of the fields. For instance, which fields are text fields and which are numeric fields? How long do your text fields need to be? Is there any validation that you need? Which fields do you have to have information in from the start? MySQL assigns data types to each field. 
+
+You also use this information to set up business rules such as whether an email is required for all contacts or whether a phone number is a formatted numeric field in the form xxx-xxx-xxxx or a free form text field. This is what the Contacts table could look like:
+
+Table: Contacts
+================
+First name: 	Text, up to 50 characters long, required
+Last name: 		Text, up to 50 characters long, required
+Position: 		Text, up to 50 characters long
+Email: 			Text, up to 255 characters long
+Phone: 			Text, up to 20 characters long
+
+
+SETTING UP RELATIONSHIPS BETWEEN TABLES
+========================================
+You link between tables by including in one table a field that identifies a record in another table. For instance, in the Case Study, lots are assigned to a category. So in the Lots table you need a field that matches a uniquely identifying field in the Categories table.
+
+Those fields are called keys. The key in the Lots table is called a foreign key because it links to something outside the table. This key in the Categories table is the primary key, which uniquely identifies the category record. The primary key is often referred to as the id.
+
+
+When tables have a many-to-many relationship, the relationship can be defined with a separate file that contains only the foreign keys. So if you allowed lots to be in multiple categories, your files might look like this:
+
+Table: Lots
+===========
+Fields: 	Lot id, lot name, description, image, lot number, price
+Table: 		Categories
+Fields: 	Category id, category name, description, image
+Table: 		Categories-Lots
+Fields: 	Category id, Lot id
+
+There would be multiple records in the Categories-Lots table; one for each category/lot combination that exists.
+
+INSTITUTING THE BUSINESS RULES
+==============================
+Business rules are policies that a business uses to make its business run smoothly and profitably. There are different ways of enforcing business rules. Some are enforced just in the way that you design your database. The Case Study has a business rule that each lot needs to be in one and only one category. By putting a foreign key in the Lots table to the Categories table, you are enforcing that rule.
+
+Data typing is another way to enforce business rules. If a business rule is that prices have to be numeric, you set the data type for the price field to be numeric. Data types in MySQL can also include lengths or sizes. If you have a business rule that no comment can be longer than 100 characters, you can specify that the field is no more than 100 in size.
+
+Then, finally, you can use program validation in place of or in addition to database validation. MySQL enforces the integrity of the database, but if you try to give it something invalid it gives you an error message. Because you do not want error messages going to your user, you want to verify that the data about to go into the database meets the criteria the database is looking for, and fix it first.
+
+
+NORMALIZING THE TABLES
+======================
+Normalization is the reorganization of the database so it meets certain design standards. Like the list of requirements for a primary key, these are rules established so that the database ends up more usable. Normalization aims to design databases that
+are more robust and that will be useful longer. It does this by designing for flexibility, so that you can use the database for a variety of general queries and tasks rather than designing it so that it is optimized for a single task but is unfit for handling future tasks.
+
+Normalization reduces redundancy. Redundancy requires more storage space and introduces maintenance errors. If, instead of just having a key to the categories table in the Lots table, you had the description in all the lots records, you would use more storage. Any time the description changed, you would have to change it in each of the lots.
+
+Normalization ensures that data that is independent in reality is independent in the database. If you have the category description in the Lots table instead of in a separate Categories table, you have to create a lot before you can have a category. If you delete all the lots in a particular category, you lose that category altogether.
+
+• First normal form (1NF) states that a field must provide a fact about a key, that there can be no repeating elements, and no multivalued elements. Take the following table:
+
+• Second normal form (2NF) states that you need the whole key in order to retrieve the data. You need to worry about second normal form only if you have a composite key, which is a key made up of more than one field.
+
+• Third normal form (3NF) states that you cannot have any hidden dependencies and no duplicate or calculated fields. Category description in the following table is a hidden dependency because it depends on category id rather than lot id.
+
+
+in the Smithside Auction, Write down characteristics to each of the fields in the tables
+
+Table: Contacts
+================
+Contact id: Integer, positive number, required, primary key
+First name: Text, up to 50 characters long, required
+Last name: Text, up to 50 characters long, required
+Position: Text, up to 50 characters long
+E-mail: Text, up to 255 characters long
+Phone: Text, up to 20 characters long
+
+Table: Categories
+Category id: Integer, positive number, required, primary key
+Category name: Text, up to 50 characters long, required
+Category Description: Text, up to 5 or 6 lines of text
+Category Image: Text, up to 255 for the name of the fi le
+
+Look at the Gents, Sporting, and Women pages. Based on that, design the lots table, showing the fields and characteristics.
+
+Table: Lots
+Lots id: Integer, positive number, required, primary key
+Lot name: Text, up to 50 characters long, required
+Description: Text, up to 5 or 6 lines of text
+Image: Text, up to 255 for the name of the file
+Lot number: Integer, positive number
+Price: Numeric, up to $100,000.00
+Category id: Integer, positive number, link to categories table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

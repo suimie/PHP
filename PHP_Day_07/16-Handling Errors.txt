@@ -1,0 +1,195 @@
+Handling Errors
+===============
+Errors come in different types and levels. The first type, which you likely have become very familiar with, is programming errors. This is when you use a wrong syntax or do something incorrectly in PHP. If you have display_errors set to on in your php.ini file, PHP is not shy about letting you know there is a problem. You receive big orange warnings with a lot of barely comprehensible stack information. These PHP errors have levels from minor notices where the code still works, to warnings where there is an error but the code continues to run after the error, to fatal errors where processing stops.
+
+
+NOTE
+=====
+You should display all of these errors while you are developing, but not when your program goes into production. You can have them posted to a log file instead where you can see them if needed but they do not inconvenience your user.
+
+The next type is those errors that happen not because of intrinsic problems with your code, but because of data and resources outside your code. For example, the variable you want to divide by happens to be zero; the e-mail given by the user is not an e-mail.
+
+
+TESTING FOR ERRORS
+===================
+Testing for errors can be divided into two groups. One is to test for conditions that will produce the errors, so you can prevent them before they happen. The other is to test whether an error has happened.
+
+Here are conditions that could produce errors that you should check for:
+• Variable types and values: Is the variable the type you expected and is the value within the range you expected? Are you trying to use a foreach loop on a variable that isn't an array or an object? Are you trying to divide by 0? Does the variable contain the name of a valid file?
+
+• Existence of a resource: Are you trying to include a file that doesn't exist? Are you trying to display an image that doesn't exist? Does the parameter exist? Is the variable NULL or not set?
+
+• Validity of user supplied data: Did the user fill in all the required inputs on the form? Did the user inject malicious code? Did the user give you data that needs to be encoded before it can be displayed in HTML?
+
+PHP is a loosely typed programming language. A variable can switch between containing text or numbers. PHP automatically converts text to numbers, if it can, if the calculation requires numbers. It uses numbers as text if the operation calls for text.
+
+<?php
+$a = '2';
+$b = 3;
+echo $a * $b;
+var_dump($a);
+var_dump($b);
+
+This works even if both of the variables are string. Change the assignment to $b = '3'; and you get the same result. In fact, change that same assignment to $b = '3xyz'; and you still get the answer 6. PHP sees the 3, converts that, and ignores the rest. However, if you change the assignment to $b = 'xyz3';, PHP uses 0 for the variable and the result is 0. It is hard to predict how a string with mixed numbers and letters will convert.
+
+Although it is convenient that PHP automatically converts the type for you, it can make it more difficult to know if you have the right type of data for a particular situation. PHP has built-in functions that enable you to check for variable types or for certain values in the variable. The PHP function is_numeric() checks whether a variable is a number (2) or a valid numeric string ('2'). If it is either, then it returns true. You saw this function in use in the temperature converter. If the variable is a number, it is formatted. If it is not a number, a 0 is returned.
+
+function formatDeg($number) {
+	if (is_numeric($number)) {
+		return number_format($number, 1) . '&deg;';
+	} else {
+	return 0 . '&deg;';
+	}
+}
+
+
+You should check that a variable is not 0 before attempting to divide by it. The following example shows different ways of checking for the condition as well as different variable values that PHP would convert to 0.
+
+<?php
+$b = 3;
+$c = 0;
+$d = '0';
+$e = 'xyz3';
+
+if ($c != 0) {
+	echo $b/$c . '<br />';
+	} else {
+		echo 'Cannot divide by 0. <br />';
+	}
+
+echo ($c != 0) ? $b/$c : 'Cannot divide by 0.<br />';
+echo ($d != 0) ? $b/$d : 'Cannot divide by 0.<br />';
+echo ($e != 0) ? $b/$e : 'Cannot divide by 0.<br />';
+
+You can handle errors in different ways. Here you just displayed a message to the user. In the converter example, you took steps in the program to handle the error so that the user never saw it. 
+Another option is to use the PHP error reporting system. Rather than just displaying a message, you use the trigger_error() function. This is the syntax:
+	trigger_error($error_msg, $error_level);
+
+This posts your error as using the same system that PHP uses. If you have display_errors on, the user sees the error message. If you are logging errors, it is logged. You can use the E_USER_NOTICE level to post informational notices that do not affect the processing, E_USER_WARNING level for errors that allow processing to continue, or E_USER_ERROR to stop the processing. If you do not specify a level when you create the message, the level defaults to E_USER_NOTICE. Remember that it is good practice to display errors only while testing so this would be more useful for logging.
+
+<?php
+$b = 3;
+$c = 0;
+$d = '0';
+$e = 'xyz3';
+
+if ($c != 0) {
+	echo $b/$c . '<br />';
+	} else {
+		trigger_error('The value of $c is ' . $c .'. You cannot divide by it ',
+		E_USER_NOTICE);
+	}
+	
+if ($d != 0) {
+	echo $b/$d . '<br />';
+	} else {
+		trigger_error('The value of $d is ' . $d .'. You cannot divide by it ',
+		E_USER_WARNING);
+}
+
+if ($e != 0) {
+	echo $b/$e . '<br />';
+	} else {
+		trigger_error('The value of $e is ' . $e .'. You cannot divide by it ',
+	E_USER_ERROR);
+}
+
+echo 'You will never see this because E_USER_ERROR stops the program';
+
+
+You can create a custom class for handling errors so all errors, including PHP errors, are processed by your custom class. You could make that class user-friendly enough that you would use it for displaying errors to the user during production. 
+
+Sometimes it is not the value that you are concerned about but whether the item exists. To see if a variable exists, use the isset() function.
+
+<?php
+$b = 3;
+$c = 0;
+
+if (isset($a)) {
+	echo '$a equals ' . $a . '<br />';
+}
+if (isset($b)) {
+	echo '$b equals ' . $b . '<br />';
+}
+if (isset($c)) {
+	echo '$c equals ' . $c . '<br />';
+}
+
+To find out if a file exists, you use either file_exists() or is_file(). file_exists() looks for either a directory or a file. is_file() is faster and works better if you are working with relative paths but fails on very large files. It only locates files. Use is_dir() as the alternative for directories. The following example checks for the existence of the image before trying to display it.
+
+
+<?php
+$name = "Sally Meyers";
+$phone = "515-555-1222";
+$image = "sally-meyers-t.jpg"
+?>
+
+<html>
+	<head>
+		<title>Contact</title>
+	</head>
+	<body>
+		<p>
+		<?php if (file_exists($image)) : ?>
+		<img src="<?php echo $image; ?>" />
+		<?php endif; ?>
+		<?php echo $name; ?> :
+		<?php echo $phone; ?>
+		</p>
+	</body>
+</html>
+
+
+FILE SYSTEM PATH VERSUS URL
+===========================
+When dealing with files and folders, you need to remember when you are giving the location based on where it is in the folder and file structure on the computer or servers (file system path), or when based on the URL. Some functions are looking
+for the URL and others for the file system path. If your website does not start at your web root the relative paths are different.
+
+You should check all data that is coming from users or gets or posts for validity or sanitize it. As a reminder, checking for validity means to see if a value meets certain parameters and sanitizing means to automatically make changes to values to render them harmless or in a proper state.
+
+Check the data from users as early as possible in the processing so that you can try to get the proper data before you have done anything that cannot be undone. For instance, if you have required fields, check that you have data for those fields while you can still go back to the user for more information. Be specific about what the customer has to do differently when you display an error message for the user so that he has an easier time fixing it. Some people suggest that you be very non-specific to users about errors over which the user has no control. However, this can make it difficult to track down bugs. You may want the message language to be non-specific but have an error number that identifies the actual problem.
+
+USING TRY/CATCH
+===============
+With the proliferation of object-oriented abilities in PHP 5, a new type of error handling has been introduced. Most of PHP's internal errors still use the old system, but its object-oriented expressions have started using try/catch and the Exception class to handle errors.
+
+This new system has four parts: try, throw, catch, and the Exception class. The try/catch has a syntax similar to the if/else. Your main code goes in the try block, where you throw an error if you find one. It is then caught in the catch block where you handle the error.
+
+<?php
+try {
+	// your code goes here that might have an error
+	// when you find an error you throw an exception
+	// by creating an object in Exception class,
+	// passing it the error message
+
+	throw new Exception('Divide by Zero');
+	} catch (Exception $e) {
+		// Here's where you handle the error
+		echo 'Found an error:', $e->getMessage();
+	}
+
+Here is an example where you check to see if the number you are going to divide by is 0. If it is 0, you throw an Exception with the message "Divide by Zero".
+
+<?php
+$b = 3;
+$c = 0;
+try {
+	if ($c != 0) {
+	echo $b/$c . '<br />';
+	} else {
+		throw new Exception('Divide by
+		Zero');
+	}
+} catch (Exception $e) {
+	echo 'Found an error: ', $e->getMessage();
+}
+
+echo '<p>And then the code continues.</p>';
+
+You throw only objects and the object must be the Exception class or a subclass that you have extended from the Exception class. If you throw an object, be sure that it will be caught or you will get an error.
+
+
+
+
+
+
