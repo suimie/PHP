@@ -11,6 +11,7 @@ and open the template in the editor.
         <style>
             span{
                 color:blue;
+                font-weight: bold;
             }
             .align-right{
                 text-align: right;
