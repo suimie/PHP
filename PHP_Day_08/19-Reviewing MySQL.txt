@@ -1,0 +1,43 @@
+Reviewing MySQL
+================
+MySQL is a standard for many shared hosting services and is part of the standard (L)AMP stack of Apache web server, MySQL database, and PHP scripting that runs many of the Internet’s sites. Access to MySQL data is based on SQL, a query language
+developed in the 1970s. Other SQL databases include Oracle (the current owner of MySQL), PostgreSQL, MS SQL Server, and SQLite. Although all are based on SQL, differences exist in the implementation, so the different databases and SQL commands are not interchangeable.
+
+MySQL runs on many platforms including various Unix/Linux versions, Windows, and Mac OS X. It can be used in many different programming languages, including PHP, Java, C#, Visual Basic, ASP, and ColdFusion. Using MySQL in PHP is a combination of running the MySQL statements and using special PHP functions written to interact with MySQL.
+
+USING PHPMYADMIN
+=================
+You installed phpMyAdmin as part of XAMPP. You run phpMyAdmin either by going to http://localhost/xampp and clicking the phpMyAdmin link on the left. 
+
+Creating Databases
+==================
+Demo - Creating a database with MyPHPAdmin.
+
+
+Backing Up and Restoring
+========================
+After you have a database, you need to know how to back up that database. Databases are not backed up by creating a copy of a file, but by creating commands that enable you to re-create that database. In phpMyAdmin you can back up the entire database, a single table, or a selected group of tables.
+
+Click the database name on the left side of the window and then click the Export tab.
+
+
+1. Create New Database and named it smithside
+2. Create New Table on Database smithside, type contacts as the name. 
+3. Create all other tables.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

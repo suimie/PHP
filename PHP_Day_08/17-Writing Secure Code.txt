@@ -1,0 +1,141 @@
+﻿Writing Secure Code
+====================
+One of the most important things you can learn about PHP and MySQL is how to prevent your code from being an easy target to those who are malicious. There is no way to make your code completely hack-proof, but you can go a long way to securing it by following certain practices. 
+
+You might think that the chance of your site being hacked is slight, but remember that hackers can find your site and its vulnerabilities the same way that Google scans your site for search indexes.
+
+Three common threats: 
+====================
+• cross-site scripting, 
+• cross-site request forgery, and 
+• SQL injection. 
+
+• Cross-site scripting (XSS), a type of code injection, embeds malicious code inside innocent code that is later output; for instance, when a user enters a search term it is usually displayed on the screen with the results. If, instead of an innocent word, the data entered were JavaScript, that code would be run when the search term was output to the screen. Hackers can install programs that track your keystrokes and track where you go.
+
+• Cross-site request forgeries (CSRF, XSRF) work by allowing an attacker to hijack a user's session so that the hacker can use an authenticated user's authority or identity. Requests from the attacker look like they are legitimate responses from forms on your website. The attacker is able to do such things as post comments as a different person, transfer funds to another person's account, or do a distributed password-guessing attack. Attackers can alter your website to trick your users into linking to their site where the hacker can then have control.
+
+• SQL Injections are where a hacker injects his own code to alter your database queries, enabling
+him to access, alter, or even destroy your database. The dynamic power of the PHP/MySQL combination is using PHP variables and expressions when creating queries and updates to the database. If you use input directly from a user in creating those queries, a malicious user can effectively change your innocent queries into different queries that give him direct access to your database.
+
+USING PROPER CODING TECHNIQUES
+===============================
+The first rule of writing secure code is to never trust your users. They will give you data you do not expect, either intentionally or unintentionally. You need to check all data that a user submits or could intercept. This includes information from forms or data from POSTs, GETs, or cookies. You
+should check variables for the proper type of data, for malicious data, and for any character substitutions required, such as changing & to &amp; before displaying in HTML.
+
+You already know several ways of sanitizing your data, such as these:
+<?php
+	$myVar = htmlspecialchars($myInput); 
+	$myVar = filter_var($myInput, FILTER_SANITIZE_STRING); 
+	$myVar = filter_input(INPUT_GET, $where, FILTER_SANITIZE_STRING); 
+	$myVar = (int) $myInput; 
+
+When displaying any user output to the browser, use htmlspecialchars() if you have not verified that it is an integer. Before saving any data to a database you need to escape it properly for that
+database. For example, with MySQL you use mysql_real_escape_string.
+
+When given an option of using quotes or not, use quotes because it makes it more difficult for a hacker to break out. You still need to sanitize the variable. Here is a case where using valid HTML
+makes your code more secure. Take, for instance, the following insecure code:
+	<?php $myClass = $_GET['class']; ?>
+	<div class=<?php echo $myClass; ?>>Text goes here</div>
+
+It is much better If you enclose the class with quotes, which is the valid method in HTML
+	<?php $myClass = $_GET['class']; ?>
+	<div class="<?php echo $myClass; ?>">Text goes here</div>
+
+You should also sanitize any input coming from your GET so your final code will look like this:
+	<?php $myClass = filter_input(INPUT_GET, 'class', FILTER_SANITIZE_STRING); ?>
+	<div class="<?php echo $myClass; ?>">Text goes here</div>
+
+If you validate forms using a client-side validation such as JavaScript, always back it up with server-side validation such as PHP. Using JavaScript enables you to create a better user experience, but it is easier to bypass than server-side validations or could be turned off, so using a combination is the better solution.
+
+How your PHP is set up is important for security. Global variables should be off in php.ini. On a production site, turn off display_errors. You can do this via php.ini for the whole site or use
+.htaccess if you are using a site for both production and development.
+
+Initialize your variables if you are not setting the variable in all cases. Do not assume they start
+empty because users can add variable assignments to URLs.
+
+<?php
+	$myVar = '';
+	if ($someCondition) {
+		$myVar = '1';
+	}
+
+Do not include a file directly from a get request. Use a two-step process. First verify that there is no invalid data in the name itself using filter_input or filter_var. Then you need to verify that the file is one of your files and not from some remote site. You can do this by checking against a list of valid files or only displaying files from valid folders. An example is the loadContent function in the Case Study:
+
+	function loadContent($where, $default='') {
+		$content = filter_input(INPUT_GET, $where, FILTER_SANITIZE_STRING);
+		$default = filter_var($default, FILTER_SANITIZE_STRING);
+		$content = (empty($content)) ? $default : $content;
+		if ($content) {
+			$html = include 'content/'.$content.'.php';
+			return $html;
+		}
+	}
+
+Do not let users list your file directories. There are ways to prevent this with the .htaccess file, but if your program is run where you do not have control of the .htaccess file you should take measures yourself. 
+
+The easiest way to do that is to create a skeleton index.html file and add it to each of your folders that does not have an index.php file. A typical index.html file contains this code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+<title></title>
+</head>
+<body>
+</body>
+</html>
+
+To prevent cross-site request forgeries when using forms, use randomly generated tokens on the form and verify those tokens when you use the data.
+
+In the following example, a token is generated on the form. That token is then passed to both the session and to the form as a hidden value. Remember that hidden just means that it does not display on the form page. If the form uses the GET method, the hidden field is displayed in the URL.
+
+A session is used for storing data such as gets, posts, and cookies. The session file is stored on the server, not in the user's browser, so is not generally viewable by the user. A cookie holds a session ID that is used to link to the session file. A session lasts until you destroy it or your user closes her browser.
+
+To start a session or access an existing session, put this code at the very beginning of your program:
+	<?php session_start(); ?>
+
+On your form, create a random value. For security, you want to salt that value. To salt a value is to add an additional piece to it that makes it more difficult to decode. There are many ways of creating salts. You can use a randomly created salt or put a salt constant in a configuration file. Randomly generated salts are the safest if you are using a salt with a password. This token is created by choosing a random number between 1 and 1,000,000 that is concatenated to the $salt value. That is then encrypted as a sha1() hash:
+
+	<?php $token = sha1(mt_rand(1,1000000) . $salt); ?>
+	$token is assigned to both a session variable 'token' and a hidden input in the form:
+	<?php $_SESSION['token'] = $token; ?>
+	<input type='hidden' name='token' value='<?php echo $token; ?>'/>
+
+
+In the program that reads your form values, start the session and compare the session value with the POST/GET value. If the token parameter is not set in either the POST or the SESSION or if it is empty or if they do not match then do not trust the input.
+
+<?php
+	session_start();
+	if (!isset($_POST['token'])
+		|| !isset($_SESSION['token'])
+		|| empty($_POST['token'])
+		|| $_POST['token'] !== $_SESSION['token']) {
+		die('Bad token'];
+	} else {
+			$name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
+			unset($_SESSION['token']);
+		}
+
+For the best user experience, you want to control how you end a program. However, when dealing with security, it is sometimes better just to get out of the program entirely if you detect an insecurity.
+
+In these cases, the die() function ends the program immediately and optionally displays a message to a user. You may also want to be wary of how much information you give a user at this point because the user could use that information maliciously.
+
+An additional security precaution against CSRF is to add a confirmation page and to check that both the original request and the confirmation page are processed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

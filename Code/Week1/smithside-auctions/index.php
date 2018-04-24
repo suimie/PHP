@@ -42,6 +42,13 @@ require_once 'includes/init.php';
             </div><!-- end navigation -->
 
             <div class="message">
+                <?php 
+                    $conn = Database::getConnection(); 
+                    if ($result = $conn->query('select database()')){
+                        $row = $result->fetch_array(MYSQLI_NUM);
+                        echo '<p>*** Using Database ' . $row[0] . ' ***</p>';
+                    }
+                ?>
             </div><!-- end message -->	
 
             <div class="sidebar">

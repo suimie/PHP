@@ -1,0 +1,333 @@
+Creating and Connecting to the Database
+========================================
+PDO (PHP Data Objects) is an extension to PHP for connecting to various databases, not just MySQL. The same PHP code enables you to connect to MySQL, PostreSQL, and SQLite databases, among others. You use different drivers to switch from one database type to the other.
+
+CONNECTING WITH MYSQL/MYSQLI
+=============================
+Mysql was the traditional way to communicate with MySQL. When mysqli came along in PHP 5, it added the following features:
+• Object-oriented interface: Mysqli has the mysqli class, the mysql_stmt class for queries, and the mysqli_result class for results. Each of these has properties that give you information on the connection, the request you are making, or the data you have retrieved. They also have methods that enable you to perform actions. There is still a procedural interface similar to mysql if you prefer to use that.
+
+• Support for prepared statements: With prepared statements you set up the request once and then send the particulars for the actual request. Reusing the same type of requests works faster than creating a new request each time. More importantly, it is more secure because it cuts down on injection attacks.
+
+• Support for multiple statements: You can process multiple statements at a time rather than one by one.
+
+• Support for transactions: You use transactions when you have multiple changes to a database that should be thought of as a group. An example is when you transfer money from one account to another. A transaction ties the subtraction from one account to the addition to the other so that if one action fails the other fails as well.
+
+To connect to MySQL you need to know the hostname (which is usually localhost), username, and password. You create an instance of the class mysqli to establish a connection. The following code connects to MySQL running on localhost and uses the username root and the password 12345. The object $connection can be called anything. Other common variable names are $db, $dbh, and $mysqli.
+
+<?php
+	$connection = new mysqli('localhost', 'smithside', 'hJQV8RTe5t');
+	
+If there is an error with the connection, the error is put in the property connect_error for the object you just created. Use the if statement to check for errors. The following example displays the error message if there is an error. If you are in a production site you should give a message to the user
+without details because the details could be used to hack the system. If there is no error a success message is displayed. The @ before the new suppresses the normal error handling. Without the @, errors with the connection are automatically displayed. Use the @ if you want to handle the errors yourself. Remember to change the configuration information to match your setup.	
+
+<?php
+	$connection = new mysqli('localhost', 'smithside', 'hJQV8RTe5t');
+	if ($connection->connect_error) {
+		die('Connect Error: ' . $connection->connect_error);
+	} else {
+		echo 'Successful connection to MySQL';
+	}
+
+You should have one place to go for the connection information. That way you have one place to go to if you change a username or password and you have the ability to store the information separately such as in a configuration file. One way is to use constants as the following code does:
+<?php
+	define('MYSQLUSER', smithside);
+	define('MYSQLPASS', 'hJQV8RTe5t');
+	define('HOSTNAME', 'localhost');
+	$connection = @new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS);
+	
+	if ($connection->connect_error) {
+		die('Connect Error: ' . $connection->connect_error);
+	} else {
+		echo 'Successful connection to MySQL';
+	}
+	
+You have successfully connected to MySQL, but before you can use a database, you need to connect to the database. The database must already exist before you can connect to it.
+
+Adding the database name as the fourth parameter selects that particular database.
+<?php
+	define('MYSQLUSER', smithside);
+	define('MYSQLPASS', 'hJQV8RTe5t');
+	define('HOSTNAME', 'localhost');
+	define('MYSQLDB', 'smithside');
+	if ($connection = new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB)) {
+		echo 'Successful connection to MySQL';
+	}
+
+
+The mysqli class has a method called query(). You pass it a MySQL statement and it returns an object of the mysqli_result class. You then use the properties and methods of that object to see your results. The MySQL command to see a list of tables is SHOW TABLES. The MySQL command names are not case sensitive, but it is standard practice to capitalize them. Assuming that $connection is your connection object, the following code executes the SHOW TABLES command and creates $result as an object based on the mysqli_result class:
+	
+	$result = $connection->query('SHOW TABLES');
+
+The mysqli_result class property num_rows contains the number of rows. Because $result is based on the mysqli_result class it also has num_rows as a property.
+
+	$count = $result->num_rows;
+
+The mysqli_result class method fetch_array() returns the results in the form of an array for each record, which in this case is each table. The first element in the array contains the table name.
+
+	$row = $result->fetch_array();
+	echo $row[0];
+
+This finds only the first table. To get a list of all the tables you use a while loop. The script continues to loop through the results until it reaches the end.
+
+	while ($row = $result->fetch_array()) {
+		echo $row[0]. '<br />';
+	}
+
+The following is what the full code looks like to create a connection and list the tables in the database. 
+
+<?php
+	define('MYSQLUSER', 'smithside');
+	define('MYSQLPASS', 'hJQV8RTe5t');
+	define('HOSTNAME', 'localhost');
+	define('MYSQLDB', 'smithside');
+
+	$connection = @new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB);
+	if ($connection->connect_error) {
+		die('Connect Error: ' . $connection->connect_error);
+	} else {
+		echo 'Successful connection to MySQL <br />';
+		if ($result = $connection->query('SHOW TABLES')) {
+			$count =$result->num_rows;
+			echo 'Tables: ($count)<br />';
+			while ($row = $result->fetch_array()) {
+			echo $row[0]. '<br />';
+			}
+		}
+	}
+	
+You have been learning the object-oriented style of mysqli. There is also a procedural type of mysqli. The following is the same program using the procedural style:
+<?php
+	define('MYSQLUSER', 'smithside');
+	define('MYSQLPASS', 'hJQV8RTe5t');
+	define('HOSTNAME', 'localhost');
+	define('MYSQLDB', 'smithside');
+
+	$connection = @mysqli_connect(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB);
+	if (mysqli_connect_error()) {
+		die('Connect Error: ' . mysqli_connect_error());
+		} else {
+			echo 'Successful connection to MySQL <br />';
+			if ($result = mysqli_query($connection, 'SHOW TABLES')) {
+			$count = mysqli_num_rows($result);
+			echo 'Tables: ($count)<br />';
+		while ($row = mysqli_fetch_array($result)) {
+			echo $row[0]. '<br />';
+			}
+		}
+	}
+
+
+Whether you use the object-oriented style or the procedural style, you use the variable that contains the connection (in this case $connection) to access the database throughout your program. Many older programs use a global variable to hold the connection. The connection itself goes in an initial program such as the following code:
+<?php
+	define('MYSQLUSER', 'smithside');
+	define('MYSQLPASS', 'hJQV8RTe5t');
+	define('HOSTNAME', 'localhost');
+	define('MYSQLDB', 'smithside');
+
+	$connection = @new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB);
+	if ($connection->connect_error) {
+		die('Connect Error: ' . $connection->connect_error);
+	}
+
+When the database is needed, the $connection variable is declared as global:
+
+<?php
+	global $connection;
+	if ($result = $connection->query('SHOW TABLES')) {
+		$count = $result->num_rows;
+		echo 'Tables: ($count)<br />';
+		while ($row =$result->fetch_array()) {
+		echo $row[0]. '<br />';
+		}
+	}
+
+The other way is to create a database class that contains the connection. You can also use this class to contain other database-related functions. Start by defining the database connection information as properties. The properties are private because they should be seen only inside the class. Make them static. Static variables are associated with the class rather than a specific object.
+<?php
+class Database
+{
+	private static $_mysqlUser = 'smithside';
+	private static $_mysqlPass = 'hJQV8RTe5t';
+	private static $_mysqlDb = 'smithside';
+	private static $_hostName = 'localhost';
+
+Add a property for the connection variable, initializing it to NULL: 
+
+	protected static $_connection = NULL;
+
+Create a method to get the connection. Make this a public static function that returns the connection property. Remember that you address static properties and functions with self:: instead of $this->.
+
+public static function getConnection() {
+	self::$_connection = new mysqli(self::$_hostName, self::$_mysqlUser,
+	self::$_mysqlPass, self::$_mysqlDb);
+	if (self::$_connection->connect_error) {
+		die('Connect Error: ' . self::$_connection->connect_error);
+	}
+	return self::$_connection;
+	}
+
+If you leave the method as it is, every time you create a new object you create a new database connection, which uses extra memory. The solution is to make the class a singleton. A singleton class is limited to a single instance. Each time you use the class, you get the same instance instead of creating a new object every time you use the database.
+
+Check first thing to see if the connection already exists. If it doesn't, then create the object and do the error checking. Whether the connection already existed or you just created it, return the connection. That way, you only make the connection the fi rst time through. All the rest of the time you just return the $_connection.
+
+public static function getConnection() {
+	if (!self::$_connection) {
+		self::$_connection = new mysqli(self::$_hostName, self::$_mysqlUser,
+		self::$_mysqlPass, self::$_mysqlDb);
+		if (self::$_connection->connect_error) {
+			die('Connect Error: ' . self::$_connection->connect_error);
+		}
+	}
+		return self::$_connection;
+}
+
+To prevent programmers from creating an object by using new Database you make the $__construct() method private:
+
+	private function __construct(){}
+
+Outside of the class, call the getConnection method to get the $connection property. To call this static method in the Database class, use Database::getConnection as shown in the following code:
+
+<?php
+	$connection = Database::getConnection;
+	if ($result = $connection->query('SHOW TABLES')) {
+		$count = $result->num_rows;
+		echo 'Tables: ($count)<br />';
+		while ($row = $result->fetch_array()) {
+			echo $row[0]. '<br />';
+		}
+	}
+
+PHP closes the database connection when the script is done, but you can close it yourself if you are done with the database. The object-oriented version looks like this:
+
+<?php
+	$connection = Database::getConnection();
+	$connection->close();
+
+This is the procedural style for closing a database:
+<?php
+	$connection = Database::getConnection();
+	mysqli_close($connection);
+
+	
+CONNECTING WITH PDO
+=====================
+Mysqli uses an extension that is created specifically to talk to the MySQL database. As such it is able to take advantage of all the features of the MySQL database. However, if you want PHP programs that are more portable — that are able to be easily adapted to other flavors of databases — then the PDO extension is the extension to use. The following is a list of PDO features.
+
+• Object-oriented interface: PDO has the main PDO class, the PDOStatement class for prepared statements, and the PDOException class for errors.
+
+• Support for prepared statements: With prepared statements you set up the request once and then send the particulars for the actual request. Reusing the same type of requests works faster than creating a new request each time. More importantly, it is more secure because it cuts down on injection attacks. Prepared statements in PDO are easier to use than the mysqli prepared statements.
+
+• Support for transactions: You use transactions when you have multiple changes to a database that should be thought of as a group. An example is when you transfer money from one account to another. A transaction ties the subtraction from one account to the addition to the other so that if one action fails the other fails as well.
+
+The concepts for using PDO are similar to using mysqli. The following code connects to MySQL running on the
+localhost and uses the username smithside and the password hJQV8RTe5t. It sets up a connection to the smithside
+database and displays a message when it successfully connects.
+
+<?php
+	if ($connection = new PDO('mysql:host=localhost;dbname=smithside', 'smithside',
+		'hJQV8RTe5t')) {
+		echo 'Successful connection to MySQL';
+	}
+
+As with mysqli, you can use constants to set up the connection:
+
+<?php
+	define('MYSQLUSER', 'smithside');
+	define('MYSQLPASS', 'hJQV8RTe5t');
+	define('HOSTNAME', 'localhost');
+	define('MYSQLDB', 'smithside');
+	if ($connection = new PDO('mysql:host='.HOSTNAME.';dbname=' . MYSQLDB,
+		MYSQLUSER, MYSQLPASS)) {
+		echo 'Successful connection to MySQL';
+	}
+
+The PDO class has a method called query(). You pass it a MySQL statement and it returns an object of the PDO class. You then use the properties and methods of that object to see your results.
+
+The MySQL command to see a list of tables is SHOW TABLES. Assuming that $connection is your connection object, this code executes the SHOW TABLES command and creates $result as an object based on the PDO class:
+
+	$result = $connections->query('SHOW TABLES')
+
+The PDO class method fetch(PDO::FETCH_NUM) returns the results in the format specified, which in this case is a numeric array. The format is in the form of an array for each record, which in this case is each table. The first element in the array contains the table name.
+
+$row = $result->fetch(PDO::FETCH_NUM);
+echo $row[0];	
+
+This finds only the first table. To get a list of all the tables you use a while loop. The script continues to loop through the results until it reaches the end. The following is what the full code looks like to create a connection and list the tables in the database. 
+
+<?php
+	define('MYSQLUSER', 'smithside');
+	define('MYSQLPASS', 'hJQV8RTe5t');
+	define('MYSQLDB', 'smithside');
+	define('HOSTNAME', 'localhost');
+	// set up the Database connection
+	if ($connection = new PDO('mysql:host='.HOSTNAME.';dbname=' . MYSQLDB,
+		MYSQLUSER, MYSQLPASS)) {
+		echo 'Successful connection to MySQL<br />';
+		if ($result = $connection->query('SHOW TABLES')) {
+			echo 'Tables:<br />';
+			while ($row =$result->fetch(PDO::FETCH_NUM)) {
+				echo $row[0]. '<br />';
+			}	
+		}
+	}
+
+
+CREATING THE DATABASE
+======================
+To create a database, connect to MySQL and run the CREATE DATABASE command. This is the MySQL command to create a database called mydatabase:
+
+	CREATE DATABASE 'mydatabase';
+
+After you have created the database, you need to select it for use before you can use it. 
+
+<?php
+	define('MYSQLUSER', 'root');
+	define('MYSQLPASS', 'p##V89Te5t');
+	define('HOSTNAME', 'localhost');
+	if ($connection = new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS)) {
+		echo 'Successful connection to MySQL <br />';
+		if ($result = $connection->query('CREATE DATABASE 'mydatabase'')) {
+			$connection->select_db('mydatabase'); // use the database
+			echo 'Database created';
+	} else {
+		echo 'Problem creating the database. Is the user not allowed
+		to create database or does the database already exist?'; }
+	}
+
+Note that the preceding code uses an equal sign in the if statement:
+
+	if ($result = $connection->query('CREATE DATABASE 'mydatabase'')) {
+
+The way that this statement is processed is that the statement on the right is evaluated first, which attempts to create the database. That function returns a value, which in this case is TRUE or FALSE. That value is then assigned to $result, which is then evaluated to determine if the code enclosed by the if statement should be run.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

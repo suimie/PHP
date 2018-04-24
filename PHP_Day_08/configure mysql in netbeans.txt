@@ -1,0 +1,26 @@
+Open the file config.ini.php from the following location:
+C:\xampp\phpMyAdmin
+
+find line 20 and 21, and set the user name and password to root
+$cfg['Servers'][$i]['user'] = 'root';
+$cfg['Servers'][$i]['password'] = 'root';
+
+repeat the same things for line 31 and 32
+$cfg['Servers'][$i]['controluser'] = 'root';
+$cfg['Servers'][$i]['controlpass'] = 'root';
+
+
+
+Path to start the command
+C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe
+
+Path to stop the command
+C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqladmin.exe
+
+
+new path to start the command
+C:\xampp\mysql\bin\mysqld.exe
+
+
+new Path to stop the command
+C:\xampp\mysql\bin\mysqladmin.exe
