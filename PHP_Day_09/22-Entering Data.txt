@@ -1,0 +1,227 @@
+Entering Data
+=============
+
+EXECUTING MYSQL COMMANDS IN PHP
+===============================
+You won't very often create databases or tables using PHP because then the MySQL used to make the database connection has to have extensive privileges, which is unsafe. However, you will frequently add data to MySQL tables using PHP. Entering data through a PHP program using MySQL command takes three steps:
+
+1. Make a connection to the database.
+2. Create a safe query with the command.
+3. Run the query.
+
+The following code uses the MySQL INSERT command to add rows to the table table1. You could enclose the command in double quotes and assign it to the $query variable. However, it is not good practice to have extremely long lines. Use the double quotes around appropriate sections of the command and put them back together with the concatenation operator (.). The query() method does only one statement at a time and does not use a semicolon at the end of the MySQL statement. 
+
+<?php
+	define("MYSQLUSER", root);
+	define("MYSQLPASS", "hJQV8RTe5t");
+	define("HOSTNAME", "localhost");
+	define("MYSQLDB", "test");
+	// Make connection to database
+	$connection = @new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB);
+	if ($connection->connect_error) {
+		die('Connect Error: ' . $connection->connect_error);
+	} else {
+		echo 'Successful connection to MySQL <br />';
+		// Set up the query
+		$query = "INSERT INTO 'table1' ('description', 'code') VALUES "
+			. " ('hij','15'), "
+			. " ('klm','23'), "
+			. " ('nop', DEFAULT)";
+		// Run the query and display appropriate message
+		if (!$result = $connection->query($query)) {
+			echo "Unable to add rows<br />";
+		} else {
+			echo "Rows successfully added<br />";
+		}
+	}
+
+
+You can use variables to create the query statement. In the following examples I am hard-coding in the values of the variables to make the examples clearer. In real life these variables may be coming from forms, parameters or other sources. Even though you can see what the value is, assume the value could be anything. The following code is an example where the data passed to MySQL comes from variables. 
+
+<?php
+	define("MYSQLUSER", "root");
+	define("MYSQLPASS", "hJQV8RTe5t");
+	define("HOSTNAME", "localhost");
+	define("MYSQLDB", "test");
+	// Make connection to database
+	$connection = @new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB);
+	if ($connection->connect_error) {
+		die('Connect Error: ' . $connection->connect_error);
+	} else {
+		echo 'Successful connection to MySQL <br />';
+		$desc = "qrs";
+		$code = "15";
+		// Set up the query
+		$query = "INSERT INTO 'table1' ('description', 'code') VALUES "
+			. " ('$desc', '$code')";
+		// Run the query and display appropriate message
+		if (!$result = $connection->query($query)) {
+			echo "Unable to add rows<br />";
+		} else {
+			echo "Rows successfully added<br />";
+		}
+	}
+
+In the preceding example you have the line $desc = "qrs";. If you replace that with $desc = "qr's"; you might think you are following all the rules and that it will work. However, when you do that, as demonstrated in the
+following code, the rows do not update because that single quote in $desc is then enclosed by single quotes in $query,
+
+$desc = "qr's";
+
+You could fix this by using double quotes around $desc in the $query assignment. However, with a dynamic site you do not know whether the data contains single or double quotes (or both) so you need a solution that properly prepares the variables for insertion into the database. The answer to that is to escape any quotes in the variables by prefi xing each quote character with a backslash (\). PHP has a function that does this for you. In mysqli it is the method mysqli::real_escape_string if you are using the object-oriented style or the function mysqli_real_escape_string().
+
+This code escapes any quotes in $desc so that it works in the MySQL statement.
+
+<?php	
+	...
+	...
+	$desc = "qr's";
+	$code = "15";
+	
+	$desc = $connection->real_escape_string($desc);
+
+If you are using the procedural style the command looks like this instead:
+
+	$desc = mysqli_real_escape_string($connection, $desc);
+
+There is one more wrinkle to consider — magic quotes. PHP recognized that this need to escape quotes was inconvenient and inexperienced programmers would neglect to do it. So PHP started doing it automatically. You used to be able to turn this behavior on or off in the php.ini file by turning on or off magic_quotes_gpc. Unfortunately this led to more problems and the use of magic quotes is now strongly discouraged; it will eventually be removed. However, if it happens to be on when you use the recommended mysqli::real_escape_string or mysqli_real_escape_string you get undesirable results. Before you escape your variables, you need to see if magic_quotes_gpc is on and if so, you need to strip out the escapes it added before using the recommended function.
+Use the get_magic_quotes_gpc() function to see if it is active:
+
+<?php
+	...
+	...
+	$desc = "qr's";
+	$code = "15";
+	if (get_magic_quotes_gpc()) {
+		$desc = stripslashes($desc);
+	}
+	$desc = $connection->real_escape_string($desc);
+
+
+Another reason for escaping the quotes is that it helps prevent SQL injection. Notice that you only escaped the $desc variable and not $code. $desc is a string field and $code is an integer. Best practices deal with different types of fields differently. If a field is an integer data type, the best check is to be sure that it is an integer.
+
+<?php
+	define("MYSQLUSER", "root");
+	define("MYSQLPASS", "hJQV8RTe5t");
+	define("HOSTNAME", "localhost");
+	define("MYSQLDB", "test");
+	// Make connection to database
+	$connection = @new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB);
+		if ($connection->connect_error) {
+			die('Connect Error: ' . $connection->connect_error);
+		} else {
+			echo 'Successful connection to MySQL <br />';
+			$desc = "qr's";
+			$code = "15";
+			if (get_magic_quotes_gpc()) {
+			$desc = stripslashes($desc);
+			}
+		$desc = $connection->real_escape_string($desc);
+		$code = (int) $code;
+		// Set up the query
+		$query = "INSERT INTO 'table1' ('description', 'code') VALUES "
+			. " ('$desc', '$code')";
+		// Run the query and display appropriate message
+		if (!$result = $connection->query($query)) {
+			echo "Unable to add rows<br />";
+		} else {
+			echo "Rows successfully added<br />";
+		}
+	}
+
+These examples are inserting only one row at a time. If you are inserting more than one row, the same principles apply. Add in other error-checking for the fields and you can see that there is significant preparation for each field that is used to update a database field. This is a place where creating functions for preparing variables for insertion is helpful.
+
+
+PROCESSING DATA ENTRY FORMS IN PHP
+===================================
+Start by creating a basic input form with two required fields for getting the description and code. Name the page data-entry.html, and the value for form action attribute t data-entry.php
+
+Because you are updating a database, you want to add the security of a token. Start a session at the very beginning of the file:
+<?php
+	session_start();
+?>
+
+Within the form fieldset, create a token and post it to the session as a hidden input:
+
+<?php
+	// create token
+	$salt = 'SomeSalt';
+	$token = sha1(mt_rand(1,1000000) . $salt);
+	$_SESSION['token'] = $token;
+?>
+<input type='hidden' name='token' value='<?php echo $token; ?>'/>
+
+You can either create a file for the form and a different one for the processing or do everything in one file. In this example, you use one file so the next task is to add the processing of the form. After session_start(), initialize the $message variable, add a check to see if there is a form to process, and then check for a good token, as in the following code:
+
+$message = '';
+if (isset($_POST['save']) AND $_POST['save'] == 'Save') {
+  // check the token
+  $badToken = true;
+  if (empty($_POST['token']) || $_POST['token'] !== $_SESSION['token']) {
+		$message = 'Sorry, try it again. There was a security issue.';
+		$badToken = true;
+  } else {
+    $badToken = false;
+    unset($_SESSION['token']);
+	
+	
+Next make your connection to the database and get the data from the POST array. For the description input, sanitize the data coming from the form as string data. To allow quotes without encoding them (such as ' remaining as a ' and not changing to &#39;), add the FILTER_FLAG_NO_ENCODE_QUOTES filter. Filter the code input by forcing it to an integer. Verify that data exists in both $desc and $code. If the data passes all those requirements, prepare the data for insertion into the database and then set up the query and add it to the database. Errors or success messages are posted to $message, which is then displayed. Close out all of the if statements.
+
+define("MYSQLUSER", "root");
+    define("MYSQLPASS", "hJQV8RTe5t");
+    define("HOSTNAME", "localhost");
+    define("MYSQLDB", "test");
+
+    // Make connection to database
+    $connection = @new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB);
+    if ($connection->connect_error) {
+      die('Connect Error: ' . $connection->connect_error);
+    } else {
+      // Get the data
+      $desc = filter_input(INPUT_POST,'desc', FILTER_SANITIZE_STRING,FILTER_FLAG_NO_ENCODE_QUOTES);
+      $code = (int) $_POST['code'];
+
+      // Verify the data
+      if (!(trim($desc))) {
+        $error .= "You must enter a description<br />";
+      }
+      if (!(trim($code))) {
+        $error .= "You must enter a code<br />";
+      }
+      if ($error) {
+        $message .= $error;
+      } else {
+
+        // Prepare the data
+        if (get_magic_quotes_gpc()) {
+          $desc = stripslashes($desc);
+        }
+        $desc = $connection->real_escape_string($desc);
+        $code = (int) $code;
+
+        // Set up the query
+        $query = "INSERT INTO `table1` (`description`, `code`) VALUES "
+         . " ('$desc', '$code')";
+
+        // Run the query and display appropriate message
+        if (!$result = $connection->query($query)) {
+          $message .= "Unable to add rows<br />";
+        } else {
+          $message .= "Row successfully added<br />";
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

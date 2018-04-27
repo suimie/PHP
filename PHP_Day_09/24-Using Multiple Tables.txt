@@ -1,0 +1,37 @@
+Using Multiple Tables
+======================
+MySQL does not explicitly link tables together. Instead you design the tables so that they have fields that contain the information you need to link to another table. You then use that information in separate SELECT statements for each table or by using multiple tables in a SELECT statement.
+
+The JOIN clause in the SELECT statement specifies what the links are between the tables. Subqueries let you create compound commands by using the result of one statement nested in another statement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+Selecting Data
+==============
+The SELECT command is arguably the most common MySQL command you use in PHP programs. It is also one of the most complex, with clauses that enable you to choose what table(s) you use, which columns are returned, what conditions must be met before a row is selected, what order to sort the data in, and whether and how to group and summarize the data.
+
+
+SELECTING DATA IN PHP
+======================
+You frequently select data in a MySQL table using PHP. Selecting data through a PHP program using a MySQL command takes four steps: 
+
+1. Make a connection to the database.
+2. Create a safe query with the command.
+3. Run the query.
+4. Read the results.
+
+The following code makes the connection and creates a safe query. Rather than just running the query, use it as the right side of an assignment. This creates a mysqli_result object that you use to read the results via methods in the result object. This example takes each row, one at a time, and puts it into an associative array. It uses a
+while loop to loop through the results and prints each row as it retrieves it
+
+<?php
+	define("MYSQLUSER", "root");
+	define("MYSQLPASS", "hJQV8RTe5t");
+	define("HOSTNAME", "localhost");
+	define("MYSQLDB", "test");
+	// Make connection to database
+	
+	$connection = @new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB);
+	if ($connection->connect_error) {
+		die('Connect Error: ' . $connection->connect_error);
+	} else {
+		echo 'Successful connection to MySQL <br />';
+		// Set up the query
+		$query = "SELECT * FROM 'table1' "
+			. " WHERE 'code' = 15"
+			. " ORDER BY 'description' ASC "
+		;
+		// Run the query
+		$result_obj = '';
+		$result_obj = $connection->query($query);
+		// Read the results
+		// loop through the result object, row by row
+		// reading each row into an associative array
+		while($result = $result_obj->fetch_array(MYSQLI_ASSOC)) {
+			// display the array
+			print_r($result);
+			echo '<br />';
+		}
+	}
+
+The example prints out the array, but you can do anything with it at that moment before it is overwritten with the next row. This code copies the array to another array so you end up with an array of arrays, which it prints after it has finished collecting all the rows.
+
+// Read the results
+// loop through the results, row by row
+// reading each row into an associative array
+while($result = $result_obj->fetch_array(MYSQLI_ASSOC)) {
+// collect the array
+$item[] = $result;
+}
+// print array when done
+echo '<pre>';
+print_r($item);
+echo '</pre>';
+
+
+The online PHP manual lists the different methods that you can use to read the results at www.php .net/manual/en/class.mysqli-result.php. Here are examples of some of them.
+
+• fetch_array(MYSQLI_ASSOC): This returns an associative array. Loop through to get all the rows. Same as fetch_assoc().
+• fetch_array(MYSQLI_NUM): This returns a numeric array. Loop through to get all the rows. Same as fetch_row().
+• fetch_array(MYSQLI_BOTH): This returns both an associative array and a numeric array with the same data. Loop through to get all the rows. This is the default if no type is specified.
+•  fetch_all(MYSQLI_ASSOC): This returns all the rows as an associative array.
+• fetch_all(MYSQLI_NUM): This returns all the rows as a numeric array.
+• fetch_all(MYSQLI_BOTH): This returns all the rows both as an associative array and a numeric array with the same data.
+• fetch_object($class_name): This returns an object of the row. Loop through to get all the rows. If you give it a class name, it uses that class to create the object. If there is no class name it will create a stdClass object, which is a predefined class.
+
+Check for other methods on php.net
+
+
+
+
+
+
+
+
+
+
+
+
+

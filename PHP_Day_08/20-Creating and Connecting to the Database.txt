@@ -31,7 +31,7 @@ without details because the details could be used to hack the system. If there i
 
 You should have one place to go for the connection information. That way you have one place to go to if you change a username or password and you have the ability to store the information separately such as in a configuration file. One way is to use constants as the following code does:
 <?php
-	define('MYSQLUSER', smithside);
+	define('MYSQLUSER', 'smithside');
 	define('MYSQLPASS', 'hJQV8RTe5t');
 	define('HOSTNAME', 'localhost');
 	$connection = @new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS);

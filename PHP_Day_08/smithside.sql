@@ -13,7 +13,7 @@ use smithside;
 DROP TABLE `contacts`;
 
 CREATE TABLE IF NOT EXISTS `contacts` (
-  `contact_id` int(11) NOT NULL UNSIGNED AUTO_INCREMENT,
+  `id` int(11) NOT NULL UNSIGNED AUTO_INCREMENT,
   `first_name` varchar(50) NOT NULL,
   `last_name` varchar(50) NOT NULL,
   `position` varchar(50) DEFAULT NULL,
@@ -76,7 +76,7 @@ CREATE TABLE `menus` (
 -- Dumping data for table `contacts`
 --
 
-INSERT INTO `contacts` (`contact_id`, `first_name`, `last_name`, `position`, `email`, `phone`) VALUES
+INSERT INTO `contacts` (`id`, `first_name`, `last_name`, `position`, `email`, `phone`) VALUES
 (1, 'Martha', 'Smith', 'none', 'martha@example.com', NULL),
 (2, 'George', 'Smith', 'none', 'george@example.com', '515-555-1236'),
 (3, 'Jeff', 'Meyers', 'hip hop expert for shure', 'jeff@example.com', NULL),
@@ -133,8 +133,8 @@ ALTER TABLE `contacts` ADD UNIQUE (`user_name`)
 -- Dumping data for table `articles`
 --
 INSERT INTO `articles` (`id`, `title`, `text`, `created_by`, `date_created`, `modified_by`, `date_modified`) VALUES
-(1, 'Terms of Use', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed tortor ac ante consequat porta et et tortor. Suspendisse suscipit sodales luctus. Sed interdum, urna a dapibus lacinia, odio velit accumsan augue, quis auctor tortor dolor vitae massa. Etiam fermentum cursus tempor. Morbi malesuada suscipit eros ac hendrerit. Etiam aliquam justo a dui laoreet eu congue nulla bibendum. \r\n\r\nNunc eget lectus odio. Etiam sodales vehicula ornare. Suspendisse quis porttitor justo. Donec eget auctor felis. Sed ultricies fringilla elit quis tincidunt. Mauris sed condimentum tellus. Phasellus sollicitudin pulvinar interdum. Integer faucibus egestas rhoncus. In et turpis sed dolor rutrum eleifend. \r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis ac lectus eu ipsum rutrum pharetra. Nam feugiat sagittis urna, at porttitor dolor scelerisque nec. In lacinia, dui et tempus luctus, erat massa placerat orci, at porta velit risus in diam.                     ', 2, '2011-06-08 14:09:00', 2, '2011-06-13 15:41:16'),
-(2, 'Privacy Policy', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed tortor ac ante consequat porta et et tortor. Suspendisse suscipit sodales luctus. Sed interdum, urna a dapibus lacinia, odio velit accumsan augue, quis auctor tortor dolor vitae massa. Etiam fermentum cursus tempor. <p>\r\n<h2>Velit Risus in Diam</h2>\r\n<ol>\r\n<li>In lacinia, dui et tempus luctus, erat massa placerat orci</li>\r\n<li>Nulla varius posuere elit, at cursus libero facilisis imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>\r\n<li>Vestibulum placerat, lorem et consectetur congue</li>\r\n</ol>\r\n          ', 2, '2011-06-08 20:36:31', 2, '2011-06-13 13:46:32');
+(1, 'Terms of Use', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed tortor ac ante consequat porta et et tortor. Suspendisse suscipit sodales luctus. Sed interdum, urna a dapibus lacinia, odio velit accumsan augue, quis auctor tortor dolor vitae massa. Etiam fermentum cursus tempor. Morbi malesuada suscipit eros ac hendrerit. Etiam aliquam justo a dui laoreet eu congue nulla bibendum. \r\n\r\nNunc eget lectus odio. Etiam sodales vehicula ornare. Suspendisse quis porttitor justo. Donec eget auctor felis. Sed ultricies fringilla elit quis tincidunt. Mauris sed condimentum tellus. Phasellus sollicitudin pulvinar interdum. Integer faucibus egestas rhoncus. In et turpis sed dolor rutrum eleifend. \r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis ac lectus eu ipsum rutrum pharetra. Nam feugiat sagittis urna, at porttitor dolor scelerisque nec. In lacinia, dui et tempus luctus, erat massa placerat orci, at porta velit risus in diam.                     ', 2, '2018-06-08 14:09:00', 2, '2018-06-13 15:41:16'),
+(2, 'Privacy Policy', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed tortor ac ante consequat porta et et tortor. Suspendisse suscipit sodales luctus. Sed interdum, urna a dapibus lacinia, odio velit accumsan augue, quis auctor tortor dolor vitae massa. Etiam fermentum cursus tempor. <p>\r\n<h2>Velit Risus in Diam</h2>\r\n<ol>\r\n<li>In lacinia, dui et tempus luctus, erat massa placerat orci</li>\r\n<li>Nulla varius posuere elit, at cursus libero facilisis imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>\r\n<li>Vestibulum placerat, lorem et consectetur congue</li>\r\n</ol>\r\n          ', 2, '2018-06-08 20:36:31', 2, '2018-06-13 13:46:32');
 
 --
 -- Dumping data for table `menus`
@@ -149,3 +149,15 @@ INSERT INTO `menus` (`id`, `title`, `link`, `level`, `orderby`) VALUES
 (7, 'Login', 'content=login', 'LoggedOut', 7),
 (8, 'Terms of Use', 'content=articledisplay&id=1', 'Public', 8),
 (9, 'Privacy Policy', 'content=articledisplay&id=2', 'Public', 9);
+
+select * 
+from menus
+;
+
+update articles
+set date_created = Date_Add(date_created, interval 7 year)
+;
+
+update articles
+set date_modified = Date_Add(date_modified, interval 7 year)
+;
