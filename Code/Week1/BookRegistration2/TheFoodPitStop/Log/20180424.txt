@@ -1,0 +1,731 @@
+20180424_00:00:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:00:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:00:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:00:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:00:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:00:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_00:00:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_00:00:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_00:03:40 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:03:40 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:03:40 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:03:40 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:04:07 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:04:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_00:04:25 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_00:04:44 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_00:06:39 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:06:39 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:06:39 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:06:39 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:06:39 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:06:39 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_00:06:39 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_00:06:39 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_00:06:39 [images/CTG0001/B0003.jpg:]
+20180424_00:06:39 [images/CTG0001/B0002.jpg:]
+20180424_00:06:39 [images/CTG0001/B0001.jpg:]
+20180424_00:06:39 [images/CTG0001/B0004.jpg:]
+20180424_00:06:39 [images/CTG0001/B0005.jpg:]
+20180424_00:06:39 [images/CTG0001/B0006.jpg:]
+20180424_00:06:39 [images/CTG0001/B0007.jpg:]
+20180424_00:06:39 [images/CTG0001/B0008.jpg:]
+20180424_00:06:39 [images/CTG0001/B0009.jpg:]
+20180424_00:06:52 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:06:52 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:06:52 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:06:52 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:06:52 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:06:52 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:06:52 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:06:52 [images/CTG0001/B0003.jpg:]
+20180424_00:11:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:11:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:11:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:11:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:11:16 [images/CTG0001/B0003.jpg:]
+20180424_00:11:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:11:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:11:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:11:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:11:17 [images/CTG0001/B0003.jpg:]
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:11:18 [images/CTG0001/B0003.jpg:]
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:11:18 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:11:18 [images/CTG0001/B0003.jpg:]
+20180424_00:11:19 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:19 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:11:19 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:19 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:11:19 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:19 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:11:19 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:11:19 [images/CTG0001/B0003.jpg:]
+20180424_00:11:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:11:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:11:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:11:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:11:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:11:29 [images/CTG0001/B0003.jpg:]
+20180424_00:12:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:12:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:12:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:26 [images/CTG0001/B0003.jpg:]
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:27 [images/CTG0001/B0003.jpg:]
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:27 [images/CTG0001/B0003.jpg:]
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:28 [images/CTG0001/B0003.jpg:]
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:28 [images/CTG0001/B0003.jpg:]
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:28 [images/CTG0001/B0003.jpg:]
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:28 [images/CTG0001/B0003.jpg:]
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:29 [images/CTG0001/B0003.jpg:]
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:29 [images/CTG0001/B0003.jpg:]
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:12:29 [images/CTG0001/B0003.jpg:]
+20180424_00:16:04 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:16:04 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:16:04 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:16:04 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:16:04 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:16:04 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:16:04 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:16:04 [images/CTG0001/B0003.jpg:]
+20180424_00:18:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:18:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_00:18:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:18:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_00:18:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_00:18:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:18:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_00:18:17 [images/CTG0001/B0003.jpg:]
+20180424_01:38:31 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:38:31 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_01:38:31 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:38:31 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157]CTG0001
+20180424_01:38:31 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:38:31 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_01:38:31 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180424_01:38:31 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183]categoryId = 'CTG0001'
+20180424_01:38:31 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products WHERE categoryId = 'CTG0001'
+20180424_01:38:31 [images/CTG0001/B0003.jpg:]
+20180424_01:38:31 [images/CTG0001/B0002.jpg:]
+20180424_01:38:31 [images/CTG0001/B0001.jpg:]
+20180424_01:38:31 [images/CTG0001/B0004.jpg:]
+20180424_01:38:31 [images/CTG0001/B0005.jpg:]
+20180424_01:38:31 [images/CTG0001/B0006.jpg:]
+20180424_01:38:31 [images/CTG0001/B0007.jpg:]
+20180424_01:38:31 [images/CTG0001/B0008.jpg:]
+20180424_01:38:31 [images/CTG0001/B0009.jpg:]
+20180424_01:41:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:41:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_01:41:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:41:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_01:41:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:41:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_01:41:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_01:41:06 [images/CTG0001/B0003.jpg:]
+20180424_01:41:41 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:41:41 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_01:41:41 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:41:41 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_01:41:41 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:41:41 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_01:41:41 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_01:41:41 [images/CTG0001/B0003.jpg:]
+20180424_01:47:51 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:47:51 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_01:47:51 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:47:51 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_01:47:51 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:47:51 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_01:47:51 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%Toscana%' OR name like '%Toscana%' OR description1 like '%Toscana%' OR description2 like '%Toscana%'
+20180424_01:47:51 [images/CTG0001/B0003.jpg:]
+20180424_01:57:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:57:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_01:57:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:57:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_01:57:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:57:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%bread%' OR name like '%bread%' OR description1 like '%bread%' OR description2 like '%bread%'
+20180424_01:57:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%bread%' OR name like '%bread%' OR description1 like '%bread%' OR description2 like '%bread%'
+20180424_01:57:46 [images/CTG0001/B0014.jpg:]
+20180424_01:57:46 [images/CTG0001/B0015.jpg:]
+20180424_01:57:46 [images/CTG0001/B0016.jpg:]
+20180424_01:57:57 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:57:57 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_01:57:57 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:57:57 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_01:57:57 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:57:57 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_01:57:57 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_01:57:57 [images/CTG0001/B0003.jpg:]
+20180424_01:57:57 [images/CTG0001/B0002.jpg:]
+20180424_01:57:57 [images/CTG0001/B0006.jpg:]
+20180424_01:57:57 [images/CTG0001/B0010.jpg:]
+20180424_01:57:57 [images/CTG0001/B0011.jpg:]
+20180424_01:57:57 [images/CTG0001/B0012.jpg:]
+20180424_01:57:57 [images/CTG0001/B0014.jpg:]
+20180424_01:57:57 [images/CTG0001/B0019.jpg:]
+20180424_01:57:57 [images/CTG0002/D0009.jpg:]
+20180424_01:58:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_01:58:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_01:58:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_01:58:06 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_01:58:06 [images/CTG0002/D0012.jpg:]
+20180424_01:58:06 [images/CTG0002/D0015.jpg:]
+20180424_01:58:06 [images/CTG0002/D0017.jpg:]
+20180424_01:58:06 [images/CTG0002/D0019.jpg:]
+20180424_01:58:06 [images/CTG0001/B0018.jpg:]
+20180424_01:58:10 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:10 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_01:58:10 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:10 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_01:58:10 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:10 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_01:58:10 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_01:58:14 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:14 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_01:58:14 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:14 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_01:58:14 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:14 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_01:58:14 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_01:58:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_01:58:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_01:58:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_01:58:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_01:58:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_01:58:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_01:58:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_01:58:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_01:58:17 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_01:58:17 [images/CTG0002/D0012.jpg:]
+20180424_01:58:17 [images/CTG0002/D0015.jpg:]
+20180424_01:58:17 [images/CTG0002/D0017.jpg:]
+20180424_01:58:17 [images/CTG0002/D0019.jpg:]
+20180424_01:58:17 [images/CTG0001/B0018.jpg:]
+20180424_03:28:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:30:08 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:30:08 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:315]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'
+20180424_03:31:54 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:31:54 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_03:33:39 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:33:39 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_03:34:32 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:34:32 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_03:35:09 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:35:09 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_03:37:51 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:37:51 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_03:38:57 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:38:57 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_03:44:00 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:44:00 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_03:44:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:44:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_03:53:36 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:53:36 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_03:54:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:54:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_03:54:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:54:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_03:54:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_03:54:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_03:54:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_03:54:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_03:54:46 [images/CTG0001/B0003.jpg:]
+20180424_03:54:46 [images/CTG0001/B0002.jpg:]
+20180424_03:54:46 [images/CTG0001/B0001.jpg:]
+20180424_03:54:46 [images/CTG0001/B0004.jpg:]
+20180424_03:54:46 [images/CTG0001/B0005.jpg:]
+20180424_03:54:46 [images/CTG0001/B0006.jpg:]
+20180424_03:54:46 [images/CTG0001/B0007.jpg:]
+20180424_03:54:46 [images/CTG0001/B0008.jpg:]
+20180424_03:54:46 [images/CTG0001/B0009.jpg:]
+20180424_04:03:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:03:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:03:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:03:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:03:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:03:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_04:03:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_04:03:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_04:03:26 [images/CTG0001/B0003.jpg:]
+20180424_04:03:26 [images/CTG0001/B0002.jpg:]
+20180424_04:03:26 [images/CTG0001/B0001.jpg:]
+20180424_04:03:26 [images/CTG0001/B0004.jpg:]
+20180424_04:03:26 [images/CTG0001/B0005.jpg:]
+20180424_04:03:26 [images/CTG0001/B0006.jpg:]
+20180424_04:03:26 [images/CTG0001/B0007.jpg:]
+20180424_04:03:26 [images/CTG0001/B0008.jpg:]
+20180424_04:03:26 [images/CTG0001/B0009.jpg:]
+20180424_04:03:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:03:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:03:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:03:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:03:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:03:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_04:03:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_04:03:29 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_04:03:29 [images/CTG0001/B0003.jpg:]
+20180424_04:03:29 [images/CTG0001/B0002.jpg:]
+20180424_04:03:29 [images/CTG0001/B0001.jpg:]
+20180424_04:03:29 [images/CTG0001/B0004.jpg:]
+20180424_04:03:29 [images/CTG0001/B0005.jpg:]
+20180424_04:03:29 [images/CTG0001/B0006.jpg:]
+20180424_04:03:29 [images/CTG0001/B0007.jpg:]
+20180424_04:03:29 [images/CTG0001/B0008.jpg:]
+20180424_04:03:29 [images/CTG0001/B0009.jpg:]
+20180424_04:03:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:03:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:03:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:03:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:03:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:03:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_04:03:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_04:03:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_04:03:34 [images/CTG0001/B0003.jpg:]
+20180424_04:03:34 [images/CTG0001/B0002.jpg:]
+20180424_04:03:34 [images/CTG0001/B0001.jpg:]
+20180424_04:03:34 [images/CTG0001/B0004.jpg:]
+20180424_04:03:34 [images/CTG0001/B0005.jpg:]
+20180424_04:03:34 [images/CTG0001/B0006.jpg:]
+20180424_04:03:34 [images/CTG0001/B0007.jpg:]
+20180424_04:03:34 [images/CTG0001/B0008.jpg:]
+20180424_04:03:34 [images/CTG0001/B0009.jpg:]
+20180424_04:06:44 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:06:44 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:06:44 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:06:44 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:06:44 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:06:44 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_04:06:44 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_04:06:44 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_04:06:44 [images/CTG0001/B0003.jpg:]
+20180424_04:06:44 [images/CTG0001/B0002.jpg:]
+20180424_04:06:44 [images/CTG0001/B0001.jpg:]
+20180424_04:06:44 [images/CTG0001/B0004.jpg:]
+20180424_04:06:44 [images/CTG0001/B0005.jpg:]
+20180424_04:06:44 [images/CTG0001/B0006.jpg:]
+20180424_04:06:44 [images/CTG0001/B0007.jpg:]
+20180424_04:06:44 [images/CTG0001/B0008.jpg:]
+20180424_04:06:44 [images/CTG0001/B0009.jpg:]
+20180424_04:07:24 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:07:24 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_04:09:09 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:09:09 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='aaa'Result : [0]
+20180424_04:11:00 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:11:00 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='aaa'Result : [0]
+20180424_04:11:09 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:11:09 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_04:19:45 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:19:45 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='aaa'Result : [0]
+20180424_04:20:53 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:20:53 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='d'Result : [0]
+20180424_04:21:48 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:21:48 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='a'Result : [0]
+20180424_04:21:55 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:21:55 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:318]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_04:29:13 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:29:13 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:29:13 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:29:13 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:29:13 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:29:13 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%black%' OR name like '%black%' OR description1 like '%black%' OR description2 like '%black%'
+20180424_04:29:13 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%black%' OR name like '%black%' OR description1 like '%black%' OR description2 like '%black%'
+20180424_04:31:37 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:31:37 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:31:37 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:31:37 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:31:37 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:31:37 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%black%' OR name like '%black%' OR description1 like '%black%' OR description2 like '%black%'
+20180424_04:31:37 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%black%' OR name like '%black%' OR description1 like '%black%' OR description2 like '%black%'
+20180424_04:31:38 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:31:38 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:31:38 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:31:38 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:31:38 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:31:38 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%black%' OR name like '%black%' OR description1 like '%black%' OR description2 like '%black%'
+20180424_04:31:38 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%black%' OR name like '%black%' OR description1 like '%black%' OR description2 like '%black%'
+20180424_04:33:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:33:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:33:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:33:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:33:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:33:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%black%' OR name like '%black%' OR description1 like '%black%' OR description2 like '%black%'
+20180424_04:33:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%black%' OR name like '%black%' OR description1 like '%black%' OR description2 like '%black%'
+20180424_04:33:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:33:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:33:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:33:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157]CTG0001
+20180424_04:33:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]categoryId = 'CTG0001'
+20180424_04:33:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_04:33:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:33:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183]categoryId = 'CTG0001'
+20180424_04:33:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180424_04:33:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products WHERE categoryId = 'CTG0001'
+20180424_04:33:46 [images/CTG0001/B0003.jpg:]
+20180424_04:33:46 [images/CTG0001/B0002.jpg:]
+20180424_04:33:46 [images/CTG0001/B0001.jpg:]
+20180424_04:33:46 [images/CTG0001/B0004.jpg:]
+20180424_04:33:46 [images/CTG0001/B0005.jpg:]
+20180424_04:33:46 [images/CTG0001/B0006.jpg:]
+20180424_04:33:46 [images/CTG0001/B0007.jpg:]
+20180424_04:33:46 [images/CTG0001/B0008.jpg:]
+20180424_04:33:46 [images/CTG0001/B0009.jpg:]
+20180424_04:34:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:34:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:34:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:34:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:34:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:34:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%bread%' OR name like '%bread%' OR description1 like '%bread%' OR description2 like '%bread%' OR category like '%chocolate%' OR name like '%chocolate%' OR description1 like '%chocolate%' OR description2 like '%chocolate%'
+20180424_04:34:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%bread%' OR name like '%bread%' OR description1 like '%bread%' OR description2 like '%bread%' OR category like '%chocolate%' OR name like '%chocolate%' OR description1 like '%chocolate%' OR description2 like '%chocolate%'
+20180424_04:34:49 [images/CTG0001/B0005.jpg:]
+20180424_04:34:49 [images/CTG0001/B0008.jpg:]
+20180424_04:34:49 [images/CTG0001/B0009.jpg:]
+20180424_04:34:49 [images/CTG0001/B0011.jpg:]
+20180424_04:34:49 [images/CTG0001/B0012.jpg:]
+20180424_04:34:49 [images/CTG0001/B0014.jpg:]
+20180424_04:34:49 [images/CTG0001/B0015.jpg:]
+20180424_04:34:49 [images/CTG0001/B0016.jpg:]
+20180424_04:35:05 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:35:05 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:35:05 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:35:05 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:35:05 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:35:05 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_04:35:05 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_04:35:05 [images/CTG0001/B0003.jpg:]
+20180424_04:35:05 [images/CTG0001/B0002.jpg:]
+20180424_04:35:05 [images/CTG0001/B0006.jpg:]
+20180424_04:35:05 [images/CTG0001/B0010.jpg:]
+20180424_04:35:05 [images/CTG0001/B0011.jpg:]
+20180424_04:35:05 [images/CTG0001/B0012.jpg:]
+20180424_04:35:05 [images/CTG0001/B0014.jpg:]
+20180424_04:35:05 [images/CTG0001/B0019.jpg:]
+20180424_04:35:05 [images/CTG0002/D0009.jpg:]
+20180424_04:38:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:38:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:38:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:38:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:38:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:38:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_04:38:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_04:38:16 [images/CTG0001/B0003.jpg:]
+20180424_04:38:16 [images/CTG0001/B0002.jpg:]
+20180424_04:38:16 [images/CTG0001/B0006.jpg:]
+20180424_04:38:16 [images/CTG0001/B0010.jpg:]
+20180424_04:38:16 [images/CTG0001/B0011.jpg:]
+20180424_04:38:16 [images/CTG0001/B0012.jpg:]
+20180424_04:38:16 [images/CTG0001/B0014.jpg:]
+20180424_04:38:16 [images/CTG0001/B0019.jpg:]
+20180424_04:38:16 [images/CTG0002/D0009.jpg:]
+20180424_04:39:05 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:39:05 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:39:05 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:39:05 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:39:13 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:39:13 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_04:39:13 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_04:39:48 [images/CTG0001/B0003.jpg:]
+20180424_04:39:52 [images/CTG0001/B0002.jpg:]
+20180424_04:39:56 [images/CTG0001/B0006.jpg:]
+20180424_04:40:00 [images/CTG0001/B0010.jpg:]
+20180424_04:40:03 [images/CTG0001/B0011.jpg:]
+20180424_04:40:09 [images/CTG0001/B0012.jpg:]
+20180424_04:40:15 [images/CTG0001/B0014.jpg:]
+20180424_04:40:23 [images/CTG0001/B0019.jpg:]
+20180424_04:40:29 [images/CTG0002/D0009.jpg:]
+20180424_04:42:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:42:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:42:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:42:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:42:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:42:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_04:42:49 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_04:42:49 [images/CTG0001/B0003.jpg:]
+20180424_04:42:49 [images/CTG0001/B0002.jpg:]
+20180424_04:42:49 [images/CTG0001/B0006.jpg:]
+20180424_04:42:49 [images/CTG0001/B0010.jpg:]
+20180424_04:42:49 [images/CTG0001/B0011.jpg:]
+20180424_04:42:49 [images/CTG0001/B0012.jpg:]
+20180424_04:42:49 [images/CTG0001/B0014.jpg:]
+20180424_04:42:49 [images/CTG0001/B0019.jpg:]
+20180424_04:42:49 [images/CTG0002/D0009.jpg:]
+20180424_04:42:58 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:42:58 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_04:42:58 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:42:58 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_04:42:58 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:42:58 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236]category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_04:42:58 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243]SELECT * from products WHERE category like '%red%' OR name like '%red%' OR description1 like '%red%' OR description2 like '%red%'
+20180424_04:42:58 [images/CTG0002/D0012.jpg:]
+20180424_04:42:58 [images/CTG0002/D0015.jpg:]
+20180424_04:42:58 [images/CTG0002/D0017.jpg:]
+20180424_04:42:58 [images/CTG0002/D0019.jpg:]
+20180424_04:42:58 [images/CTG0001/B0018.jpg:]
+20180424_04:45:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_04:45:34 [images/CTG0001/B0003.jpg:]
+20180424_04:45:34 [images/CTG0001/B0001.jpg:]
+20180424_05:06:35 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:06:35 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_05:06:35 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:06:35 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_05:06:35 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:06:35 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_05:06:35 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_05:06:35 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_05:06:35 [images/CTG0001/B0003.jpg:]
+20180424_05:06:35 [images/CTG0001/B0002.jpg:]
+20180424_05:06:35 [images/CTG0001/B0001.jpg:]
+20180424_05:06:35 [images/CTG0001/B0004.jpg:]
+20180424_05:06:35 [images/CTG0001/B0005.jpg:]
+20180424_05:06:35 [images/CTG0001/B0006.jpg:]
+20180424_05:06:35 [images/CTG0001/B0007.jpg:]
+20180424_05:06:35 [images/CTG0001/B0008.jpg:]
+20180424_05:06:35 [images/CTG0001/B0009.jpg:]
+20180424_05:07:43 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:07:43 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_05:07:43 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:07:43 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_05:07:43 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:07:43 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_05:07:43 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_05:07:43 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_05:07:43 [images/CTG0001/B0003.jpg:]
+20180424_05:07:43 [images/CTG0001/B0002.jpg:]
+20180424_05:07:43 [images/CTG0001/B0001.jpg:]
+20180424_05:07:43 [images/CTG0001/B0004.jpg:]
+20180424_05:07:43 [images/CTG0001/B0005.jpg:]
+20180424_05:07:43 [images/CTG0001/B0006.jpg:]
+20180424_05:07:43 [images/CTG0001/B0007.jpg:]
+20180424_05:07:43 [images/CTG0001/B0008.jpg:]
+20180424_05:07:43 [images/CTG0001/B0009.jpg:]
+20180424_05:07:44 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:07:44 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:07:44 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:242]SELECT * from products  LIMIT 3
+20180424_05:07:44 [images//.:]
+20180424_05:08:05 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:08:05 [images//.:]
+20180424_05:14:08 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:14:08 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_05:14:08 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:14:08 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_05:14:08 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:14:08 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_05:14:08 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_05:14:08 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_05:14:08 [images/CTG0001/B0003.jpg:]
+20180424_05:14:08 [images/CTG0001/B0002.jpg:]
+20180424_05:14:08 [images/CTG0001/B0001.jpg:]
+20180424_05:14:08 [images/CTG0001/B0004.jpg:]
+20180424_05:14:08 [images/CTG0001/B0005.jpg:]
+20180424_05:14:08 [images/CTG0001/B0006.jpg:]
+20180424_05:14:08 [images/CTG0001/B0007.jpg:]
+20180424_05:14:08 [images/CTG0001/B0008.jpg:]
+20180424_05:14:08 [images/CTG0001/B0009.jpg:]
+20180424_05:14:26 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:14:26 [images//.:]
+20180424_05:14:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:14:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_05:14:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:14:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_05:14:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:14:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_05:14:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_05:14:34 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_05:14:34 [images/CTG0001/B0003.jpg:]
+20180424_05:14:34 [images/CTG0001/B0002.jpg:]
+20180424_05:14:34 [images/CTG0001/B0001.jpg:]
+20180424_05:14:34 [images/CTG0001/B0004.jpg:]
+20180424_05:14:34 [images/CTG0001/B0005.jpg:]
+20180424_05:14:34 [images/CTG0001/B0006.jpg:]
+20180424_05:14:34 [images/CTG0001/B0007.jpg:]
+20180424_05:14:34 [images/CTG0001/B0008.jpg:]
+20180424_05:14:34 [images/CTG0001/B0009.jpg:]
+20180424_05:15:08 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:17:05 [images//.:]
+20180424_05:24:16 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:24:16 [images//.:]
+20180424_05:26:03 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:26:03 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_05:26:03 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:26:03 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_05:26:03 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:26:03 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_05:26:03 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_05:26:03 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_05:26:03 [images/CTG0001/B0003.jpg:]
+20180424_05:26:03 [images/CTG0001/B0002.jpg:]
+20180424_05:26:03 [images/CTG0001/B0001.jpg:]
+20180424_05:26:03 [images/CTG0001/B0004.jpg:]
+20180424_05:26:03 [images/CTG0001/B0005.jpg:]
+20180424_05:26:03 [images/CTG0001/B0006.jpg:]
+20180424_05:26:03 [images/CTG0001/B0007.jpg:]
+20180424_05:26:03 [images/CTG0001/B0008.jpg:]
+20180424_05:26:03 [images/CTG0001/B0009.jpg:]
+20180424_05:26:04 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:26:04 [images//.:]
+20180424_05:44:30 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:44:30 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_05:44:30 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:44:30 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_05:44:30 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:44:30 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_05:44:30 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_05:44:30 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_05:44:30 [images/CTG0001/B0003.jpg:]
+20180424_05:44:30 [images/CTG0001/B0002.jpg:]
+20180424_05:44:30 [images/CTG0001/B0001.jpg:]
+20180424_05:44:30 [images/CTG0001/B0004.jpg:]
+20180424_05:44:30 [images/CTG0001/B0005.jpg:]
+20180424_05:44:30 [images/CTG0001/B0006.jpg:]
+20180424_05:44:30 [images/CTG0001/B0007.jpg:]
+20180424_05:44:30 [images/CTG0001/B0008.jpg:]
+20180424_05:44:30 [images/CTG0001/B0009.jpg:]
+20180424_05:44:31 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:44:31 [:]
+20180424_05:44:31 [images//.:]
+20180424_05:45:27 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:45:27 [:]
+20180424_05:45:27 [images//.:]
+20180424_05:45:51 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_05:45:51 [images//.:]
+20180424_14:46:28 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_14:46:28 [images/CTG0001/B0003.jpg:]
+20180424_14:46:28 [images/CTG0001/B0001.jpg:]
+20180424_14:46:28 [images/CTG0001/B0018.jpg:]
+20180424_14:47:37 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_14:47:37 [images/CTG0001/B0003.jpg:]
+20180424_14:47:37 [images/CTG0001/B0001.jpg:]
+20180424_14:47:37 [images/CTG0001/B0018.jpg:]
+20180424_14:48:53 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_14:48:53 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:370]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_14:49:02 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_14:49:02 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_14:49:02 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_14:49:02 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_14:49:02 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_14:49:02 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_14:49:02 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_14:49:02 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_14:49:02 [images/CTG0001/B0003.jpg:]
+20180424_14:49:02 [images/CTG0001/B0002.jpg:]
+20180424_14:49:02 [images/CTG0001/B0001.jpg:]
+20180424_14:49:02 [images/CTG0001/B0004.jpg:]
+20180424_14:49:02 [images/CTG0001/B0005.jpg:]
+20180424_14:49:02 [images/CTG0001/B0006.jpg:]
+20180424_14:49:02 [images/CTG0001/B0007.jpg:]
+20180424_14:49:02 [images/CTG0001/B0008.jpg:]
+20180424_14:49:02 [images/CTG0001/B0009.jpg:]
+20180424_14:49:14 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_14:49:14 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:370]SELECT * FROM users WHERE email='steve@mac.com' and password='admin'Result : [1]
+20180424_14:49:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_14:49:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48]SELECT DISTINCT(categoryId), category from products
+20180424_14:49:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_14:49:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120]SELECT DISTINCT(brandId), brand from products
+20180424_14:49:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:21]Succeeded  to Connect to  MySQL-
+20180424_14:49:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175]
+20180424_14:49:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176]
+20180424_14:49:15 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191]SELECT * from products 
+20180424_14:49:15 [images/CTG0001/B0003.jpg:]
+20180424_14:49:15 [images/CTG0001/B0002.jpg:]
+20180424_14:49:15 [images/CTG0001/B0001.jpg:]
+20180424_14:49:15 [images/CTG0001/B0004.jpg:]
+20180424_14:49:15 [images/CTG0001/B0005.jpg:]
+20180424_14:49:15 [images/CTG0001/B0006.jpg:]
+20180424_14:49:15 [images/CTG0001/B0007.jpg:]
+20180424_14:49:15 [images/CTG0001/B0008.jpg:]
+20180424_14:49:15 [images/CTG0001/B0009.jpg:]

@@ -1,0 +1,310 @@
+Succeeded  to Connect to  MySQL
+Succeeded  to Connect to  MySQL
+20180421_04:31:16Succeeded  to Connect to  MySQL
+20180421_04:33:18 Succeeded  to Connect to  MySQL
+20180421_04:33:31 Succeeded  to Connect to  MySQL
+20180421_05:20:23 Succeeded  to Connect to  MySQL-
+20180421_05:21:35 Succeeded  to Connect to  MySQL-
+20180421_05:23:45 Succeeded  to Connect to  MySQL-
+<<<<<<< HEAD
+20180421_16:43:18 Succeeded  to Connect to  MySQL-No connection could be made because the target machine actively refused it.
+
+20180421_16:43:20 Succeeded  to Connect to  MySQL-No connection could be made because the target machine actively refused it.
+
+20180421_17:02:25 Succeeded  to Connect to  MySQL-No connection could be made because the target machine actively refused it.
+
+20180421_17:02:30 Succeeded  to Connect to  MySQL-No connection could be made because the target machine actively refused it.
+
+=======
+20180421_05:26:02 Succeeded  to Connect to  MySQL-
+20180421_05:26:02 Bakery20180421_05:26:02 Drinks20180421_05:27:30 Succeeded  to Connect to  MySQL-
+20180421_05:29:10 Succeeded  to Connect to  MySQL-
+20180421_05:34:50 Succeeded  to Connect to  MySQL-
+20180421_05:34:50 Succeeded  to Connect to  MySQL-
+20180421_05:36:05 Succeeded  to Connect to  MySQL-
+20180421_05:36:05 Succeeded  to Connect to  MySQL-
+20180421_05:39:40 Succeeded  to Connect to  MySQL-
+20180421_05:39:40 Succeeded  to Connect to  MySQL-
+20180421_05:53:35 Succeeded  to Connect to  MySQL-
+20180421_05:53:35 Succeeded  to Connect to  MySQL-
+20180421_05:54:52 Succeeded  to Connect to  MySQL-
+20180421_05:54:52 Succeeded  to Connect to  MySQL-
+20180421_15:42:24 Succeeded  to Connect to  MySQL-
+20180421_15:42:24 Succeeded  to Connect to  MySQL-
+20180421_15:45:24 Succeeded  to Connect to  MySQL-
+20180421_15:45:24 Succeeded  to Connect to  MySQL-
+20180421_16:22:18 Succeeded  to Connect to  MySQL-
+20180421_16:22:18 SELECT DISTINCT(category) from products
+20180421_16:22:18 Succeeded  to Connect to  MySQL-
+20180421_16:22:18 SELECT DISTINCT(brand) from products
+20180421_16:27:26 Succeeded  to Connect to  MySQL-
+20180421_16:27:26 SELECT DISTINCT(category) from products
+20180421_16:27:26 Succeeded  to Connect to  MySQL-
+20180421_16:27:26 SELECT DISTINCT(brand) from products
+20180421_16:29:55 Succeeded  to Connect to  MySQL-
+20180421_16:29:55 SELECT DISTINCT(category) from products
+20180421_16:29:55 Succeeded  to Connect to  MySQL-
+20180421_16:29:55 SELECT DISTINCT(brand) from products
+20180421_16:30:33 Succeeded  to Connect to  MySQL-
+20180421_16:30:33 SELECT DISTINCT(category) from products
+20180421_16:30:33 Succeeded  to Connect to  MySQL-
+20180421_16:30:33 SELECT DISTINCT(brand) from products
+20180421_16:38:24 Succeeded  to Connect to  MySQL-
+20180421_16:38:24 SELECT DISTINCT(category) from products
+20180421_16:38:24 Succeeded  to Connect to  MySQL-
+20180421_16:38:24 SELECT DISTINCT(brand) from products
+20180421_16:38:33 Succeeded  to Connect to  MySQL-
+20180421_16:38:33 SELECT DISTINCT(category) from products
+20180421_16:38:33 Succeeded  to Connect to  MySQL-
+20180421_16:38:33 SELECT DISTINCT(brand) from products
+20180421_16:39:41 Succeeded  to Connect to  MySQL-
+20180421_16:39:41 SELECT DISTINCT(category) from products
+20180421_16:39:41 Succeeded  to Connect to  MySQL-
+20180421_16:39:41 SELECT DISTINCT(brand) from products
+20180421_16:39:45 Succeeded  to Connect to  MySQL-
+20180421_16:39:45 SELECT DISTINCT(category) from products
+20180421_16:39:45 Succeeded  to Connect to  MySQL-
+20180421_16:39:45 SELECT DISTINCT(brand) from products
+20180421_16:40:32 Succeeded  to Connect to  MySQL-
+20180421_16:40:32 SELECT DISTINCT(category) from products
+20180421_16:40:32  : Bakery
+20180421_16:40:32  : Drinks
+20180421_16:40:32 Succeeded  to Connect to  MySQL-
+20180421_16:40:32 SELECT DISTINCT(brand) from products
+20180421_16:40:37 Succeeded  to Connect to  MySQL-
+20180421_16:40:37 SELECT DISTINCT(category) from products
+20180421_16:40:37 bread : Bakery
+20180421_16:40:37 bread : Drinks
+20180421_16:40:37 Succeeded  to Connect to  MySQL-
+20180421_16:40:37 SELECT DISTINCT(brand) from products
+20180421_16:42:41 Succeeded  to Connect to  MySQL-
+20180421_16:42:41 SELECT DISTINCT(category) from products
+20180421_16:42:41 Bakery : Bakery
+20180421_16:42:41 Bakery : Drinks
+20180421_16:42:41 Succeeded  to Connect to  MySQL-
+20180421_16:42:41 SELECT DISTINCT(brand) from products
+20180421_16:47:53 Succeeded  to Connect to  MySQL-
+20180421_16:47:53 SELECT DISTINCT(category) from products
+20180421_16:47:53 Bakery : Bakery
+20180421_16:47:53 Bakery : Drinks
+20180421_16:47:53 Succeeded  to Connect to  MySQL-
+20180421_16:47:53 SELECT DISTINCT(brand) from products
+20180421_17:07:39 Succeeded  to Connect to  MySQL-
+20180421_17:07:39 SELECT DISTINCT(category) from products
+20180421_17:07:39 Succeeded  to Connect to  MySQL-
+20180421_17:07:39 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:11:50 Succeeded  to Connect to  MySQL-
+20180421_17:11:50 SELECT DISTINCT(category) from products
+20180421_17:11:50 Succeeded  to Connect to  MySQL-
+20180421_17:11:50 SELECT DISTINCT(brand) from products
+20180421_17:13:31 Succeeded  to Connect to  MySQL-
+20180421_17:13:31 SELECT DISTINCT(category) from products
+20180421_17:13:31 Succeeded  to Connect to  MySQL-
+20180421_17:13:31 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:13:34 Succeeded  to Connect to  MySQL-
+20180421_17:13:34 SELECT DISTINCT(category) from products
+20180421_17:13:34 Succeeded  to Connect to  MySQL-
+20180421_17:13:34 SELECT DISTINCT(brand) from products
+20180421_17:13:46 Succeeded  to Connect to  MySQL-
+20180421_17:13:46 SELECT DISTINCT(category) from products
+20180421_17:13:46 Succeeded  to Connect to  MySQL-
+20180421_17:13:46 SELECT DISTINCT(brand) from products
+20180421_17:13:50 Succeeded  to Connect to  MySQL-
+20180421_17:13:50 SELECT DISTINCT(category) from products
+20180421_17:13:50 Succeeded  to Connect to  MySQL-
+20180421_17:13:50 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:15:13 Succeeded  to Connect to  MySQL-
+20180421_17:15:13 SELECT DISTINCT(category) from products
+20180421_17:15:13 Succeeded  to Connect to  MySQL-
+20180421_17:15:13 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:15:22 Succeeded  to Connect to  MySQL-
+20180421_17:15:22 SELECT DISTINCT(category) from products
+20180421_17:15:22 Succeeded  to Connect to  MySQL-
+20180421_17:15:22 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:15:39 Succeeded  to Connect to  MySQL-
+20180421_17:15:39 SELECT DISTINCT(category) from products
+20180421_17:15:39 Succeeded  to Connect to  MySQL-
+20180421_17:15:39 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:16:36 Succeeded  to Connect to  MySQL-
+20180421_17:16:36 SELECT DISTINCT(category) from products
+20180421_17:16:36 Succeeded  to Connect to  MySQL-
+20180421_17:16:36 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:27:49 Succeeded  to Connect to  MySQL-
+20180421_17:27:49 SELECT DISTINCT(category) from products
+20180421_17:27:49 Succeeded  to Connect to  MySQL-
+20180421_17:27:49 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:27:50 Succeeded  to Connect to  MySQL-
+20180421_17:27:50 SELECT DISTINCT(category) from products
+20180421_17:27:50 Succeeded  to Connect to  MySQL-
+20180421_17:27:50 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:28:31 Succeeded  to Connect to  MySQL-
+20180421_17:28:31 SELECT DISTINCT(category) from products
+20180421_17:28:31 Succeeded  to Connect to  MySQL-
+20180421_17:28:31 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:48:05 Succeeded  to Connect to  MySQL-
+20180421_17:48:05 SELECT DISTINCT(category) from products
+20180421_17:48:05 Succeeded  to Connect to  MySQL-
+20180421_17:48:05 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:48:05 Succeeded  to Connect to  MySQL-
+20180421_17:48:05 SELECT DISTINCT(brand) from products 0
+20180421_17:49:05 Succeeded  to Connect to  MySQL-
+20180421_17:49:05 SELECT DISTINCT(category) from products
+20180421_17:49:05 Succeeded  to Connect to  MySQL-
+20180421_17:49:05 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:49:05 Succeeded  to Connect to  MySQL-
+20180421_17:49:05 SELECT DISTINCT(brand) from products 0
+20180421_17:49:07 Succeeded  to Connect to  MySQL-
+20180421_17:49:07 SELECT DISTINCT(category) from products
+20180421_17:49:07 Succeeded  to Connect to  MySQL-
+20180421_17:49:07 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:49:07 Succeeded  to Connect to  MySQL-
+20180421_17:49:07 SELECT DISTINCT(brand) from products 0
+20180421_17:49:09 Succeeded  to Connect to  MySQL-
+20180421_17:49:09 SELECT DISTINCT(category) from products
+20180421_17:49:09 Succeeded  to Connect to  MySQL-
+20180421_17:49:09 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:49:09 Succeeded  to Connect to  MySQL-
+20180421_17:49:09 SELECT DISTINCT(brand) from products 0
+20180421_17:49:18 Succeeded  to Connect to  MySQL-
+20180421_17:49:18 SELECT DISTINCT(category) from products
+20180421_17:49:18 Succeeded  to Connect to  MySQL-
+20180421_17:49:18 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:49:18 Succeeded  to Connect to  MySQL-
+20180421_17:49:18 SELECT DISTINCT(brand) from products 0
+20180421_17:49:35 Succeeded  to Connect to  MySQL-
+20180421_17:49:35 SELECT DISTINCT(category) from products
+20180421_17:49:35 Succeeded  to Connect to  MySQL-
+20180421_17:49:35 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:49:35 Succeeded  to Connect to  MySQL-
+20180421_17:49:35 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:50:06 Succeeded  to Connect to  MySQL-
+20180421_17:50:06 SELECT DISTINCT(category) from products
+20180421_17:50:06 Succeeded  to Connect to  MySQL-
+20180421_17:50:06 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:50:06 Succeeded  to Connect to  MySQL-
+20180421_17:50:06 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:50:07 Succeeded  to Connect to  MySQL-
+20180421_17:50:07 SELECT DISTINCT(category) from products
+20180421_17:50:07 Succeeded  to Connect to  MySQL-
+20180421_17:50:07 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:50:07 Succeeded  to Connect to  MySQL-
+20180421_17:50:07 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:51:37 Succeeded  to Connect to  MySQL-
+20180421_17:51:37 SELECT DISTINCT(category) from products
+20180421_17:51:37 Succeeded  to Connect to  MySQL-
+20180421_17:51:37 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:51:37 Succeeded  to Connect to  MySQL-
+20180421_17:51:37 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:52:57 Succeeded  to Connect to  MySQL-
+20180421_17:52:57 SELECT DISTINCT(category) from products
+20180421_17:52:57 Succeeded  to Connect to  MySQL-
+20180421_17:52:57 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:52:57 Succeeded  to Connect to  MySQL-
+20180421_17:52:57 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:52:57 images/Bakery/.
+20180421_17:52:57 images/Bakery/.
+20180421_17:52:57 images/Bakery/.
+20180421_17:52:57 images/Bakery/.
+20180421_17:52:57 images/Bakery/.
+20180421_17:52:57 images/Bakery/.
+20180421_17:52:57 images/Bakery/.
+20180421_17:52:57 images/Bakery/.
+20180421_17:52:57 images/Bakery/.
+20180421_17:52:57 images/Bakery/.
+20180421_17:52:57 images/Bakery/.
+20180421_17:54:22 Succeeded  to Connect to  MySQL-
+20180421_17:54:22 SELECT DISTINCT(category) from products
+20180421_17:54:22 Succeeded  to Connect to  MySQL-
+20180421_17:54:22 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:54:22 Succeeded  to Connect to  MySQL-
+20180421_17:54:22 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:54:22 images/Bakery/.
+20180421_17:54:22 images/Bakery/.
+20180421_17:54:22 images/Bakery/.
+20180421_17:54:22 images/Bakery/.
+20180421_17:54:22 images/Bakery/.
+20180421_17:54:22 images/Bakery/.
+20180421_17:54:22 images/Bakery/.
+20180421_17:54:22 images/Bakery/.
+20180421_17:54:22 images/Bakery/.
+20180421_17:54:22 images/Bakery/.
+20180421_17:54:22 images/Bakery/.
+20180421_17:55:31 Succeeded  to Connect to  MySQL-
+20180421_17:55:31 SELECT DISTINCT(category) from products
+20180421_17:55:31 Succeeded  to Connect to  MySQL-
+20180421_17:55:31 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:55:31 Succeeded  to Connect to  MySQL-
+20180421_17:55:31 SELECT * from products WHERE category='Bakery'
+20180421_17:55:31 images/Bakery/B0003.jpg
+20180421_17:55:31 images/Bakery/B0002.jpg
+20180421_17:55:31 images/Bakery/B0001.jpg
+20180421_17:55:31 images/Bakery/B0004.jpg
+20180421_17:55:31 images/Bakery/B0005.jpg
+20180421_17:55:31 images/Bakery/B0006.jpg
+20180421_17:55:31 images/Bakery/B0007.jpg
+20180421_17:55:31 images/Bakery/B0008.jpg
+20180421_17:55:31 images/Bakery/B0009.jpg
+20180421_17:55:31 images/Bakery/B0010.jpg
+20180421_17:55:31 images/Bakery/B0011.jpg
+20180421_17:55:31 images/Bakery/B0012.jpg
+20180421_17:55:31 images/Bakery/B0013.jpg
+20180421_17:55:31 images/Bakery/B0014.jpg
+20180421_17:55:31 images/Bakery/B0015.jpg
+20180421_17:55:31 images/Bakery/B0016.jpg
+20180421_17:55:31 images/Bakery/B0019.jpg
+20180421_17:55:31 images/Bakery/B0020.jpg
+20180421_17:55:31 images/Bakery/B0017.jpg
+20180421_17:55:31 images/Bakery/B0018.jpg
+20180421_17:57:11 Succeeded  to Connect to  MySQL-
+20180421_17:57:11 SELECT DISTINCT(category) from products
+20180421_17:57:11 Succeeded  to Connect to  MySQL-
+20180421_17:57:11 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:57:11 Succeeded  to Connect to  MySQL-
+20180421_17:57:11 SELECT * from products WHERE category='Bakery'
+20180421_17:57:11 images/Bakery/B0003.jpg
+20180421_17:57:11 images/Bakery/B0002.jpg
+20180421_17:57:11 images/Bakery/B0001.jpg
+20180421_17:57:11 images/Bakery/B0004.jpg
+20180421_17:57:11 images/Bakery/B0005.jpg
+20180421_17:57:11 images/Bakery/B0006.jpg
+20180421_17:57:11 images/Bakery/B0007.jpg
+20180421_17:57:11 images/Bakery/B0008.jpg
+20180421_17:57:11 images/Bakery/B0009.jpg
+20180421_17:57:11 images/Bakery/B0010.jpg
+20180421_17:57:11 images/Bakery/B0011.jpg
+20180421_17:57:11 images/Bakery/B0012.jpg
+20180421_17:57:11 images/Bakery/B0013.jpg
+20180421_17:57:11 images/Bakery/B0014.jpg
+20180421_17:57:11 images/Bakery/B0015.jpg
+20180421_17:57:11 images/Bakery/B0016.jpg
+20180421_17:57:11 images/Bakery/B0019.jpg
+20180421_17:57:11 images/Bakery/B0020.jpg
+20180421_17:57:11 images/Bakery/B0017.jpg
+20180421_17:57:11 images/Bakery/B0018.jpg
+20180421_17:57:35 Succeeded  to Connect to  MySQL-
+20180421_17:57:35 SELECT DISTINCT(category) from products
+20180421_17:57:35 Succeeded  to Connect to  MySQL-
+20180421_17:57:35 SELECT DISTINCT(brand) from products WHERE category='Bakery'
+20180421_17:57:35 Succeeded  to Connect to  MySQL-
+20180421_17:57:35 SELECT * from products WHERE category='Bakery'
+20180421_17:57:35 images/Bakery/B0003.jpg
+20180421_17:57:35 images/Bakery/B0002.jpg
+20180421_17:57:35 images/Bakery/B0001.jpg
+20180421_17:57:35 images/Bakery/B0004.jpg
+20180421_17:57:35 images/Bakery/B0005.jpg
+20180421_17:57:35 images/Bakery/B0006.jpg
+20180421_17:57:35 images/Bakery/B0007.jpg
+20180421_17:57:35 images/Bakery/B0008.jpg
+20180421_17:57:35 images/Bakery/B0009.jpg
+20180421_17:57:35 images/Bakery/B0010.jpg
+20180421_17:57:35 images/Bakery/B0011.jpg
+20180421_17:57:35 images/Bakery/B0012.jpg
+20180421_17:57:35 images/Bakery/B0013.jpg
+20180421_17:57:35 images/Bakery/B0014.jpg
+20180421_17:57:35 images/Bakery/B0015.jpg
+20180421_17:57:35 images/Bakery/B0016.jpg
+20180421_17:57:35 images/Bakery/B0019.jpg
+20180421_17:57:35 images/Bakery/B0020.jpg
+20180421_17:57:35 images/Bakery/B0017.jpg
+20180421_17:57:35 images/Bakery/B0018.jpg
+>>>>>>> f71a7f3ffc2ad06edc9193b128e9c84667fc1b7c

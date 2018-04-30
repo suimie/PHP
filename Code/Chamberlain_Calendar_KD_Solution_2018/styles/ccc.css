@@ -1,0 +1,118 @@
+/*
+
+   Filename: ccc.css
+
+   This file contains styles used in the ccc.htm file
+*/ 
+
+#container {
+    width:80%;
+    margin:0 auto;
+}
+body {
+    /*margin: 0; */
+    background: white url(../images/back.jpg) repeat-y scroll 725px 0;
+
+}
+
+#head {
+    /*width: 700px; */
+    height: 150px; 
+    padding: 5px;
+
+}
+
+#links {
+    clear: right; 
+    width: 700px; 
+    padding: 0;
+
+}
+
+#links table {
+   /* width: 700px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt; 
+    margin: 0;
+
+}
+
+#links table td {
+    text-align: center; 
+    background-color: white;
+    border: 1px solid black; 
+    letter-spacing: 5px; 
+    padding: 2px;
+
+}
+
+#links table a {
+    text-decoration: none; 
+    color: orange; 
+    width: 100%;
+
+}
+
+#links table a:hover {
+    color: white; 
+    background-color: orange;
+
+}
+
+#main {
+    /*width: 700px; */
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 10px;
+
+}
+
+#main p {
+    text-align: justify; 
+    font-size: 9pt;
+
+}
+
+#firstp:first-line {
+    font-variant: small-caps;
+
+}
+
+#main img {
+    float: right; 
+    margin: 0 0 10px 10px;
+
+}
+
+
+#main p span {
+    color: orange;
+
+}
+
+address {
+    /*width: 700px; */
+    font-size: 8pt; 
+    font-style: normal; 
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    border-top: 1px solid orange; 
+    padding-bottom: 10px;
+
+}
+
+#ccc {
+    max-width:50%;
+    width:auto;
+    height:auto;
+}
+
+#firstWord {
+    float:left;
+    color:orange;
+    vertical-align:text-top;
+font-size:1.5em;
+    font-weight:bold;
+    padding: 2px;
+
+}

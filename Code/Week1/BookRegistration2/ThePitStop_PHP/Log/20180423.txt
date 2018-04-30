@@ -1,0 +1,2531 @@
+20180423_01:21:39 Succeeded  to Connect to  MySQL-
+20180423_01:21:39 C:\xampp\htdocs\ThePitStop_PHP\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_01:21:39 Succeeded  to Connect to  MySQL-
+20180423_01:21:39 C:\xampp\htdocs\ThePitStop_PHP\database.php:110CTG0001
+20180423_01:21:39 C:\xampp\htdocs\ThePitStop_PHP\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_01:22:05 Succeeded  to Connect to  MySQL-
+20180423_01:22:05 C:\xampp\htdocs\ThePitStop_PHP\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_01:22:05 Succeeded  to Connect to  MySQL-
+20180423_01:22:05 C:\xampp\htdocs\ThePitStop_PHP\database.php:110CTG0001
+20180423_01:22:05 C:\xampp\htdocs\ThePitStop_PHP\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_01:22:05 Succeeded  to Connect to  MySQL-
+20180423_01:22:05 C:\xampp\htdocs\ThePitStop_PHP\database.php:157CTG0001
+20180423_01:22:05 C:\xampp\htdocs\ThePitStop_PHP\database.php:175categoryId = 'CTG0001'
+20180423_01:22:05 C:\xampp\htdocs\ThePitStop_PHP\database.php:176
+20180423_01:22:05 C:\xampp\htdocs\ThePitStop_PHP\database.php:183categoryId = 'CTG0001'
+20180423_01:22:05 C:\xampp\htdocs\ThePitStop_PHP\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_01:22:05 images/CTG0001/B0003.jpg
+20180423_01:22:05 images/CTG0001/B0002.jpg
+20180423_01:22:05 images/CTG0001/B0001.jpg
+20180423_01:22:05 images/CTG0001/B0004.jpg
+20180423_01:22:05 images/CTG0001/B0005.jpg
+20180423_01:22:05 images/CTG0001/B0006.jpg
+20180423_01:22:05 images/CTG0001/B0007.jpg
+20180423_01:22:05 images/CTG0001/B0008.jpg
+20180423_01:22:05 images/CTG0001/B0009.jpg
+20180423_01:22:42 Succeeded  to Connect to  MySQL-
+20180423_01:22:42 C:\xampp\htdocs\ThePitStop_PHP\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_01:22:42 Succeeded  to Connect to  MySQL-
+20180423_01:22:42 C:\xampp\htdocs\ThePitStop_PHP\database.php:110CTG0001
+20180423_01:22:42 C:\xampp\htdocs\ThePitStop_PHP\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_01:22:42 Succeeded  to Connect to  MySQL-
+20180423_01:22:42 C:\xampp\htdocs\ThePitStop_PHP\database.php:157CTG0001
+20180423_01:22:42 C:\xampp\htdocs\ThePitStop_PHP\database.php:175categoryId = 'CTG0001'
+20180423_01:22:42 C:\xampp\htdocs\ThePitStop_PHP\database.php:176
+20180423_01:22:42 C:\xampp\htdocs\ThePitStop_PHP\database.php:183categoryId = 'CTG0001'
+20180423_01:22:42 C:\xampp\htdocs\ThePitStop_PHP\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_01:22:42 images/CTG0001/B0003.jpg
+20180423_01:22:42 images/CTG0001/B0002.jpg
+20180423_01:22:42 images/CTG0001/B0001.jpg
+20180423_01:22:42 images/CTG0001/B0004.jpg
+20180423_01:22:42 images/CTG0001/B0005.jpg
+20180423_01:22:42 images/CTG0001/B0006.jpg
+20180423_01:22:42 images/CTG0001/B0007.jpg
+20180423_01:22:42 images/CTG0001/B0008.jpg
+20180423_01:22:42 images/CTG0001/B0009.jpg
+20180423_01:22:57 Succeeded  to Connect to  MySQL-
+20180423_01:22:57 C:\xampp\htdocs\ThePitStop_PHP\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_01:22:57 Succeeded  to Connect to  MySQL-
+20180423_01:22:57 C:\xampp\htdocs\ThePitStop_PHP\database.php:110CTG0001
+20180423_01:22:57 C:\xampp\htdocs\ThePitStop_PHP\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_01:22:57 Succeeded  to Connect to  MySQL-
+20180423_01:22:57 C:\xampp\htdocs\ThePitStop_PHP\database.php:157CTG0001
+20180423_01:22:57 C:\xampp\htdocs\ThePitStop_PHP\database.php:175categoryId = 'CTG0001'
+20180423_01:22:57 C:\xampp\htdocs\ThePitStop_PHP\database.php:176
+20180423_01:22:57 C:\xampp\htdocs\ThePitStop_PHP\database.php:183categoryId = 'CTG0001'
+20180423_01:22:57 C:\xampp\htdocs\ThePitStop_PHP\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_01:22:57 images/CTG0001/B0003.jpg
+20180423_01:22:57 images/CTG0001/B0002.jpg
+20180423_01:22:57 images/CTG0001/B0001.jpg
+20180423_01:22:57 images/CTG0001/B0004.jpg
+20180423_01:22:57 images/CTG0001/B0005.jpg
+20180423_01:22:57 images/CTG0001/B0006.jpg
+20180423_01:22:57 images/CTG0001/B0007.jpg
+20180423_01:22:57 images/CTG0001/B0008.jpg
+20180423_01:22:57 images/CTG0001/B0009.jpg
+20180423_01:23:06 Succeeded  to Connect to  MySQL-
+20180423_01:23:06 C:\xampp\htdocs\ThePitStop_PHP\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_01:23:06 Succeeded  to Connect to  MySQL-
+20180423_01:23:06 C:\xampp\htdocs\ThePitStop_PHP\database.php:110CTG0001
+20180423_01:23:06 C:\xampp\htdocs\ThePitStop_PHP\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_01:23:06 Succeeded  to Connect to  MySQL-
+20180423_01:23:06 C:\xampp\htdocs\ThePitStop_PHP\database.php:157CTG0001
+20180423_01:23:06 C:\xampp\htdocs\ThePitStop_PHP\database.php:175categoryId = 'CTG0001'
+20180423_01:23:06 C:\xampp\htdocs\ThePitStop_PHP\database.php:176
+20180423_01:23:06 C:\xampp\htdocs\ThePitStop_PHP\database.php:183categoryId = 'CTG0001'
+20180423_01:23:06 C:\xampp\htdocs\ThePitStop_PHP\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_01:23:06 images/CTG0001/B0003.jpg
+20180423_01:23:06 images/CTG0001/B0002.jpg
+20180423_01:23:06 images/CTG0001/B0001.jpg
+20180423_01:23:06 images/CTG0001/B0004.jpg
+20180423_01:23:06 images/CTG0001/B0005.jpg
+20180423_01:23:06 images/CTG0001/B0006.jpg
+20180423_01:23:06 images/CTG0001/B0007.jpg
+20180423_01:23:06 images/CTG0001/B0008.jpg
+20180423_01:23:06 images/CTG0001/B0009.jpg
+20180423_01:24:38 Succeeded  to Connect to  MySQL-
+20180423_01:24:38 C:\xampp\htdocs\ThePitStop_PHP\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_01:24:38 Succeeded  to Connect to  MySQL-
+20180423_01:24:38 C:\xampp\htdocs\ThePitStop_PHP\database.php:110CTG0001
+20180423_01:24:38 C:\xampp\htdocs\ThePitStop_PHP\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_01:24:38 Succeeded  to Connect to  MySQL-
+20180423_01:24:38 C:\xampp\htdocs\ThePitStop_PHP\database.php:157CTG0001
+20180423_01:24:38 C:\xampp\htdocs\ThePitStop_PHP\database.php:175categoryId = 'CTG0001'
+20180423_01:24:38 C:\xampp\htdocs\ThePitStop_PHP\database.php:176
+20180423_01:24:38 C:\xampp\htdocs\ThePitStop_PHP\database.php:183categoryId = 'CTG0001'
+20180423_01:24:38 C:\xampp\htdocs\ThePitStop_PHP\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_01:24:38 images/CTG0001/B0003.jpg
+20180423_01:24:38 images/CTG0001/B0002.jpg
+20180423_01:24:38 images/CTG0001/B0001.jpg
+20180423_01:24:38 images/CTG0001/B0004.jpg
+20180423_01:24:38 images/CTG0001/B0005.jpg
+20180423_01:24:38 images/CTG0001/B0006.jpg
+20180423_01:24:38 images/CTG0001/B0007.jpg
+20180423_01:24:38 images/CTG0001/B0008.jpg
+20180423_01:24:38 images/CTG0001/B0009.jpg
+20180423_01:46:20 Succeeded  to Connect to  MySQL-
+20180423_01:46:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_01:46:20 Succeeded  to Connect to  MySQL-
+20180423_01:46:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_01:46:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_01:46:20 Succeeded  to Connect to  MySQL-
+20180423_01:46:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_01:46:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_01:46:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_01:46:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_01:46:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_01:46:20 images/CTG0001/B0003.jpg
+20180423_01:46:20 images/CTG0001/B0002.jpg
+20180423_01:46:20 images/CTG0001/B0001.jpg
+20180423_01:46:20 images/CTG0001/B0004.jpg
+20180423_01:46:20 images/CTG0001/B0005.jpg
+20180423_01:46:20 images/CTG0001/B0006.jpg
+20180423_01:46:20 images/CTG0001/B0007.jpg
+20180423_01:46:20 images/CTG0001/B0008.jpg
+20180423_01:46:20 images/CTG0001/B0009.jpg
+20180423_01:47:55 Succeeded  to Connect to  MySQL-
+20180423_01:47:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_01:47:55 Succeeded  to Connect to  MySQL-
+20180423_01:47:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_01:47:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_01:47:55 Succeeded  to Connect to  MySQL-
+20180423_01:47:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_01:47:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_01:47:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_01:47:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_01:47:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_01:47:55 images/CTG0001/B0003.jpg
+20180423_01:47:55 images/CTG0001/B0002.jpg
+20180423_01:47:55 images/CTG0001/B0001.jpg
+20180423_01:47:55 images/CTG0001/B0004.jpg
+20180423_01:47:55 images/CTG0001/B0005.jpg
+20180423_01:47:55 images/CTG0001/B0006.jpg
+20180423_01:47:55 images/CTG0001/B0007.jpg
+20180423_01:47:55 images/CTG0001/B0008.jpg
+20180423_01:47:55 images/CTG0001/B0009.jpg
+20180423_01:48:00 Succeeded  to Connect to  MySQL-
+20180423_01:48:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_01:48:00 Succeeded  to Connect to  MySQL-
+20180423_01:48:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_01:48:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0002
+20180423_01:48:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_01:48:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_01:48:00 Succeeded  to Connect to  MySQL-
+20180423_01:48:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_01:48:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_01:48:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_01:48:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0002
+20180423_01:48:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_01:48:00 images/CTG0001/B0003.jpg
+20180423_01:48:00 images/CTG0001/B0002.jpg
+20180423_01:48:00 images/CTG0001/B0001.jpg
+20180423_01:48:00 images/CTG0001/B0004.jpg
+20180423_01:48:00 images/CTG0001/B0005.jpg
+20180423_01:48:00 images/CTG0001/B0006.jpg
+20180423_01:48:00 images/CTG0001/B0007.jpg
+20180423_01:48:00 images/CTG0001/B0008.jpg
+20180423_01:48:00 images/CTG0001/B0009.jpg
+20180423_01:48:50 Succeeded  to Connect to  MySQL-
+20180423_01:48:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_01:48:50 Succeeded  to Connect to  MySQL-
+20180423_01:48:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_01:48:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0002
+20180423_01:48:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_01:48:50 Succeeded  to Connect to  MySQL-
+20180423_01:48:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_01:48:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0002
+20180423_01:48:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_01:48:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_01:48:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_01:48:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_01:48:50 images/CTG0001/B0010.jpg
+20180423_01:48:50 images/CTG0001/B0011.jpg
+20180423_01:48:50 images/CTG0001/B0012.jpg
+20180423_01:48:50 images/CTG0001/B0013.jpg
+20180423_01:48:50 images/CTG0001/B0014.jpg
+20180423_01:48:50 images/CTG0001/B0015.jpg
+20180423_01:48:50 images/CTG0001/B0016.jpg
+20180423_01:48:50 images/CTG0001/B0019.jpg
+20180423_01:48:50 images/CTG0001/B0020.jpg
+20180423_01:48:56 Succeeded  to Connect to  MySQL-
+20180423_01:48:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_01:48:56 Succeeded  to Connect to  MySQL-
+20180423_01:48:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_01:48:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0002
+20180423_01:48:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:168BR0001
+20180423_01:48:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_01:48:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176brandId = 'BR0001'
+20180423_01:48:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:179categoryId = 'CTG0001' OR categoryId = 'CTG0002', brandId = 'BR0001'
+20180423_01:48:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE (categoryId = 'CTG0001' OR categoryId = 'CTG0002') AND (brandId = 'BR0001')
+20180423_01:48:56 images/CTG0001/B0003.jpg
+20180423_01:48:56 images/CTG0001/B0015.jpg
+20180423_01:48:56 Succeeded  to Connect to  MySQL-
+20180423_01:48:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_01:48:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0002
+20180423_01:48:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_02:06:30 Succeeded  to Connect to  MySQL-
+20180423_02:06:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_02:06:30 Succeeded  to Connect to  MySQL-
+20180423_02:06:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_02:06:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_02:06:30 Succeeded  to Connect to  MySQL-
+20180423_02:06:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_02:06:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_02:06:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_02:06:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_02:06:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_02:06:30 images/CTG0001/B0003.jpg
+20180423_02:06:30 images/CTG0001/B0002.jpg
+20180423_02:06:30 images/CTG0001/B0001.jpg
+20180423_02:06:30 images/CTG0001/B0004.jpg
+20180423_02:06:30 images/CTG0001/B0005.jpg
+20180423_02:06:30 images/CTG0001/B0006.jpg
+20180423_02:06:30 images/CTG0001/B0007.jpg
+20180423_02:06:30 images/CTG0001/B0008.jpg
+20180423_02:06:30 images/CTG0001/B0009.jpg
+20180423_02:06:33 Succeeded  to Connect to  MySQL-
+20180423_02:06:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_02:06:33 Succeeded  to Connect to  MySQL-
+20180423_02:06:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_02:06:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0002
+20180423_02:06:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_02:06:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_02:06:33 Succeeded  to Connect to  MySQL-
+20180423_02:06:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_02:06:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_02:06:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_02:06:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0002
+20180423_02:06:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_02:06:33 images/CTG0001/B0003.jpg
+20180423_02:06:33 images/CTG0001/B0002.jpg
+20180423_02:06:33 images/CTG0001/B0001.jpg
+20180423_02:06:33 images/CTG0001/B0004.jpg
+20180423_02:06:33 images/CTG0001/B0005.jpg
+20180423_02:06:33 images/CTG0001/B0006.jpg
+20180423_02:06:33 images/CTG0001/B0007.jpg
+20180423_02:06:33 images/CTG0001/B0008.jpg
+20180423_02:06:33 images/CTG0001/B0009.jpg
+20180423_02:36:20 Succeeded  to Connect to  MySQL-Access denied for user 'root'@'localhost' (using password: YES)
+20180423_02:36:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_02:36:20 Succeeded  to Connect to  MySQL-Access denied for user 'root'@'localhost' (using password: YES)
+20180423_02:36:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_02:36:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_02:36:20 Succeeded  to Connect to  MySQL-Access denied for user 'root'@'localhost' (using password: YES)
+20180423_02:36:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_02:36:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_02:36:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_02:36:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_02:36:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_02:37:25 Succeeded  to Connect to  MySQL-
+20180423_02:37:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_02:37:25 Succeeded  to Connect to  MySQL-
+20180423_02:37:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_02:37:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_02:37:25 Succeeded  to Connect to  MySQL-
+20180423_02:37:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_02:37:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_02:37:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_02:37:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_02:37:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_02:37:25 images/CTG0001/B0003.jpg
+20180423_02:37:25 images/CTG0001/B0002.jpg
+20180423_02:37:25 images/CTG0001/B0001.jpg
+20180423_02:37:25 images/CTG0001/B0004.jpg
+20180423_02:37:25 images/CTG0001/B0005.jpg
+20180423_02:37:25 images/CTG0001/B0006.jpg
+20180423_02:37:25 images/CTG0001/B0007.jpg
+20180423_02:37:25 images/CTG0001/B0008.jpg
+20180423_02:37:25 images/CTG0001/B0009.jpg
+20180423_02:37:33 Succeeded  to Connect to  MySQL-
+20180423_02:37:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_02:37:33 Succeeded  to Connect to  MySQL-
+20180423_02:37:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_02:37:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_02:37:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_02:37:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_02:37:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_02:37:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_02:37:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_02:37:33 images/CTG0001/B0003.jpg
+20180423_02:37:33 images/CTG0001/B0002.jpg
+20180423_02:37:33 images/CTG0001/B0001.jpg
+20180423_02:37:33 images/CTG0001/B0004.jpg
+20180423_02:37:33 images/CTG0001/B0005.jpg
+20180423_02:37:33 images/CTG0001/B0006.jpg
+20180423_02:37:33 images/CTG0001/B0007.jpg
+20180423_02:37:33 images/CTG0001/B0008.jpg
+20180423_02:37:33 images/CTG0001/B0009.jpg
+20180423_02:37:38 Succeeded  to Connect to  MySQL-
+20180423_02:37:38 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_02:37:38 Succeeded  to Connect to  MySQL-
+20180423_02:37:38 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_02:37:38 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_02:37:38 Succeeded  to Connect to  MySQL-
+20180423_02:37:38 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_02:37:38 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_02:37:38 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_02:37:38 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_02:37:38 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_02:37:38 images/CTG0001/B0003.jpg
+20180423_02:37:38 images/CTG0001/B0002.jpg
+20180423_02:37:38 images/CTG0001/B0001.jpg
+20180423_02:37:38 images/CTG0001/B0004.jpg
+20180423_02:37:38 images/CTG0001/B0005.jpg
+20180423_02:37:38 images/CTG0001/B0006.jpg
+20180423_02:37:38 images/CTG0001/B0007.jpg
+20180423_02:37:38 images/CTG0001/B0008.jpg
+20180423_02:37:38 images/CTG0001/B0009.jpg
+20180423_02:37:45 Succeeded  to Connect to  MySQL-
+20180423_02:37:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_02:37:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_02:37:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:168BR0001
+20180423_02:37:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_02:37:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176brandId = 'BR0001'
+20180423_02:37:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:179categoryId = 'CTG0001', brandId = 'BR0001'
+20180423_02:37:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE (categoryId = 'CTG0001') AND (brandId = 'BR0001')
+20180423_02:37:45 Succeeded  to Connect to  MySQL-
+20180423_02:37:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_02:37:45 images/CTG0001/B0003.jpg
+20180423_02:37:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_02:37:45 images/CTG0001/B0015.jpg
+20180423_04:04:00 Succeeded  to Connect to  MySQL-
+20180423_04:04:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:04:00 Succeeded  to Connect to  MySQL-
+20180423_04:04:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:04:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:04:00 Succeeded  to Connect to  MySQL-
+20180423_04:04:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:04:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:04:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:04:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:04:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:04:00 images/CTG0001/B0003.jpg
+20180423_04:04:00 images/CTG0001/B0002.jpg
+20180423_04:04:00 images/CTG0001/B0001.jpg
+20180423_04:04:00 images/CTG0001/B0004.jpg
+20180423_04:04:00 images/CTG0001/B0005.jpg
+20180423_04:04:00 images/CTG0001/B0006.jpg
+20180423_04:04:00 images/CTG0001/B0007.jpg
+20180423_04:04:00 images/CTG0001/B0008.jpg
+20180423_04:04:00 images/CTG0001/B0009.jpg
+20180423_04:05:01 Succeeded  to Connect to  MySQL-
+20180423_04:05:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:05:01 Succeeded  to Connect to  MySQL-
+20180423_04:05:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:05:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:05:01 Succeeded  to Connect to  MySQL-
+20180423_04:05:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:05:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:05:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:05:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:05:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:05:01 images/CTG0001/B0003.jpg
+20180423_04:05:01 images/CTG0001/B0002.jpg
+20180423_04:05:01 images/CTG0001/B0001.jpg
+20180423_04:05:01 images/CTG0001/B0004.jpg
+20180423_04:05:01 images/CTG0001/B0005.jpg
+20180423_04:05:01 images/CTG0001/B0006.jpg
+20180423_04:05:01 images/CTG0001/B0007.jpg
+20180423_04:05:01 images/CTG0001/B0008.jpg
+20180423_04:05:01 images/CTG0001/B0009.jpg
+20180423_04:08:25 Succeeded  to Connect to  MySQL-
+20180423_04:08:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:08:25 Succeeded  to Connect to  MySQL-
+20180423_04:08:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:08:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:08:25 Succeeded  to Connect to  MySQL-
+20180423_04:08:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:08:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:08:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:08:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:08:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:08:25 images/CTG0001/B0003.jpg
+20180423_04:08:25 images/CTG0001/B0002.jpg
+20180423_04:08:25 images/CTG0001/B0001.jpg
+20180423_04:08:25 images/CTG0001/B0004.jpg
+20180423_04:08:25 images/CTG0001/B0005.jpg
+20180423_04:08:25 images/CTG0001/B0006.jpg
+20180423_04:08:25 images/CTG0001/B0007.jpg
+20180423_04:08:25 images/CTG0001/B0008.jpg
+20180423_04:08:25 images/CTG0001/B0009.jpg
+20180423_04:08:26 Succeeded  to Connect to  MySQL-
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:08:26 Succeeded  to Connect to  MySQL-
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:08:26 Succeeded  to Connect to  MySQL-
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:08:26 images/CTG0001/B0003.jpg
+20180423_04:08:26 images/CTG0001/B0002.jpg
+20180423_04:08:26 images/CTG0001/B0001.jpg
+20180423_04:08:26 images/CTG0001/B0004.jpg
+20180423_04:08:26 images/CTG0001/B0005.jpg
+20180423_04:08:26 images/CTG0001/B0006.jpg
+20180423_04:08:26 images/CTG0001/B0007.jpg
+20180423_04:08:26 images/CTG0001/B0008.jpg
+20180423_04:08:26 images/CTG0001/B0009.jpg
+20180423_04:08:26 Succeeded  to Connect to  MySQL-
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:08:26 Succeeded  to Connect to  MySQL-
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:08:26 Succeeded  to Connect to  MySQL-
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:08:26 images/CTG0001/B0003.jpg
+20180423_04:08:26 images/CTG0001/B0002.jpg
+20180423_04:08:26 images/CTG0001/B0001.jpg
+20180423_04:08:26 images/CTG0001/B0004.jpg
+20180423_04:08:26 images/CTG0001/B0005.jpg
+20180423_04:08:26 images/CTG0001/B0006.jpg
+20180423_04:08:26 images/CTG0001/B0007.jpg
+20180423_04:08:26 images/CTG0001/B0008.jpg
+20180423_04:08:26 images/CTG0001/B0009.jpg
+20180423_04:08:26 Succeeded  to Connect to  MySQL-
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:08:26 Succeeded  to Connect to  MySQL-
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:08:26 Succeeded  to Connect to  MySQL-
+20180423_04:08:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:08:27 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:08:27 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:08:27 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:08:27 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:08:27 images/CTG0001/B0003.jpg
+20180423_04:08:27 images/CTG0001/B0002.jpg
+20180423_04:08:27 images/CTG0001/B0001.jpg
+20180423_04:08:27 images/CTG0001/B0004.jpg
+20180423_04:08:27 images/CTG0001/B0005.jpg
+20180423_04:08:27 images/CTG0001/B0006.jpg
+20180423_04:08:27 images/CTG0001/B0007.jpg
+20180423_04:08:27 images/CTG0001/B0008.jpg
+20180423_04:08:27 images/CTG0001/B0009.jpg
+20180423_04:08:27 Succeeded  to Connect to  MySQL-
+20180423_04:08:27 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:08:27 Succeeded  to Connect to  MySQL-
+20180423_04:08:27 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:08:27 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:08:27 Succeeded  to Connect to  MySQL-
+20180423_04:08:27 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:08:27 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:08:27 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:08:27 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:08:27 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:08:27 images/CTG0001/B0003.jpg
+20180423_04:08:27 images/CTG0001/B0002.jpg
+20180423_04:08:27 images/CTG0001/B0001.jpg
+20180423_04:08:27 images/CTG0001/B0004.jpg
+20180423_04:08:27 images/CTG0001/B0005.jpg
+20180423_04:08:27 images/CTG0001/B0006.jpg
+20180423_04:08:27 images/CTG0001/B0007.jpg
+20180423_04:08:27 images/CTG0001/B0008.jpg
+20180423_04:08:27 images/CTG0001/B0009.jpg
+20180423_04:10:08 Succeeded  to Connect to  MySQL-
+20180423_04:10:08 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:10:08 Succeeded  to Connect to  MySQL-
+20180423_04:10:08 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:10:08 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:10:08 Succeeded  to Connect to  MySQL-
+20180423_04:10:08 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:10:08 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:10:08 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:10:08 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:10:08 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:10:08 images/CTG0001/B0003.jpg
+20180423_04:10:08 images/CTG0001/B0002.jpg
+20180423_04:10:08 images/CTG0001/B0001.jpg
+20180423_04:10:08 images/CTG0001/B0004.jpg
+20180423_04:10:08 images/CTG0001/B0005.jpg
+20180423_04:10:08 images/CTG0001/B0006.jpg
+20180423_04:10:08 images/CTG0001/B0007.jpg
+20180423_04:10:08 images/CTG0001/B0008.jpg
+20180423_04:10:08 images/CTG0001/B0009.jpg
+20180423_04:10:33 Succeeded  to Connect to  MySQL-
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:10:33 Succeeded  to Connect to  MySQL-
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:10:33 Succeeded  to Connect to  MySQL-
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:10:33 images/CTG0001/B0003.jpg
+20180423_04:10:33 images/CTG0001/B0002.jpg
+20180423_04:10:33 images/CTG0001/B0001.jpg
+20180423_04:10:33 images/CTG0001/B0004.jpg
+20180423_04:10:33 images/CTG0001/B0005.jpg
+20180423_04:10:33 images/CTG0001/B0006.jpg
+20180423_04:10:33 images/CTG0001/B0007.jpg
+20180423_04:10:33 images/CTG0001/B0008.jpg
+20180423_04:10:33 images/CTG0001/B0009.jpg
+20180423_04:10:33 Succeeded  to Connect to  MySQL-
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:10:33 Succeeded  to Connect to  MySQL-
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:10:33 Succeeded  to Connect to  MySQL-
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:10:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:10:33 images/CTG0001/B0003.jpg
+20180423_04:10:33 images/CTG0001/B0002.jpg
+20180423_04:10:33 images/CTG0001/B0001.jpg
+20180423_04:10:33 images/CTG0001/B0004.jpg
+20180423_04:10:33 images/CTG0001/B0005.jpg
+20180423_04:10:33 images/CTG0001/B0006.jpg
+20180423_04:10:33 images/CTG0001/B0007.jpg
+20180423_04:10:33 images/CTG0001/B0008.jpg
+20180423_04:10:33 images/CTG0001/B0009.jpg
+20180423_04:13:53 Succeeded  to Connect to  MySQL-
+20180423_04:13:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:13:53 Succeeded  to Connect to  MySQL-
+20180423_04:13:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:13:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:13:53 Succeeded  to Connect to  MySQL-
+20180423_04:13:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:13:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:13:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:13:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:13:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:13:53 images/CTG0001/B0003.jpg
+20180423_04:13:53 images/CTG0001/B0002.jpg
+20180423_04:13:53 images/CTG0001/B0001.jpg
+20180423_04:13:53 images/CTG0001/B0004.jpg
+20180423_04:13:53 images/CTG0001/B0005.jpg
+20180423_04:13:53 images/CTG0001/B0006.jpg
+20180423_04:13:53 images/CTG0001/B0007.jpg
+20180423_04:13:53 images/CTG0001/B0008.jpg
+20180423_04:13:53 images/CTG0001/B0009.jpg
+20180423_04:14:35 Succeeded  to Connect to  MySQL-
+20180423_04:14:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:14:35 Succeeded  to Connect to  MySQL-
+20180423_04:14:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:14:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:14:35 Succeeded  to Connect to  MySQL-
+20180423_04:14:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:14:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:14:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:14:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:14:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:14:35 images/CTG0001/B0003.jpg
+20180423_04:14:35 images/CTG0001/B0002.jpg
+20180423_04:14:35 images/CTG0001/B0001.jpg
+20180423_04:14:35 images/CTG0001/B0004.jpg
+20180423_04:14:35 images/CTG0001/B0005.jpg
+20180423_04:14:35 images/CTG0001/B0006.jpg
+20180423_04:14:35 images/CTG0001/B0007.jpg
+20180423_04:14:35 images/CTG0001/B0008.jpg
+20180423_04:14:35 images/CTG0001/B0009.jpg
+20180423_04:16:10 Succeeded  to Connect to  MySQL-
+20180423_04:16:10 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:16:10 Succeeded  to Connect to  MySQL-
+20180423_04:16:10 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:16:10 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:16:11 Succeeded  to Connect to  MySQL-
+20180423_04:16:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:16:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:16:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:16:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:16:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:16:11 images/CTG0001/B0003.jpg
+20180423_04:16:11 images/CTG0001/B0002.jpg
+20180423_04:16:11 images/CTG0001/B0001.jpg
+20180423_04:16:11 images/CTG0001/B0004.jpg
+20180423_04:16:11 images/CTG0001/B0005.jpg
+20180423_04:16:11 images/CTG0001/B0006.jpg
+20180423_04:16:11 images/CTG0001/B0007.jpg
+20180423_04:16:11 images/CTG0001/B0008.jpg
+20180423_04:16:11 images/CTG0001/B0009.jpg
+20180423_04:16:11 Succeeded  to Connect to  MySQL-
+20180423_04:16:11 images/CTG0001/B0003.jpg
+20180423_04:16:39 Succeeded  to Connect to  MySQL-
+20180423_04:16:39 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:16:39 Succeeded  to Connect to  MySQL-
+20180423_04:16:39 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_04:16:39 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_04:16:39 Succeeded  to Connect to  MySQL-
+20180423_04:16:39 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_04:16:39 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:16:39 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_04:16:39 images/CTG0001/B0003.jpg
+20180423_04:16:39 images/CTG0001/B0002.jpg
+20180423_04:16:39 images/CTG0001/B0001.jpg
+20180423_04:16:39 images/CTG0001/B0004.jpg
+20180423_04:16:39 images/CTG0001/B0005.jpg
+20180423_04:16:39 images/CTG0001/B0006.jpg
+20180423_04:16:39 images/CTG0001/B0007.jpg
+20180423_04:16:39 images/CTG0001/B0008.jpg
+20180423_04:16:39 images/CTG0001/B0009.jpg
+20180423_04:16:40 Succeeded  to Connect to  MySQL-
+20180423_04:16:40 images/CTG0001/B0003.jpg
+20180423_04:16:40 images/CTG0001/B0002.jpg
+20180423_04:16:50 Succeeded  to Connect to  MySQL-
+20180423_04:16:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:16:50 Succeeded  to Connect to  MySQL-
+20180423_04:16:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_04:16:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_04:16:50 Succeeded  to Connect to  MySQL-
+20180423_04:16:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_04:16:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:16:50 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_04:16:50 images/CTG0001/B0003.jpg
+20180423_04:16:50 images/CTG0001/B0002.jpg
+20180423_04:16:50 images/CTG0001/B0001.jpg
+20180423_04:16:50 images/CTG0001/B0004.jpg
+20180423_04:16:50 images/CTG0001/B0005.jpg
+20180423_04:16:50 images/CTG0001/B0006.jpg
+20180423_04:16:50 images/CTG0001/B0007.jpg
+20180423_04:16:50 images/CTG0001/B0008.jpg
+20180423_04:16:50 images/CTG0001/B0009.jpg
+20180423_04:16:51 Succeeded  to Connect to  MySQL-
+20180423_04:16:51 images/CTG0001/B0003.jpg
+20180423_04:16:51 images/CTG0001/B0002.jpg
+20180423_04:16:51 images/CTG0001/B0001.jpg
+20180423_04:18:06 Succeeded  to Connect to  MySQL-
+20180423_04:18:06 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:18:06 Succeeded  to Connect to  MySQL-
+20180423_04:18:06 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_04:18:06 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_04:18:06 Succeeded  to Connect to  MySQL-
+20180423_04:18:06 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_04:18:06 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:18:06 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_04:18:06 images/CTG0001/B0003.jpg
+20180423_04:18:06 images/CTG0001/B0002.jpg
+20180423_04:18:06 images/CTG0001/B0001.jpg
+20180423_04:18:06 images/CTG0001/B0004.jpg
+20180423_04:18:06 images/CTG0001/B0005.jpg
+20180423_04:18:06 images/CTG0001/B0006.jpg
+20180423_04:18:06 images/CTG0001/B0007.jpg
+20180423_04:18:06 images/CTG0001/B0008.jpg
+20180423_04:18:06 images/CTG0001/B0009.jpg
+20180423_04:18:08 Succeeded  to Connect to  MySQL-
+20180423_04:18:08 images/CTG0001/B0003.jpg
+20180423_04:18:08 images/CTG0001/B0002.jpg
+20180423_04:18:08 images/CTG0001/B0001.jpg
+20180423_04:18:08 images/CTG0001/B0004.jpg
+20180423_04:21:37 Succeeded  to Connect to  MySQL-
+20180423_04:21:37 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:21:37 Succeeded  to Connect to  MySQL-
+20180423_04:21:37 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_04:21:37 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_04:21:37 Succeeded  to Connect to  MySQL-
+20180423_04:21:37 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_04:21:37 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:21:37 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_04:21:37 images/CTG0001/B0003.jpg
+20180423_04:21:37 images/CTG0001/B0002.jpg
+20180423_04:21:37 images/CTG0001/B0001.jpg
+20180423_04:21:37 images/CTG0001/B0004.jpg
+20180423_04:21:37 images/CTG0001/B0005.jpg
+20180423_04:21:37 images/CTG0001/B0006.jpg
+20180423_04:21:37 images/CTG0001/B0007.jpg
+20180423_04:21:37 images/CTG0001/B0008.jpg
+20180423_04:21:37 images/CTG0001/B0009.jpg
+20180423_04:21:41 Succeeded  to Connect to  MySQL-
+20180423_04:21:41 images/CTG0001/B0003.jpg
+20180423_04:21:41 images/CTG0001/B0002.jpg
+20180423_04:21:41 images/CTG0001/B0001.jpg
+20180423_04:21:41 images/CTG0001/B0004.jpg
+20180423_04:21:44 Succeeded  to Connect to  MySQL-
+20180423_04:21:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:21:44 Succeeded  to Connect to  MySQL-
+20180423_04:21:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_04:21:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_04:21:44 Succeeded  to Connect to  MySQL-
+20180423_04:21:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_04:21:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:21:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_04:21:44 images/CTG0001/B0003.jpg
+20180423_04:21:44 images/CTG0001/B0002.jpg
+20180423_04:21:44 images/CTG0001/B0001.jpg
+20180423_04:21:44 images/CTG0001/B0004.jpg
+20180423_04:21:44 images/CTG0001/B0005.jpg
+20180423_04:21:44 images/CTG0001/B0006.jpg
+20180423_04:21:44 images/CTG0001/B0007.jpg
+20180423_04:21:44 images/CTG0001/B0008.jpg
+20180423_04:21:44 images/CTG0001/B0009.jpg
+20180423_04:21:53 Succeeded  to Connect to  MySQL-
+20180423_04:21:53 images/CTG0001/B0003.jpg
+20180423_04:21:53 images/CTG0001/B0002.jpg
+20180423_04:21:53 images/CTG0001/B0001.jpg
+20180423_04:21:53 images/CTG0001/B0004.jpg
+20180423_04:21:53 images/CTG0001/B0005.jpg
+20180423_04:22:01 Succeeded  to Connect to  MySQL-
+20180423_04:22:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:22:01 Succeeded  to Connect to  MySQL-
+20180423_04:22:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_04:22:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_04:22:01 Succeeded  to Connect to  MySQL-
+20180423_04:22:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_04:22:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:22:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_04:22:01 images/CTG0001/B0003.jpg
+20180423_04:22:01 images/CTG0001/B0002.jpg
+20180423_04:22:01 images/CTG0001/B0001.jpg
+20180423_04:22:01 images/CTG0001/B0004.jpg
+20180423_04:22:01 images/CTG0001/B0005.jpg
+20180423_04:22:01 images/CTG0001/B0006.jpg
+20180423_04:22:01 images/CTG0001/B0007.jpg
+20180423_04:22:01 images/CTG0001/B0008.jpg
+20180423_04:22:01 images/CTG0001/B0009.jpg
+20180423_04:22:09 Succeeded  to Connect to  MySQL-
+20180423_04:22:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:22:09 Succeeded  to Connect to  MySQL-
+20180423_04:22:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:22:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:22:09 Succeeded  to Connect to  MySQL-
+20180423_04:22:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:22:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:22:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:22:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:22:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:22:09 images/CTG0001/B0003.jpg
+20180423_04:22:09 images/CTG0001/B0002.jpg
+20180423_04:22:09 images/CTG0001/B0001.jpg
+20180423_04:22:09 images/CTG0001/B0004.jpg
+20180423_04:22:09 images/CTG0001/B0005.jpg
+20180423_04:22:09 images/CTG0001/B0006.jpg
+20180423_04:22:09 images/CTG0001/B0007.jpg
+20180423_04:22:09 images/CTG0001/B0008.jpg
+20180423_04:22:09 images/CTG0001/B0009.jpg
+20180423_04:22:11 Succeeded  to Connect to  MySQL-
+20180423_04:22:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:22:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:22:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0002
+20180423_04:22:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_04:22:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:22:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_04:22:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_04:22:11 Succeeded  to Connect to  MySQL-
+20180423_04:22:11 images/CTG0001/B0003.jpg
+20180423_04:22:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:22:11 images/CTG0001/B0002.jpg
+20180423_04:22:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0002
+20180423_04:22:11 images/CTG0001/B0001.jpg
+20180423_04:22:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001' OR categoryId = 'CTG0002'
+20180423_04:22:11 images/CTG0001/B0004.jpg
+20180423_04:22:11 images/CTG0001/B0005.jpg
+20180423_04:22:11 images/CTG0001/B0006.jpg
+20180423_04:22:11 images/CTG0001/B0007.jpg
+20180423_04:22:11 images/CTG0001/B0008.jpg
+20180423_04:22:11 images/CTG0001/B0009.jpg
+20180423_04:22:24 Succeeded  to Connect to  MySQL-
+20180423_04:22:24 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:22:24 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:22:24 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:22:24 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:22:24 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:22:24 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:22:24 Succeeded  to Connect to  MySQL-
+20180423_04:22:24 images/CTG0001/B0003.jpg
+20180423_04:22:24 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:22:24 images/CTG0001/B0002.jpg
+20180423_04:22:24 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:22:24 images/CTG0001/B0001.jpg
+20180423_04:22:24 images/CTG0001/B0004.jpg
+20180423_04:22:24 images/CTG0001/B0005.jpg
+20180423_04:22:24 images/CTG0001/B0006.jpg
+20180423_04:22:24 images/CTG0001/B0007.jpg
+20180423_04:22:24 images/CTG0001/B0008.jpg
+20180423_04:22:24 images/CTG0001/B0009.jpg
+20180423_04:22:29 Succeeded  to Connect to  MySQL-
+20180423_04:22:29 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:22:29 Succeeded  to Connect to  MySQL-
+20180423_04:22:29 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:22:29 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:22:29 Succeeded  to Connect to  MySQL-
+20180423_04:22:29 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:22:29 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:22:29 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:22:29 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:22:29 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:22:29 images/CTG0001/B0010.jpg
+20180423_04:22:29 images/CTG0001/B0011.jpg
+20180423_04:22:29 images/CTG0001/B0012.jpg
+20180423_04:22:29 images/CTG0001/B0013.jpg
+20180423_04:22:29 images/CTG0001/B0014.jpg
+20180423_04:22:29 images/CTG0001/B0015.jpg
+20180423_04:22:29 images/CTG0001/B0016.jpg
+20180423_04:22:29 images/CTG0001/B0019.jpg
+20180423_04:22:29 images/CTG0001/B0020.jpg
+20180423_04:22:31 Succeeded  to Connect to  MySQL-
+20180423_04:22:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:22:31 Succeeded  to Connect to  MySQL-
+20180423_04:22:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:22:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:22:31 Succeeded  to Connect to  MySQL-
+20180423_04:22:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:22:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:22:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:22:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:22:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:22:31 images/CTG0001/B0017.jpg
+20180423_04:22:31 images/CTG0001/B0018.jpg
+20180423_04:22:33 Succeeded  to Connect to  MySQL-
+20180423_04:22:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:22:33 Succeeded  to Connect to  MySQL-
+20180423_04:22:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110CTG0001
+20180423_04:22:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_04:22:33 Succeeded  to Connect to  MySQL-
+20180423_04:22:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_04:22:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_04:22:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:22:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_04:22:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_04:22:33 images/CTG0001/B0010.jpg
+20180423_04:22:33 images/CTG0001/B0011.jpg
+20180423_04:22:33 images/CTG0001/B0012.jpg
+20180423_04:22:33 images/CTG0001/B0013.jpg
+20180423_04:22:33 images/CTG0001/B0014.jpg
+20180423_04:22:33 images/CTG0001/B0015.jpg
+20180423_04:22:33 images/CTG0001/B0016.jpg
+20180423_04:22:33 images/CTG0001/B0019.jpg
+20180423_04:22:33 images/CTG0001/B0020.jpg
+20180423_04:23:26 Succeeded  to Connect to  MySQL-
+20180423_04:23:26 images/CTG0001/B0003.jpg
+20180423_04:23:26 images/CTG0001/B0002.jpg
+20180423_04:23:26 images/CTG0001/B0001.jpg
+20180423_04:23:26 images/CTG0001/B0004.jpg
+20180423_04:23:26 images/CTG0001/B0005.jpg
+20180423_04:23:26 images/CTG0001/B0010.jpg
+20180423_04:28:19 Succeeded  to Connect to  MySQL-
+20180423_04:28:19 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:28:19 Succeeded  to Connect to  MySQL-
+20180423_04:28:19 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_04:28:19 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_04:28:19 Succeeded  to Connect to  MySQL-
+20180423_04:28:19 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_04:28:19 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:28:19 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_04:28:19 images/CTG0001/B0003.jpg
+20180423_04:28:19 images/CTG0001/B0002.jpg
+20180423_04:28:19 images/CTG0001/B0001.jpg
+20180423_04:28:19 images/CTG0001/B0004.jpg
+20180423_04:28:19 images/CTG0001/B0005.jpg
+20180423_04:28:19 images/CTG0001/B0006.jpg
+20180423_04:28:19 images/CTG0001/B0007.jpg
+20180423_04:28:19 images/CTG0001/B0008.jpg
+20180423_04:28:19 images/CTG0001/B0009.jpg
+20180423_04:28:20 Succeeded  to Connect to  MySQL-
+20180423_04:28:20 images/CTG0001/B0003.jpg
+20180423_04:28:20 images/CTG0001/B0002.jpg
+20180423_04:28:20 images/CTG0001/B0001.jpg
+20180423_04:28:20 images/CTG0001/B0004.jpg
+20180423_04:28:20 images/CTG0001/B0005.jpg
+20180423_04:28:20 images/CTG0001/B0010.jpg
+20180423_04:28:30 Succeeded  to Connect to  MySQL-
+20180423_04:28:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_04:28:30 Succeeded  to Connect to  MySQL-
+20180423_04:28:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_04:28:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_04:28:30 Succeeded  to Connect to  MySQL-
+20180423_04:28:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_04:28:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_04:28:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_04:28:30 images/CTG0001/B0003.jpg
+20180423_04:28:30 images/CTG0001/B0002.jpg
+20180423_04:28:30 images/CTG0001/B0001.jpg
+20180423_04:28:30 images/CTG0001/B0004.jpg
+20180423_04:28:30 images/CTG0001/B0005.jpg
+20180423_04:28:30 images/CTG0001/B0006.jpg
+20180423_04:28:30 images/CTG0001/B0007.jpg
+20180423_04:28:30 images/CTG0001/B0008.jpg
+20180423_04:28:30 images/CTG0001/B0009.jpg
+20180423_04:28:33 Succeeded  to Connect to  MySQL-
+20180423_04:28:33 images/CTG0001/B0003.jpg
+20180423_04:28:33 images/CTG0001/B0002.jpg
+20180423_04:28:33 images/CTG0001/B0001.jpg
+20180423_04:28:33 images/CTG0001/B0004.jpg
+20180423_04:28:33 images/CTG0001/B0005.jpg
+20180423_04:28:33 images/CTG0001/B0010.jpg
+20180423_04:38:49 Succeeded  to Connect to  MySQL-
+20180423_04:38:49 images/CTG0001/B0003.jpg
+20180423_04:38:49 images/CTG0001/B0002.jpg
+20180423_04:38:49 images/CTG0001/B0001.jpg
+20180423_04:38:49 images/CTG0001/B0004.jpg
+20180423_04:38:49 images/CTG0001/B0005.jpg
+20180423_04:38:49 images/CTG0001/B0010.jpg
+20180423_04:40:04 Succeeded  to Connect to  MySQL-
+20180423_04:40:04 images/CTG0001/B0003.jpg
+20180423_04:40:04 images/CTG0001/B0002.jpg
+20180423_04:40:04 images/CTG0001/B0001.jpg
+20180423_04:40:04 images/CTG0001/B0004.jpg
+20180423_04:40:04 images/CTG0001/B0005.jpg
+20180423_04:40:04 images/CTG0001/B0010.jpg
+20180423_04:41:50 Succeeded  to Connect to  MySQL-
+20180423_04:41:50 images/CTG0001/B0003.jpg
+20180423_04:41:50 images/CTG0001/B0002.jpg
+20180423_04:41:50 images/CTG0001/B0001.jpg
+20180423_04:41:50 images/CTG0001/B0004.jpg
+20180423_04:41:50 images/CTG0001/B0005.jpg
+20180423_04:41:50 images/CTG0001/B0010.jpg
+20180423_04:42:25 Succeeded  to Connect to  MySQL-
+20180423_04:42:25 images/CTG0001/B0003.jpg
+20180423_04:42:25 images/CTG0001/B0002.jpg
+20180423_04:42:25 images/CTG0001/B0001.jpg
+20180423_04:42:25 images/CTG0001/B0004.jpg
+20180423_04:42:25 images/CTG0001/B0005.jpg
+20180423_04:42:25 images/CTG0001/B0010.jpg
+20180423_04:42:38 Succeeded  to Connect to  MySQL-
+20180423_04:42:38 images/CTG0001/B0003.jpg
+20180423_04:42:38 images/CTG0001/B0002.jpg
+20180423_04:42:38 images/CTG0001/B0001.jpg
+20180423_04:42:38 images/CTG0001/B0004.jpg
+20180423_04:42:38 images/CTG0001/B0005.jpg
+20180423_04:42:38 images/CTG0001/B0010.jpg
+20180423_04:42:44 Succeeded  to Connect to  MySQL-
+20180423_04:42:44 images/CTG0001/B0003.jpg
+20180423_04:42:44 images/CTG0001/B0002.jpg
+20180423_04:42:44 images/CTG0001/B0001.jpg
+20180423_04:42:44 images/CTG0001/B0004.jpg
+20180423_04:42:44 images/CTG0001/B0005.jpg
+20180423_04:42:44 images/CTG0001/B0010.jpg
+20180423_04:46:55 Succeeded  to Connect to  MySQL-
+20180423_04:46:55 images/CTG0001/B0003.jpg
+20180423_04:46:55 images/CTG0001/B0002.jpg
+20180423_04:46:55 images/CTG0001/B0001.jpg
+20180423_04:46:55 images/CTG0001/B0004.jpg
+20180423_04:46:55 images/CTG0001/B0005.jpg
+20180423_04:46:55 images/CTG0001/B0010.jpg
+20180423_04:46:56 Succeeded  to Connect to  MySQL-
+20180423_04:46:56 images/CTG0001/B0003.jpg
+20180423_04:46:56 images/CTG0001/B0002.jpg
+20180423_04:46:56 images/CTG0001/B0001.jpg
+20180423_04:46:56 images/CTG0001/B0004.jpg
+20180423_04:46:56 images/CTG0001/B0005.jpg
+20180423_04:46:56 images/CTG0001/B0010.jpg
+20180423_04:47:22 Succeeded  to Connect to  MySQL-
+20180423_04:47:22 images/CTG0001/B0003.jpg
+20180423_04:47:22 images/CTG0001/B0002.jpg
+20180423_04:47:22 images/CTG0001/B0001.jpg
+20180423_04:47:22 images/CTG0001/B0004.jpg
+20180423_04:47:22 images/CTG0001/B0005.jpg
+20180423_04:47:22 images/CTG0001/B0010.jpg
+20180423_04:49:19 Succeeded  to Connect to  MySQL-
+20180423_04:49:19 images/CTG0001/B0003.jpg
+20180423_04:49:19 images/CTG0001/B0002.jpg
+20180423_04:49:19 images/CTG0001/B0001.jpg
+20180423_04:49:19 images/CTG0001/B0004.jpg
+20180423_04:49:19 images/CTG0001/B0005.jpg
+20180423_04:49:19 images/CTG0001/B0010.jpg
+20180423_04:51:29 Succeeded  to Connect to  MySQL-
+20180423_04:51:29 images/CTG0001/B0003.jpg
+20180423_04:51:29 images/CTG0001/B0002.jpg
+20180423_04:51:29 images/CTG0001/B0001.jpg
+20180423_04:51:29 images/CTG0001/B0004.jpg
+20180423_04:51:29 images/CTG0001/B0005.jpg
+20180423_04:51:29 images/CTG0001/B0010.jpg
+20180423_04:52:02 Succeeded  to Connect to  MySQL-
+20180423_04:52:02 images/CTG0001/B0003.jpg
+20180423_04:52:02 images/CTG0001/B0002.jpg
+20180423_04:52:02 images/CTG0001/B0001.jpg
+20180423_04:52:02 images/CTG0001/B0004.jpg
+20180423_04:52:02 images/CTG0001/B0005.jpg
+20180423_04:52:02 images/CTG0001/B0010.jpg
+20180423_04:52:23 Succeeded  to Connect to  MySQL-
+20180423_04:52:23 images/CTG0001/B0003.jpg
+20180423_04:52:23 images/CTG0001/B0002.jpg
+20180423_04:52:23 images/CTG0001/B0001.jpg
+20180423_04:52:23 images/CTG0001/B0004.jpg
+20180423_04:52:23 images/CTG0001/B0005.jpg
+20180423_04:52:23 images/CTG0001/B0010.jpg
+20180423_04:52:33 Succeeded  to Connect to  MySQL-
+20180423_04:52:33 images/CTG0001/B0003.jpg
+20180423_04:52:33 images/CTG0001/B0002.jpg
+20180423_04:52:33 images/CTG0001/B0001.jpg
+20180423_04:52:33 images/CTG0001/B0004.jpg
+20180423_04:52:33 images/CTG0001/B0005.jpg
+20180423_04:52:33 images/CTG0001/B0010.jpg
+20180423_04:52:42 Succeeded  to Connect to  MySQL-
+20180423_04:52:42 images/CTG0001/B0003.jpg
+20180423_04:52:42 images/CTG0001/B0002.jpg
+20180423_04:52:42 images/CTG0001/B0001.jpg
+20180423_04:52:42 images/CTG0001/B0004.jpg
+20180423_04:52:42 images/CTG0001/B0005.jpg
+20180423_04:52:42 images/CTG0001/B0010.jpg
+20180423_04:54:04 Succeeded  to Connect to  MySQL-
+20180423_04:54:04 images/CTG0001/B0003.jpg
+20180423_04:54:04 images/CTG0001/B0002.jpg
+20180423_04:54:04 images/CTG0001/B0001.jpg
+20180423_04:54:04 images/CTG0001/B0004.jpg
+20180423_04:54:04 images/CTG0001/B0005.jpg
+20180423_04:54:04 images/CTG0001/B0010.jpg
+20180423_04:55:14 Succeeded  to Connect to  MySQL-
+20180423_04:55:14 images/CTG0001/B0003.jpg
+20180423_04:55:14 images/CTG0001/B0002.jpg
+20180423_04:55:14 images/CTG0001/B0001.jpg
+20180423_04:55:14 images/CTG0001/B0004.jpg
+20180423_04:55:14 images/CTG0001/B0005.jpg
+20180423_04:55:14 images/CTG0001/B0010.jpg
+20180423_04:56:16 Succeeded  to Connect to  MySQL-
+20180423_04:56:16 images/CTG0001/B0003.jpg
+20180423_04:56:16 images/CTG0001/B0002.jpg
+20180423_04:56:16 images/CTG0001/B0001.jpg
+20180423_04:56:16 images/CTG0001/B0004.jpg
+20180423_04:56:16 images/CTG0001/B0005.jpg
+20180423_04:56:16 images/CTG0001/B0010.jpg
+20180423_04:56:41 Succeeded  to Connect to  MySQL-
+20180423_04:56:41 images/CTG0001/B0003.jpg
+20180423_04:56:41 images/CTG0001/B0002.jpg
+20180423_04:56:41 images/CTG0001/B0001.jpg
+20180423_04:56:41 images/CTG0001/B0004.jpg
+20180423_04:56:41 images/CTG0001/B0005.jpg
+20180423_04:56:41 images/CTG0001/B0010.jpg
+20180423_04:56:57 Succeeded  to Connect to  MySQL-
+20180423_04:56:57 images/CTG0001/B0003.jpg
+20180423_04:56:57 images/CTG0001/B0002.jpg
+20180423_04:56:57 images/CTG0001/B0001.jpg
+20180423_04:56:57 images/CTG0001/B0004.jpg
+20180423_04:56:57 images/CTG0001/B0005.jpg
+20180423_04:56:57 images/CTG0001/B0010.jpg
+20180423_04:57:14 Succeeded  to Connect to  MySQL-
+20180423_04:57:14 images/CTG0001/B0003.jpg
+20180423_04:57:14 images/CTG0001/B0002.jpg
+20180423_04:57:14 images/CTG0001/B0001.jpg
+20180423_04:57:14 images/CTG0001/B0004.jpg
+20180423_04:57:14 images/CTG0001/B0005.jpg
+20180423_04:57:14 images/CTG0001/B0010.jpg
+20180423_04:57:26 Succeeded  to Connect to  MySQL-
+20180423_04:57:26 images/CTG0001/B0003.jpg
+20180423_04:57:26 images/CTG0001/B0002.jpg
+20180423_04:57:26 images/CTG0001/B0001.jpg
+20180423_04:57:26 images/CTG0001/B0004.jpg
+20180423_04:57:26 images/CTG0001/B0005.jpg
+20180423_04:57:26 images/CTG0001/B0010.jpg
+20180423_05:00:09 Succeeded  to Connect to  MySQL-
+20180423_05:00:09 images/CTG0001/B0003.jpg
+20180423_05:00:09 images/CTG0001/B0002.jpg
+20180423_05:00:09 images/CTG0001/B0001.jpg
+20180423_05:00:09 images/CTG0001/B0004.jpg
+20180423_05:00:09 images/CTG0001/B0005.jpg
+20180423_05:00:09 images/CTG0001/B0010.jpg
+20180423_05:02:01 Succeeded  to Connect to  MySQL-
+20180423_05:02:01 images/CTG0001/B0003.jpg
+20180423_05:02:01 images/CTG0001/B0002.jpg
+20180423_05:02:01 images/CTG0001/B0001.jpg
+20180423_05:02:01 images/CTG0001/B0004.jpg
+20180423_05:02:01 images/CTG0001/B0005.jpg
+20180423_05:02:01 images/CTG0001/B0010.jpg
+20180423_05:02:21 Succeeded  to Connect to  MySQL-
+20180423_05:02:21 images/CTG0001/B0003.jpg
+20180423_05:02:21 images/CTG0001/B0002.jpg
+20180423_05:02:21 images/CTG0001/B0001.jpg
+20180423_05:02:21 images/CTG0001/B0004.jpg
+20180423_05:02:21 images/CTG0001/B0005.jpg
+20180423_05:02:21 images/CTG0001/B0010.jpg
+20180423_05:02:38 Succeeded  to Connect to  MySQL-
+20180423_05:02:38 images/CTG0001/B0003.jpg
+20180423_05:02:38 images/CTG0001/B0002.jpg
+20180423_05:02:38 images/CTG0001/B0001.jpg
+20180423_05:02:38 images/CTG0001/B0004.jpg
+20180423_05:02:38 images/CTG0001/B0005.jpg
+20180423_05:02:38 images/CTG0001/B0010.jpg
+20180423_05:03:03 Succeeded  to Connect to  MySQL-
+20180423_05:03:03 images/CTG0001/B0003.jpg
+20180423_05:03:03 images/CTG0001/B0002.jpg
+20180423_05:03:03 images/CTG0001/B0001.jpg
+20180423_05:03:03 images/CTG0001/B0004.jpg
+20180423_05:03:03 images/CTG0001/B0005.jpg
+20180423_05:03:03 images/CTG0001/B0010.jpg
+20180423_05:03:09 Succeeded  to Connect to  MySQL-
+20180423_05:03:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:03:09 Succeeded  to Connect to  MySQL-
+20180423_05:03:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:03:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:03:09 Succeeded  to Connect to  MySQL-
+20180423_05:03:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:03:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:03:09 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:03:09 images/CTG0001/B0003.jpg
+20180423_05:03:09 images/CTG0001/B0002.jpg
+20180423_05:03:09 images/CTG0001/B0001.jpg
+20180423_05:03:09 images/CTG0001/B0004.jpg
+20180423_05:03:09 images/CTG0001/B0005.jpg
+20180423_05:03:09 images/CTG0001/B0006.jpg
+20180423_05:03:09 images/CTG0001/B0007.jpg
+20180423_05:03:09 images/CTG0001/B0008.jpg
+20180423_05:03:09 images/CTG0001/B0009.jpg
+20180423_05:03:10 Succeeded  to Connect to  MySQL-
+20180423_05:03:10 images/CTG0001/B0003.jpg
+20180423_05:03:10 images/CTG0001/B0002.jpg
+20180423_05:03:10 images/CTG0001/B0001.jpg
+20180423_05:03:10 images/CTG0001/B0004.jpg
+20180423_05:03:10 images/CTG0001/B0005.jpg
+20180423_05:03:10 images/CTG0001/B0010.jpg
+20180423_05:04:55 Succeeded  to Connect to  MySQL-
+20180423_05:04:55 images/CTG0001/B0003.jpg
+20180423_05:04:55 images/CTG0001/B0002.jpg
+20180423_05:04:55 images/CTG0001/B0001.jpg
+20180423_05:04:55 images/CTG0001/B0004.jpg
+20180423_05:04:55 images/CTG0001/B0005.jpg
+20180423_05:04:55 images/CTG0001/B0010.jpg
+20180423_05:06:13 Succeeded  to Connect to  MySQL-
+20180423_05:06:13 images/CTG0001/B0003.jpg
+20180423_05:06:13 images/CTG0001/B0002.jpg
+20180423_05:06:13 images/CTG0001/B0001.jpg
+20180423_05:06:13 images/CTG0001/B0004.jpg
+20180423_05:06:13 images/CTG0001/B0005.jpg
+20180423_05:06:13 images/CTG0001/B0010.jpg
+20180423_05:11:02 Succeeded  to Connect to  MySQL-
+20180423_05:11:02 images/CTG0001/B0003.jpg
+20180423_05:11:02 images/CTG0001/B0002.jpg
+20180423_05:11:02 images/CTG0001/B0001.jpg
+20180423_05:11:02 images/CTG0001/B0004.jpg
+20180423_05:11:02 images/CTG0001/B0005.jpg
+20180423_05:11:02 images/CTG0001/B0010.jpg
+20180423_05:11:45 Succeeded  to Connect to  MySQL-
+20180423_05:11:45 images/CTG0001/B0003.jpg
+20180423_05:11:45 images/CTG0001/B0002.jpg
+20180423_05:11:45 images/CTG0001/B0001.jpg
+20180423_05:11:45 images/CTG0001/B0004.jpg
+20180423_05:11:45 images/CTG0001/B0005.jpg
+20180423_05:11:45 images/CTG0001/B0010.jpg
+20180423_05:12:07 Succeeded  to Connect to  MySQL-
+20180423_05:12:07 images/CTG0001/B0003.jpg
+20180423_05:12:07 images/CTG0001/B0002.jpg
+20180423_05:12:07 images/CTG0001/B0001.jpg
+20180423_05:12:07 images/CTG0001/B0004.jpg
+20180423_05:12:07 images/CTG0001/B0005.jpg
+20180423_05:12:07 images/CTG0001/B0010.jpg
+20180423_05:12:16 Succeeded  to Connect to  MySQL-
+20180423_05:12:16 images/CTG0001/B0003.jpg
+20180423_05:12:16 images/CTG0001/B0002.jpg
+20180423_05:12:16 images/CTG0001/B0001.jpg
+20180423_05:12:16 images/CTG0001/B0004.jpg
+20180423_05:12:16 images/CTG0001/B0005.jpg
+20180423_05:12:16 images/CTG0001/B0010.jpg
+20180423_05:16:31 Succeeded  to Connect to  MySQL-
+20180423_05:16:31 images/CTG0001/B0003.jpg
+20180423_05:16:31 images/CTG0001/B0002.jpg
+20180423_05:16:31 images/CTG0001/B0001.jpg
+20180423_05:16:31 images/CTG0001/B0004.jpg
+20180423_05:16:31 images/CTG0001/B0005.jpg
+20180423_05:16:31 images/CTG0001/B0010.jpg
+20180423_05:16:47 Succeeded  to Connect to  MySQL-
+20180423_05:16:47 images/CTG0001/B0003.jpg
+20180423_05:16:47 images/CTG0001/B0002.jpg
+20180423_05:16:47 images/CTG0001/B0001.jpg
+20180423_05:16:47 images/CTG0001/B0004.jpg
+20180423_05:16:47 images/CTG0001/B0005.jpg
+20180423_05:16:47 images/CTG0001/B0010.jpg
+20180423_05:17:51 Succeeded  to Connect to  MySQL-
+20180423_05:17:51 images/CTG0001/B0003.jpg
+20180423_05:17:51 images/CTG0001/B0002.jpg
+20180423_05:17:51 images/CTG0001/B0001.jpg
+20180423_05:17:51 images/CTG0001/B0004.jpg
+20180423_05:17:51 images/CTG0001/B0005.jpg
+20180423_05:17:51 images/CTG0001/B0010.jpg
+20180423_05:17:52 Succeeded  to Connect to  MySQL-
+20180423_05:17:52 images/CTG0001/B0003.jpg
+20180423_05:17:52 images/CTG0001/B0002.jpg
+20180423_05:17:52 images/CTG0001/B0001.jpg
+20180423_05:17:52 images/CTG0001/B0004.jpg
+20180423_05:17:52 images/CTG0001/B0005.jpg
+20180423_05:17:52 images/CTG0001/B0010.jpg
+20180423_05:17:55 Succeeded  to Connect to  MySQL-
+20180423_05:17:55 images/CTG0001/B0002.jpg
+20180423_05:17:55 images/CTG0001/B0001.jpg
+20180423_05:17:55 images/CTG0001/B0004.jpg
+20180423_05:17:55 images/CTG0001/B0005.jpg
+20180423_05:17:55 images/CTG0001/B0010.jpg
+20180423_05:18:00 Succeeded  to Connect to  MySQL-
+20180423_05:18:00 images/CTG0001/B0002.jpg
+20180423_05:18:00 images/CTG0001/B0001.jpg
+20180423_05:18:00 images/CTG0001/B0004.jpg
+20180423_05:18:00 images/CTG0001/B0005.jpg
+20180423_05:18:11 Succeeded  to Connect to  MySQL-
+20180423_05:18:11 images/CTG0001/B0002.jpg
+20180423_05:18:11 images/CTG0001/B0001.jpg
+20180423_05:18:11 images/CTG0001/B0004.jpg
+20180423_05:21:36 Succeeded  to Connect to  MySQL-
+20180423_05:21:36 images/CTG0001/B0002.jpg
+20180423_05:21:36 images/CTG0001/B0001.jpg
+20180423_05:21:36 images/CTG0001/B0004.jpg
+20180423_05:31:55 Succeeded  to Connect to  MySQL-
+20180423_05:31:55 images/CTG0001/B0002.jpg
+20180423_05:31:55 images/CTG0001/B0001.jpg
+20180423_05:31:55 images/CTG0001/B0004.jpg
+20180423_05:32:07 Succeeded  to Connect to  MySQL-
+20180423_05:32:07 images/CTG0001/B0002.jpg
+20180423_05:32:07 images/CTG0001/B0001.jpg
+20180423_05:32:07 images/CTG0001/B0004.jpg
+20180423_05:32:29 Succeeded  to Connect to  MySQL-
+20180423_05:32:29 images/CTG0001/B0002.jpg
+20180423_05:32:29 images/CTG0001/B0001.jpg
+20180423_05:32:29 images/CTG0001/B0004.jpg
+20180423_05:32:30 Succeeded  to Connect to  MySQL-
+20180423_05:32:30 images/CTG0001/B0002.jpg
+20180423_05:32:30 images/CTG0001/B0001.jpg
+20180423_05:32:30 images/CTG0001/B0004.jpg
+20180423_05:32:30 Succeeded  to Connect to  MySQL-
+20180423_05:32:30 images/CTG0001/B0002.jpg
+20180423_05:32:30 images/CTG0001/B0001.jpg
+20180423_05:32:30 images/CTG0001/B0004.jpg
+20180423_05:32:43 Succeeded  to Connect to  MySQL-
+20180423_05:32:43 images/CTG0001/B0002.jpg
+20180423_05:32:43 images/CTG0001/B0001.jpg
+20180423_05:32:43 images/CTG0001/B0004.jpg
+20180423_05:34:14 Succeeded  to Connect to  MySQL-
+20180423_05:34:14 images/CTG0001/B0002.jpg
+20180423_05:34:14 images/CTG0001/B0001.jpg
+20180423_05:34:14 images/CTG0001/B0004.jpg
+20180423_05:34:32 Succeeded  to Connect to  MySQL-
+20180423_05:34:32 images/CTG0001/B0002.jpg
+20180423_05:34:32 images/CTG0001/B0001.jpg
+20180423_05:34:32 images/CTG0001/B0004.jpg
+20180423_05:34:51 Succeeded  to Connect to  MySQL-
+20180423_05:34:51 images/CTG0001/B0002.jpg
+20180423_05:34:51 images/CTG0001/B0001.jpg
+20180423_05:34:51 images/CTG0001/B0004.jpg
+20180423_05:35:07 Succeeded  to Connect to  MySQL-
+20180423_05:35:07 images/CTG0001/B0002.jpg
+20180423_05:35:07 images/CTG0001/B0001.jpg
+20180423_05:35:07 images/CTG0001/B0004.jpg
+20180423_05:35:15 Succeeded  to Connect to  MySQL-
+20180423_05:35:15 images/CTG0001/B0002.jpg
+20180423_05:35:15 images/CTG0001/B0001.jpg
+20180423_05:35:15 images/CTG0001/B0004.jpg
+20180423_05:35:19 Succeeded  to Connect to  MySQL-
+20180423_05:35:19 images/CTG0001/B0002.jpg
+20180423_05:35:19 images/CTG0001/B0001.jpg
+20180423_05:35:19 images/CTG0001/B0004.jpg
+20180423_05:35:20 Succeeded  to Connect to  MySQL-
+20180423_05:35:20 images/CTG0001/B0002.jpg
+20180423_05:35:20 images/CTG0001/B0001.jpg
+20180423_05:35:20 images/CTG0001/B0004.jpg
+20180423_05:35:22 Succeeded  to Connect to  MySQL-
+20180423_05:35:22 images/CTG0001/B0002.jpg
+20180423_05:35:22 images/CTG0001/B0001.jpg
+20180423_05:35:22 images/CTG0001/B0004.jpg
+20180423_05:35:23 Succeeded  to Connect to  MySQL-
+20180423_05:35:23 images/CTG0001/B0002.jpg
+20180423_05:35:23 images/CTG0001/B0001.jpg
+20180423_05:35:23 images/CTG0001/B0004.jpg
+20180423_05:35:47 Succeeded  to Connect to  MySQL-
+20180423_05:35:47 images/CTG0001/B0002.jpg
+20180423_05:35:47 images/CTG0001/B0001.jpg
+20180423_05:35:47 images/CTG0001/B0004.jpg
+20180423_05:36:26 Succeeded  to Connect to  MySQL-
+20180423_05:36:26 images/CTG0001/B0002.jpg
+20180423_05:36:26 images/CTG0001/B0001.jpg
+20180423_05:36:26 images/CTG0001/B0004.jpg
+20180423_05:36:27 Succeeded  to Connect to  MySQL-
+20180423_05:36:27 images/CTG0001/B0002.jpg
+20180423_05:36:27 images/CTG0001/B0001.jpg
+20180423_05:36:27 images/CTG0001/B0004.jpg
+20180423_05:36:30 Succeeded  to Connect to  MySQL-
+20180423_05:36:30 images/CTG0001/B0002.jpg
+20180423_05:36:30 images/CTG0001/B0001.jpg
+20180423_05:36:30 images/CTG0001/B0004.jpg
+20180423_05:36:32 Succeeded  to Connect to  MySQL-
+20180423_05:36:32 images/CTG0001/B0002.jpg
+20180423_05:36:32 images/CTG0001/B0001.jpg
+20180423_05:36:32 images/CTG0001/B0004.jpg
+20180423_05:36:35 Succeeded  to Connect to  MySQL-
+20180423_05:36:35 images/CTG0001/B0002.jpg
+20180423_05:36:35 images/CTG0001/B0001.jpg
+20180423_05:36:35 images/CTG0001/B0004.jpg
+20180423_05:36:35 Succeeded  to Connect to  MySQL-
+20180423_05:36:35 images/CTG0001/B0002.jpg
+20180423_05:36:35 images/CTG0001/B0001.jpg
+20180423_05:36:35 images/CTG0001/B0004.jpg
+20180423_05:36:36 Succeeded  to Connect to  MySQL-
+20180423_05:36:36 images/CTG0001/B0002.jpg
+20180423_05:36:36 images/CTG0001/B0001.jpg
+20180423_05:36:36 images/CTG0001/B0004.jpg
+20180423_05:36:36 Succeeded  to Connect to  MySQL-
+20180423_05:36:36 images/CTG0001/B0002.jpg
+20180423_05:36:36 images/CTG0001/B0001.jpg
+20180423_05:36:36 images/CTG0001/B0004.jpg
+20180423_05:36:49 Succeeded  to Connect to  MySQL-
+20180423_05:36:49 images/CTG0001/B0002.jpg
+20180423_05:36:49 images/CTG0001/B0001.jpg
+20180423_05:36:49 images/CTG0001/B0004.jpg
+20180423_05:36:53 Succeeded  to Connect to  MySQL-
+20180423_05:36:53 images/CTG0001/B0002.jpg
+20180423_05:36:53 images/CTG0001/B0001.jpg
+20180423_05:36:53 images/CTG0001/B0004.jpg
+20180423_05:36:56 Succeeded  to Connect to  MySQL-
+20180423_05:36:56 images/CTG0001/B0002.jpg
+20180423_05:36:56 images/CTG0001/B0001.jpg
+20180423_05:36:56 images/CTG0001/B0004.jpg
+20180423_05:38:29 Succeeded  to Connect to  MySQL-
+20180423_05:38:29 images/CTG0001/B0002.jpg
+20180423_05:38:29 images/CTG0001/B0001.jpg
+20180423_05:38:29 images/CTG0001/B0004.jpg
+20180423_05:38:30 Succeeded  to Connect to  MySQL-
+20180423_05:38:30 images/CTG0001/B0002.jpg
+20180423_05:38:30 images/CTG0001/B0001.jpg
+20180423_05:38:30 images/CTG0001/B0004.jpg
+20180423_05:38:30 Succeeded  to Connect to  MySQL-
+20180423_05:38:30 images/CTG0001/B0002.jpg
+20180423_05:38:30 images/CTG0001/B0001.jpg
+20180423_05:38:30 images/CTG0001/B0004.jpg
+20180423_05:38:30 Succeeded  to Connect to  MySQL-
+20180423_05:38:30 images/CTG0001/B0002.jpg
+20180423_05:38:30 images/CTG0001/B0001.jpg
+20180423_05:38:30 images/CTG0001/B0004.jpg
+20180423_05:38:32 Succeeded  to Connect to  MySQL-
+20180423_05:38:32 images/CTG0001/B0002.jpg
+20180423_05:38:32 images/CTG0001/B0001.jpg
+20180423_05:38:32 images/CTG0001/B0004.jpg
+20180423_05:38:35 Succeeded  to Connect to  MySQL-
+20180423_05:38:35 images/CTG0001/B0002.jpg
+20180423_05:38:35 images/CTG0001/B0001.jpg
+20180423_05:38:35 images/CTG0001/B0004.jpg
+20180423_05:38:38 Succeeded  to Connect to  MySQL-
+20180423_05:38:38 images/CTG0001/B0002.jpg
+20180423_05:38:38 images/CTG0001/B0001.jpg
+20180423_05:38:38 images/CTG0001/B0004.jpg
+20180423_05:38:39 Succeeded  to Connect to  MySQL-
+20180423_05:38:39 images/CTG0001/B0002.jpg
+20180423_05:38:39 images/CTG0001/B0001.jpg
+20180423_05:38:39 images/CTG0001/B0004.jpg
+20180423_05:38:57 Succeeded  to Connect to  MySQL-
+20180423_05:38:57 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:38:57 Succeeded  to Connect to  MySQL-
+20180423_05:38:57 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:38:57 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:38:57 Succeeded  to Connect to  MySQL-
+20180423_05:38:57 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:38:57 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:38:57 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:38:57 images/CTG0001/B0003.jpg
+20180423_05:38:57 images/CTG0001/B0002.jpg
+20180423_05:38:57 images/CTG0001/B0001.jpg
+20180423_05:38:57 images/CTG0001/B0004.jpg
+20180423_05:38:57 images/CTG0001/B0005.jpg
+20180423_05:38:57 images/CTG0001/B0006.jpg
+20180423_05:38:57 images/CTG0001/B0007.jpg
+20180423_05:38:57 images/CTG0001/B0008.jpg
+20180423_05:38:57 images/CTG0001/B0009.jpg
+20180423_05:38:59 Succeeded  to Connect to  MySQL-
+20180423_05:38:59 images/CTG0001/B0002.jpg
+20180423_05:38:59 images/CTG0001/B0001.jpg
+20180423_05:38:59 images/CTG0001/B0004.jpg
+20180423_05:39:51 Succeeded  to Connect to  MySQL-
+20180423_05:39:51 images/CTG0001/B0002.jpg
+20180423_05:39:51 images/CTG0001/B0001.jpg
+20180423_05:39:55 Succeeded  to Connect to  MySQL-
+20180423_05:39:55 images/CTG0001/B0002.jpg
+20180423_05:39:59 Succeeded  to Connect to  MySQL-
+20180423_05:39:59 images/CTG0001/B0002.jpg
+20180423_05:40:01 Succeeded  to Connect to  MySQL-
+20180423_05:40:02 Succeeded  to Connect to  MySQL-
+20180423_05:40:14 Succeeded  to Connect to  MySQL-
+20180423_05:40:15 Succeeded  to Connect to  MySQL-
+20180423_05:40:15 Succeeded  to Connect to  MySQL-
+20180423_05:40:15 Succeeded  to Connect to  MySQL-
+20180423_05:40:15 Succeeded  to Connect to  MySQL-
+20180423_05:40:16 Succeeded  to Connect to  MySQL-
+20180423_05:40:16 Succeeded  to Connect to  MySQL-
+20180423_05:40:16 Succeeded  to Connect to  MySQL-
+20180423_05:40:17 Succeeded  to Connect to  MySQL-
+20180423_05:40:17 Succeeded  to Connect to  MySQL-
+20180423_05:40:17 Succeeded  to Connect to  MySQL-
+20180423_05:40:17 Succeeded  to Connect to  MySQL-
+20180423_05:40:17 Succeeded  to Connect to  MySQL-
+20180423_05:40:44 Succeeded  to Connect to  MySQL-
+20180423_05:40:45 Succeeded  to Connect to  MySQL-
+20180423_05:41:30 Succeeded  to Connect to  MySQL-
+20180423_05:41:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:41:30 Succeeded  to Connect to  MySQL-
+20180423_05:41:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:41:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:41:30 Succeeded  to Connect to  MySQL-
+20180423_05:41:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:41:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:41:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:41:30 images/CTG0001/B0003.jpg
+20180423_05:41:30 images/CTG0001/B0002.jpg
+20180423_05:41:30 images/CTG0001/B0001.jpg
+20180423_05:41:30 images/CTG0001/B0004.jpg
+20180423_05:41:30 images/CTG0001/B0005.jpg
+20180423_05:41:30 images/CTG0001/B0006.jpg
+20180423_05:41:30 images/CTG0001/B0007.jpg
+20180423_05:41:30 images/CTG0001/B0008.jpg
+20180423_05:41:30 images/CTG0001/B0009.jpg
+20180423_05:45:14 Succeeded  to Connect to  MySQL-
+20180423_05:45:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:45:14 Succeeded  to Connect to  MySQL-
+20180423_05:45:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:45:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:45:14 Succeeded  to Connect to  MySQL-
+20180423_05:45:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:45:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:45:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:45:14 images/CTG0001/B0003.jpg
+20180423_05:45:14 images/CTG0001/B0002.jpg
+20180423_05:45:14 images/CTG0001/B0001.jpg
+20180423_05:45:14 images/CTG0001/B0004.jpg
+20180423_05:45:14 images/CTG0001/B0005.jpg
+20180423_05:45:14 images/CTG0001/B0006.jpg
+20180423_05:45:14 images/CTG0001/B0007.jpg
+20180423_05:45:14 images/CTG0001/B0008.jpg
+20180423_05:45:14 images/CTG0001/B0009.jpg
+20180423_05:45:15 Succeeded  to Connect to  MySQL-
+20180423_05:45:15 images/CTG0001/B0003.jpg
+20180423_05:45:18 Succeeded  to Connect to  MySQL-
+20180423_05:45:18 images/CTG0001/B0003.jpg
+20180423_05:45:20 Succeeded  to Connect to  MySQL-
+20180423_05:45:20 images/CTG0001/B0003.jpg
+20180423_05:45:20 Succeeded  to Connect to  MySQL-
+20180423_05:45:20 images/CTG0001/B0003.jpg
+20180423_05:45:21 Succeeded  to Connect to  MySQL-
+20180423_05:45:21 images/CTG0001/B0003.jpg
+20180423_05:45:22 Succeeded  to Connect to  MySQL-
+20180423_05:45:22 images/CTG0001/B0003.jpg
+20180423_05:45:22 Succeeded  to Connect to  MySQL-
+20180423_05:45:22 images/CTG0001/B0003.jpg
+20180423_05:45:22 Succeeded  to Connect to  MySQL-
+20180423_05:45:22 images/CTG0001/B0003.jpg
+20180423_05:45:22 Succeeded  to Connect to  MySQL-
+20180423_05:45:22 images/CTG0001/B0003.jpg
+20180423_05:45:23 Succeeded  to Connect to  MySQL-
+20180423_05:45:23 images/CTG0001/B0003.jpg
+20180423_05:45:23 Succeeded  to Connect to  MySQL-
+20180423_05:45:23 images/CTG0001/B0003.jpg
+20180423_05:45:23 Succeeded  to Connect to  MySQL-
+20180423_05:45:23 images/CTG0001/B0003.jpg
+20180423_05:45:24 Succeeded  to Connect to  MySQL-
+20180423_05:45:24 images/CTG0001/B0003.jpg
+20180423_05:45:26 Succeeded  to Connect to  MySQL-
+20180423_05:45:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:45:26 Succeeded  to Connect to  MySQL-
+20180423_05:45:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:45:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:45:26 Succeeded  to Connect to  MySQL-
+20180423_05:45:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:45:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:45:26 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:45:26 images/CTG0001/B0003.jpg
+20180423_05:45:26 images/CTG0001/B0002.jpg
+20180423_05:45:26 images/CTG0001/B0001.jpg
+20180423_05:45:26 images/CTG0001/B0004.jpg
+20180423_05:45:26 images/CTG0001/B0005.jpg
+20180423_05:45:26 images/CTG0001/B0006.jpg
+20180423_05:45:26 images/CTG0001/B0007.jpg
+20180423_05:45:26 images/CTG0001/B0008.jpg
+20180423_05:45:26 images/CTG0001/B0009.jpg
+20180423_05:45:27 Succeeded  to Connect to  MySQL-
+20180423_05:45:27 images/CTG0001/B0003.jpg
+20180423_05:45:27 images/CTG0001/B0002.jpg
+20180423_05:45:28 Succeeded  to Connect to  MySQL-
+20180423_05:45:28 images/CTG0001/B0003.jpg
+20180423_05:45:28 images/CTG0001/B0002.jpg
+20180423_05:45:30 Succeeded  to Connect to  MySQL-
+20180423_05:45:30 images/CTG0001/B0003.jpg
+20180423_05:45:30 images/CTG0001/B0002.jpg
+20180423_05:45:31 Succeeded  to Connect to  MySQL-
+20180423_05:45:31 images/CTG0001/B0003.jpg
+20180423_05:45:31 images/CTG0001/B0002.jpg
+20180423_05:45:32 Succeeded  to Connect to  MySQL-
+20180423_05:45:32 images/CTG0001/B0003.jpg
+20180423_05:45:32 images/CTG0001/B0002.jpg
+20180423_05:45:33 Succeeded  to Connect to  MySQL-
+20180423_05:45:33 images/CTG0001/B0003.jpg
+20180423_05:45:33 images/CTG0001/B0002.jpg
+20180423_05:45:37 Succeeded  to Connect to  MySQL-
+20180423_05:45:37 images/CTG0001/B0003.jpg
+20180423_05:45:37 images/CTG0001/B0002.jpg
+20180423_05:47:22 Succeeded  to Connect to  MySQL-
+20180423_05:47:22 images/CTG0001/B0003.jpg
+20180423_05:47:22 images/CTG0001/B0002.jpg
+20180423_05:47:23 Succeeded  to Connect to  MySQL-
+20180423_05:47:23 images/CTG0001/B0003.jpg
+20180423_05:47:23 images/CTG0001/B0002.jpg
+20180423_05:47:24 Succeeded  to Connect to  MySQL-
+20180423_05:47:24 images/CTG0001/B0003.jpg
+20180423_05:47:24 images/CTG0001/B0002.jpg
+20180423_05:47:24 Succeeded  to Connect to  MySQL-
+20180423_05:47:24 images/CTG0001/B0003.jpg
+20180423_05:47:24 images/CTG0001/B0002.jpg
+20180423_05:47:25 Succeeded  to Connect to  MySQL-
+20180423_05:47:25 images/CTG0001/B0003.jpg
+20180423_05:47:25 images/CTG0001/B0002.jpg
+20180423_05:47:25 Succeeded  to Connect to  MySQL-
+20180423_05:47:25 images/CTG0001/B0003.jpg
+20180423_05:47:25 images/CTG0001/B0002.jpg
+20180423_05:47:26 Succeeded  to Connect to  MySQL-
+20180423_05:47:26 images/CTG0001/B0003.jpg
+20180423_05:47:26 images/CTG0001/B0002.jpg
+20180423_05:47:27 Succeeded  to Connect to  MySQL-
+20180423_05:47:27 images/CTG0001/B0003.jpg
+20180423_05:47:27 images/CTG0001/B0002.jpg
+20180423_05:47:28 Succeeded  to Connect to  MySQL-
+20180423_05:47:28 images/CTG0001/B0003.jpg
+20180423_05:47:28 images/CTG0001/B0002.jpg
+20180423_05:47:31 Succeeded  to Connect to  MySQL-
+20180423_05:47:31 images/CTG0001/B0003.jpg
+20180423_05:47:31 images/CTG0001/B0002.jpg
+20180423_05:47:32 Succeeded  to Connect to  MySQL-
+20180423_05:47:32 images/CTG0001/B0003.jpg
+20180423_05:47:32 images/CTG0001/B0002.jpg
+20180423_05:47:34 Succeeded  to Connect to  MySQL-
+20180423_05:47:34 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:47:34 Succeeded  to Connect to  MySQL-
+20180423_05:47:34 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:47:34 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:47:34 Succeeded  to Connect to  MySQL-
+20180423_05:47:34 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:47:34 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:47:34 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:47:34 images/CTG0001/B0003.jpg
+20180423_05:47:34 images/CTG0001/B0002.jpg
+20180423_05:47:34 images/CTG0001/B0001.jpg
+20180423_05:47:34 images/CTG0001/B0004.jpg
+20180423_05:47:34 images/CTG0001/B0005.jpg
+20180423_05:47:34 images/CTG0001/B0006.jpg
+20180423_05:47:34 images/CTG0001/B0007.jpg
+20180423_05:47:34 images/CTG0001/B0008.jpg
+20180423_05:47:34 images/CTG0001/B0009.jpg
+20180423_05:47:35 Succeeded  to Connect to  MySQL-
+20180423_05:47:35 images/CTG0001/B0003.jpg
+20180423_05:47:35 images/CTG0001/B0002.jpg
+20180423_05:47:37 Succeeded  to Connect to  MySQL-
+20180423_05:47:37 images/CTG0001/B0003.jpg
+20180423_05:47:37 images/CTG0001/B0002.jpg
+20180423_05:47:39 Succeeded  to Connect to  MySQL-
+20180423_05:47:39 images/CTG0001/B0003.jpg
+20180423_05:47:39 images/CTG0001/B0002.jpg
+20180423_05:47:41 Succeeded  to Connect to  MySQL-
+20180423_05:47:41 images/CTG0001/B0003.jpg
+20180423_05:47:41 images/CTG0001/B0002.jpg
+20180423_05:47:50 Succeeded  to Connect to  MySQL-
+20180423_05:47:50 images/CTG0001/B0003.jpg
+20180423_05:47:50 images/CTG0001/B0002.jpg
+20180423_05:47:52 Succeeded  to Connect to  MySQL-
+20180423_05:47:52 images/CTG0001/B0003.jpg
+20180423_05:47:52 images/CTG0001/B0002.jpg
+20180423_05:48:05 Succeeded  to Connect to  MySQL-
+20180423_05:48:05 images/CTG0001/B0003.jpg
+20180423_05:48:05 images/CTG0001/B0002.jpg
+20180423_05:48:47 Succeeded  to Connect to  MySQL-
+20180423_05:48:47 images/CTG0001/B0003.jpg
+20180423_05:48:47 images/CTG0001/B0002.jpg
+20180423_05:48:48 Succeeded  to Connect to  MySQL-
+20180423_05:48:48 images/CTG0001/B0002.jpg
+20180423_05:48:59 Succeeded  to Connect to  MySQL-
+20180423_05:48:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:48:59 Succeeded  to Connect to  MySQL-
+20180423_05:48:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:48:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:48:59 Succeeded  to Connect to  MySQL-
+20180423_05:48:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:48:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:48:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:48:59 images/CTG0001/B0003.jpg
+20180423_05:48:59 images/CTG0001/B0002.jpg
+20180423_05:48:59 images/CTG0001/B0001.jpg
+20180423_05:48:59 images/CTG0001/B0004.jpg
+20180423_05:48:59 images/CTG0001/B0005.jpg
+20180423_05:48:59 images/CTG0001/B0006.jpg
+20180423_05:48:59 images/CTG0001/B0007.jpg
+20180423_05:48:59 images/CTG0001/B0008.jpg
+20180423_05:48:59 images/CTG0001/B0009.jpg
+20180423_05:48:59 Succeeded  to Connect to  MySQL-
+20180423_05:48:59 images/CTG0001/B0003.jpg
+20180423_05:49:01 Succeeded  to Connect to  MySQL-
+20180423_05:49:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:49:01 Succeeded  to Connect to  MySQL-
+20180423_05:49:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:49:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:49:01 Succeeded  to Connect to  MySQL-
+20180423_05:49:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:49:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:49:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:49:01 images/CTG0001/B0003.jpg
+20180423_05:49:01 images/CTG0001/B0002.jpg
+20180423_05:49:01 images/CTG0001/B0001.jpg
+20180423_05:49:01 images/CTG0001/B0004.jpg
+20180423_05:49:01 images/CTG0001/B0005.jpg
+20180423_05:49:01 images/CTG0001/B0006.jpg
+20180423_05:49:01 images/CTG0001/B0007.jpg
+20180423_05:49:01 images/CTG0001/B0008.jpg
+20180423_05:49:01 images/CTG0001/B0009.jpg
+20180423_05:49:01 Succeeded  to Connect to  MySQL-
+20180423_05:49:01 images/CTG0001/B0003.jpg
+20180423_05:49:03 Succeeded  to Connect to  MySQL-
+20180423_05:49:03 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:49:03 Succeeded  to Connect to  MySQL-
+20180423_05:49:03 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:49:03 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:49:03 Succeeded  to Connect to  MySQL-
+20180423_05:49:03 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:49:03 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:49:03 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:49:03 images/CTG0001/B0003.jpg
+20180423_05:49:03 images/CTG0001/B0002.jpg
+20180423_05:49:03 images/CTG0001/B0001.jpg
+20180423_05:49:03 images/CTG0001/B0004.jpg
+20180423_05:49:03 images/CTG0001/B0005.jpg
+20180423_05:49:03 images/CTG0001/B0006.jpg
+20180423_05:49:03 images/CTG0001/B0007.jpg
+20180423_05:49:03 images/CTG0001/B0008.jpg
+20180423_05:49:03 images/CTG0001/B0009.jpg
+20180423_05:49:04 Succeeded  to Connect to  MySQL-
+20180423_05:49:04 images/CTG0001/B0003.jpg
+20180423_05:49:06 Succeeded  to Connect to  MySQL-
+20180423_05:49:06 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:49:06 Succeeded  to Connect to  MySQL-
+20180423_05:49:06 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:49:06 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:49:06 Succeeded  to Connect to  MySQL-
+20180423_05:49:06 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:49:06 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:49:06 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:49:06 images/CTG0001/B0003.jpg
+20180423_05:49:06 images/CTG0001/B0002.jpg
+20180423_05:49:06 images/CTG0001/B0001.jpg
+20180423_05:49:06 images/CTG0001/B0004.jpg
+20180423_05:49:06 images/CTG0001/B0005.jpg
+20180423_05:49:06 images/CTG0001/B0006.jpg
+20180423_05:49:06 images/CTG0001/B0007.jpg
+20180423_05:49:06 images/CTG0001/B0008.jpg
+20180423_05:49:06 images/CTG0001/B0009.jpg
+20180423_05:49:35 Succeeded  to Connect to  MySQL-
+20180423_05:49:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:49:35 Succeeded  to Connect to  MySQL-
+20180423_05:49:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:49:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:49:35 Succeeded  to Connect to  MySQL-
+20180423_05:49:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:49:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:49:35 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:49:35 images/CTG0001/B0003.jpg
+20180423_05:49:35 images/CTG0001/B0002.jpg
+20180423_05:49:35 images/CTG0001/B0001.jpg
+20180423_05:49:35 images/CTG0001/B0004.jpg
+20180423_05:49:35 images/CTG0001/B0005.jpg
+20180423_05:49:35 images/CTG0001/B0006.jpg
+20180423_05:49:35 images/CTG0001/B0007.jpg
+20180423_05:49:35 images/CTG0001/B0008.jpg
+20180423_05:49:35 images/CTG0001/B0009.jpg
+20180423_05:49:37 Succeeded  to Connect to  MySQL-
+20180423_05:49:37 images/CTG0001/B0003.jpg
+20180423_05:57:30 Succeeded  to Connect to  MySQL-
+20180423_05:57:30 images/CTG0001/B0003.jpg
+20180423_05:57:30 Succeeded  to Connect to  MySQL-
+20180423_05:57:30 images/CTG0001/B0003.jpg
+20180423_05:57:31 Succeeded  to Connect to  MySQL-
+20180423_05:57:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:57:31 Succeeded  to Connect to  MySQL-
+20180423_05:57:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:57:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:57:31 Succeeded  to Connect to  MySQL-
+20180423_05:57:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:57:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:57:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:57:31 images/CTG0001/B0003.jpg
+20180423_05:57:31 images/CTG0001/B0002.jpg
+20180423_05:57:31 images/CTG0001/B0001.jpg
+20180423_05:57:31 images/CTG0001/B0004.jpg
+20180423_05:57:31 images/CTG0001/B0005.jpg
+20180423_05:57:31 images/CTG0001/B0006.jpg
+20180423_05:57:31 images/CTG0001/B0007.jpg
+20180423_05:57:31 images/CTG0001/B0008.jpg
+20180423_05:57:31 images/CTG0001/B0009.jpg
+20180423_05:57:33 Succeeded  to Connect to  MySQL-
+20180423_05:57:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:57:33 Succeeded  to Connect to  MySQL-
+20180423_05:57:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:57:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:57:33 Succeeded  to Connect to  MySQL-
+20180423_05:57:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:57:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:57:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:57:33 images/CTG0001/B0003.jpg
+20180423_05:57:33 images/CTG0001/B0002.jpg
+20180423_05:57:33 images/CTG0001/B0001.jpg
+20180423_05:57:33 images/CTG0001/B0004.jpg
+20180423_05:57:33 images/CTG0001/B0005.jpg
+20180423_05:57:33 images/CTG0001/B0006.jpg
+20180423_05:57:33 images/CTG0001/B0007.jpg
+20180423_05:57:33 images/CTG0001/B0008.jpg
+20180423_05:57:33 images/CTG0001/B0009.jpg
+20180423_05:57:54 Succeeded  to Connect to  MySQL-
+20180423_05:57:54 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:57:54 Succeeded  to Connect to  MySQL-
+20180423_05:57:54 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:57:54 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:57:54 Succeeded  to Connect to  MySQL-
+20180423_05:57:54 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:57:54 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:57:54 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:57:54 images/CTG0001/B0003.jpg
+20180423_05:57:54 images/CTG0001/B0002.jpg
+20180423_05:57:54 images/CTG0001/B0001.jpg
+20180423_05:57:54 images/CTG0001/B0004.jpg
+20180423_05:57:54 images/CTG0001/B0005.jpg
+20180423_05:57:54 images/CTG0001/B0006.jpg
+20180423_05:57:54 images/CTG0001/B0007.jpg
+20180423_05:57:54 images/CTG0001/B0008.jpg
+20180423_05:57:54 images/CTG0001/B0009.jpg
+20180423_05:58:33 Succeeded  to Connect to  MySQL-
+20180423_05:58:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:58:33 Succeeded  to Connect to  MySQL-
+20180423_05:58:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:58:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:58:33 Succeeded  to Connect to  MySQL-
+20180423_05:58:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:58:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:58:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:58:33 images/CTG0001/B0003.jpg
+20180423_05:58:33 images/CTG0001/B0002.jpg
+20180423_05:58:33 images/CTG0001/B0001.jpg
+20180423_05:58:33 images/CTG0001/B0004.jpg
+20180423_05:58:33 images/CTG0001/B0005.jpg
+20180423_05:58:33 images/CTG0001/B0006.jpg
+20180423_05:58:33 images/CTG0001/B0007.jpg
+20180423_05:58:33 images/CTG0001/B0008.jpg
+20180423_05:58:33 images/CTG0001/B0009.jpg
+20180423_05:59:25 Succeeded  to Connect to  MySQL-
+20180423_05:59:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_05:59:25 Succeeded  to Connect to  MySQL-
+20180423_05:59:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_05:59:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_05:59:25 Succeeded  to Connect to  MySQL-
+20180423_05:59:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_05:59:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_05:59:25 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_05:59:25 images/CTG0001/B0003.jpg
+20180423_05:59:25 images/CTG0001/B0002.jpg
+20180423_05:59:25 images/CTG0001/B0001.jpg
+20180423_05:59:25 images/CTG0001/B0004.jpg
+20180423_05:59:25 images/CTG0001/B0005.jpg
+20180423_05:59:25 images/CTG0001/B0006.jpg
+20180423_05:59:25 images/CTG0001/B0007.jpg
+20180423_05:59:25 images/CTG0001/B0008.jpg
+20180423_05:59:25 images/CTG0001/B0009.jpg
+20180423_06:00:33 Succeeded  to Connect to  MySQL-
+20180423_06:00:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_06:00:33 Succeeded  to Connect to  MySQL-
+20180423_06:00:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_06:00:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_06:00:33 Succeeded  to Connect to  MySQL-
+20180423_06:00:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_06:00:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_06:00:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_06:00:33 images/CTG0001/B0003.jpg
+20180423_06:00:33 images/CTG0001/B0002.jpg
+20180423_06:00:33 images/CTG0001/B0001.jpg
+20180423_06:00:33 images/CTG0001/B0004.jpg
+20180423_06:00:33 images/CTG0001/B0005.jpg
+20180423_06:00:33 images/CTG0001/B0006.jpg
+20180423_06:00:33 images/CTG0001/B0007.jpg
+20180423_06:00:33 images/CTG0001/B0008.jpg
+20180423_06:00:33 images/CTG0001/B0009.jpg
+20180423_06:01:03 Succeeded  to Connect to  MySQL-
+20180423_06:01:03 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_06:01:03 Succeeded  to Connect to  MySQL-
+20180423_06:01:03 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_06:01:03 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_06:01:03 Succeeded  to Connect to  MySQL-
+20180423_06:01:03 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_06:01:03 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_06:01:03 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_06:01:03 images/CTG0001/B0003.jpg
+20180423_06:01:03 images/CTG0001/B0002.jpg
+20180423_06:01:03 images/CTG0001/B0001.jpg
+20180423_06:01:03 images/CTG0001/B0004.jpg
+20180423_06:01:03 images/CTG0001/B0005.jpg
+20180423_06:01:03 images/CTG0001/B0006.jpg
+20180423_06:01:03 images/CTG0001/B0007.jpg
+20180423_06:01:03 images/CTG0001/B0008.jpg
+20180423_06:01:03 images/CTG0001/B0009.jpg
+20180423_06:01:04 
+20180423_06:01:49 Succeeded  to Connect to  MySQL-
+20180423_06:01:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_06:01:49 Succeeded  to Connect to  MySQL-
+20180423_06:01:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_06:01:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_06:01:49 Succeeded  to Connect to  MySQL-
+20180423_06:01:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_06:01:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_06:01:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_06:01:49 images/CTG0001/B0003.jpg
+20180423_06:01:49 images/CTG0001/B0002.jpg
+20180423_06:01:49 images/CTG0001/B0001.jpg
+20180423_06:01:49 images/CTG0001/B0004.jpg
+20180423_06:01:49 images/CTG0001/B0005.jpg
+20180423_06:01:49 images/CTG0001/B0006.jpg
+20180423_06:01:49 images/CTG0001/B0007.jpg
+20180423_06:01:49 images/CTG0001/B0008.jpg
+20180423_06:01:49 images/CTG0001/B0009.jpg
+20180423_06:01:50 Succeeded  to Connect to  MySQL-
+20180423_06:01:50 images/CTG0001/B0003.jpg
+20180423_22:25:34 Succeeded  to Connect to  MySQL-
+20180423_22:25:34 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:25:34 Succeeded  to Connect to  MySQL-
+20180423_22:25:34 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:25:34 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:25:34 Succeeded  to Connect to  MySQL-
+20180423_22:25:34 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:25:34 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:25:34 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:25:34 images/CTG0001/B0003.jpg
+20180423_22:25:34 images/CTG0001/B0002.jpg
+20180423_22:25:34 images/CTG0001/B0001.jpg
+20180423_22:25:34 images/CTG0001/B0004.jpg
+20180423_22:25:34 images/CTG0001/B0005.jpg
+20180423_22:25:34 images/CTG0001/B0006.jpg
+20180423_22:25:34 images/CTG0001/B0007.jpg
+20180423_22:25:34 images/CTG0001/B0008.jpg
+20180423_22:25:34 images/CTG0001/B0009.jpg
+20180423_22:27:13 Succeeded  to Connect to  MySQL-
+20180423_22:27:13 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:27:13 Succeeded  to Connect to  MySQL-
+20180423_22:27:13 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:27:13 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:27:13 Succeeded  to Connect to  MySQL-
+20180423_22:27:13 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:27:13 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:27:13 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:27:13 images/CTG0001/B0003.jpg
+20180423_22:27:13 images/CTG0001/B0002.jpg
+20180423_22:27:13 images/CTG0001/B0001.jpg
+20180423_22:27:13 images/CTG0001/B0004.jpg
+20180423_22:27:13 images/CTG0001/B0005.jpg
+20180423_22:27:13 images/CTG0001/B0006.jpg
+20180423_22:27:13 images/CTG0001/B0007.jpg
+20180423_22:27:13 images/CTG0001/B0008.jpg
+20180423_22:27:13 images/CTG0001/B0009.jpg
+20180423_22:28:44 Succeeded  to Connect to  MySQL-
+20180423_22:28:44 images/CTG0001/B0003.jpg
+20180423_22:28:44 images/CTG0001/B0001.jpg
+20180423_22:28:49 Succeeded  to Connect to  MySQL-
+20180423_22:28:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:28:49 Succeeded  to Connect to  MySQL-
+20180423_22:28:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:28:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:28:49 Succeeded  to Connect to  MySQL-
+20180423_22:28:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:28:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:28:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:28:49 images/CTG0001/B0003.jpg
+20180423_22:28:49 images/CTG0001/B0002.jpg
+20180423_22:28:49 images/CTG0001/B0001.jpg
+20180423_22:28:49 images/CTG0001/B0004.jpg
+20180423_22:28:49 images/CTG0001/B0005.jpg
+20180423_22:28:49 images/CTG0001/B0006.jpg
+20180423_22:28:49 images/CTG0001/B0007.jpg
+20180423_22:28:49 images/CTG0001/B0008.jpg
+20180423_22:28:49 images/CTG0001/B0009.jpg
+20180423_22:29:15 
+20180423_22:30:59 Succeeded  to Connect to  MySQL-
+20180423_22:30:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:30:59 Succeeded  to Connect to  MySQL-
+20180423_22:30:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:30:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:30:59 Succeeded  to Connect to  MySQL-
+20180423_22:30:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:30:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:30:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:30:59 images/CTG0001/B0003.jpg
+20180423_22:30:59 images/CTG0001/B0002.jpg
+20180423_22:30:59 images/CTG0001/B0001.jpg
+20180423_22:30:59 images/CTG0001/B0004.jpg
+20180423_22:30:59 images/CTG0001/B0005.jpg
+20180423_22:30:59 images/CTG0001/B0006.jpg
+20180423_22:30:59 images/CTG0001/B0007.jpg
+20180423_22:30:59 images/CTG0001/B0008.jpg
+20180423_22:30:59 images/CTG0001/B0009.jpg
+20180423_22:31:08 Array
+20180423_22:31:52 Succeeded  to Connect to  MySQL-
+20180423_22:31:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:31:52 Succeeded  to Connect to  MySQL-
+20180423_22:31:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:31:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:31:52 Succeeded  to Connect to  MySQL-
+20180423_22:31:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:31:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:31:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:31:52 images/CTG0001/B0003.jpg
+20180423_22:31:52 images/CTG0001/B0002.jpg
+20180423_22:31:52 images/CTG0001/B0001.jpg
+20180423_22:31:52 images/CTG0001/B0004.jpg
+20180423_22:31:52 images/CTG0001/B0005.jpg
+20180423_22:31:52 images/CTG0001/B0006.jpg
+20180423_22:31:52 images/CTG0001/B0007.jpg
+20180423_22:31:52 images/CTG0001/B0008.jpg
+20180423_22:31:52 images/CTG0001/B0009.jpg
+20180423_22:32:18 Array
+20180423_22:32:45 Succeeded  to Connect to  MySQL-
+20180423_22:32:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:32:45 Succeeded  to Connect to  MySQL-
+20180423_22:32:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:32:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:32:45 Succeeded  to Connect to  MySQL-
+20180423_22:32:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:32:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:32:45 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:32:45 images/CTG0001/B0003.jpg
+20180423_22:32:45 images/CTG0001/B0002.jpg
+20180423_22:32:45 images/CTG0001/B0001.jpg
+20180423_22:32:45 images/CTG0001/B0004.jpg
+20180423_22:32:45 images/CTG0001/B0005.jpg
+20180423_22:32:45 images/CTG0001/B0006.jpg
+20180423_22:32:45 images/CTG0001/B0007.jpg
+20180423_22:32:45 images/CTG0001/B0008.jpg
+20180423_22:32:45 images/CTG0001/B0009.jpg
+20180423_22:32:53 Array
+20180423_22:33:47 Succeeded  to Connect to  MySQL-
+20180423_22:33:47 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:33:47 Succeeded  to Connect to  MySQL-
+20180423_22:33:47 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:33:47 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:33:47 Succeeded  to Connect to  MySQL-
+20180423_22:33:47 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:33:47 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:33:47 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:33:47 images/CTG0001/B0003.jpg
+20180423_22:33:47 images/CTG0001/B0002.jpg
+20180423_22:33:47 images/CTG0001/B0001.jpg
+20180423_22:33:47 images/CTG0001/B0004.jpg
+20180423_22:33:47 images/CTG0001/B0005.jpg
+20180423_22:33:47 images/CTG0001/B0006.jpg
+20180423_22:33:47 images/CTG0001/B0007.jpg
+20180423_22:33:47 images/CTG0001/B0008.jpg
+20180423_22:33:47 images/CTG0001/B0009.jpg
+20180423_22:33:49 Succeeded  to Connect to  MySQL-
+20180423_22:33:49 images/CTG0001/B0003.jpg
+20180423_22:33:49 images/CTG0001/B0001.jpg
+20180423_22:33:52 Succeeded  to Connect to  MySQL-
+20180423_22:33:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:33:52 Succeeded  to Connect to  MySQL-
+20180423_22:33:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:33:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:33:52 Succeeded  to Connect to  MySQL-
+20180423_22:33:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:33:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:33:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:33:52 images/CTG0001/B0003.jpg
+20180423_22:33:52 images/CTG0001/B0002.jpg
+20180423_22:33:52 images/CTG0001/B0001.jpg
+20180423_22:33:52 images/CTG0001/B0004.jpg
+20180423_22:33:52 images/CTG0001/B0005.jpg
+20180423_22:33:52 images/CTG0001/B0006.jpg
+20180423_22:33:52 images/CTG0001/B0007.jpg
+20180423_22:33:52 images/CTG0001/B0008.jpg
+20180423_22:33:52 images/CTG0001/B0009.jpg
+20180423_22:33:53 Array
+20180423_22:33:53 Succeeded  to Connect to  MySQL-
+20180423_22:33:53 images/CTG0001/B0003.jpg
+20180423_22:33:53 images/CTG0001/B0001.jpg
+20180423_22:33:57 Succeeded  to Connect to  MySQL-
+20180423_22:33:57 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:33:57 Succeeded  to Connect to  MySQL-
+20180423_22:33:57 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:33:57 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:33:57 Succeeded  to Connect to  MySQL-
+20180423_22:33:57 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:33:57 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:33:57 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:33:57 images/CTG0001/B0003.jpg
+20180423_22:33:57 images/CTG0001/B0002.jpg
+20180423_22:33:57 images/CTG0001/B0001.jpg
+20180423_22:33:57 images/CTG0001/B0004.jpg
+20180423_22:33:57 images/CTG0001/B0005.jpg
+20180423_22:33:57 images/CTG0001/B0006.jpg
+20180423_22:33:57 images/CTG0001/B0007.jpg
+20180423_22:33:57 images/CTG0001/B0008.jpg
+20180423_22:33:57 images/CTG0001/B0009.jpg
+20180423_22:33:58 Succeeded  to Connect to  MySQL-
+20180423_22:33:58 images/CTG0001/B0003.jpg
+20180423_22:33:58 images/CTG0001/B0001.jpg
+20180423_22:33:59 Succeeded  to Connect to  MySQL-
+20180423_22:33:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:33:59 Succeeded  to Connect to  MySQL-
+20180423_22:33:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:33:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:33:59 Succeeded  to Connect to  MySQL-
+20180423_22:33:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:33:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:33:59 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:33:59 images/CTG0001/B0003.jpg
+20180423_22:33:59 images/CTG0001/B0002.jpg
+20180423_22:33:59 images/CTG0001/B0001.jpg
+20180423_22:33:59 images/CTG0001/B0004.jpg
+20180423_22:33:59 images/CTG0001/B0005.jpg
+20180423_22:33:59 images/CTG0001/B0006.jpg
+20180423_22:33:59 images/CTG0001/B0007.jpg
+20180423_22:33:59 images/CTG0001/B0008.jpg
+20180423_22:33:59 images/CTG0001/B0009.jpg
+20180423_22:34:00 Array
+20180423_22:34:00 Succeeded  to Connect to  MySQL-
+20180423_22:34:00 images/CTG0001/B0003.jpg
+20180423_22:34:00 images/CTG0001/B0001.jpg
+20180423_22:34:02 Succeeded  to Connect to  MySQL-
+20180423_22:34:02 images/CTG0001/B0003.jpg
+20180423_22:34:02 images/CTG0001/B0001.jpg
+20180423_22:34:04 Succeeded  to Connect to  MySQL-
+20180423_22:34:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:34:04 Succeeded  to Connect to  MySQL-
+20180423_22:34:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:34:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:34:04 Succeeded  to Connect to  MySQL-
+20180423_22:34:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:34:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:34:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:34:04 images/CTG0001/B0003.jpg
+20180423_22:34:04 images/CTG0001/B0002.jpg
+20180423_22:34:04 images/CTG0001/B0001.jpg
+20180423_22:34:04 images/CTG0001/B0004.jpg
+20180423_22:34:04 images/CTG0001/B0005.jpg
+20180423_22:34:04 images/CTG0001/B0006.jpg
+20180423_22:34:04 images/CTG0001/B0007.jpg
+20180423_22:34:04 images/CTG0001/B0008.jpg
+20180423_22:34:04 images/CTG0001/B0009.jpg
+20180423_22:34:05 Array
+20180423_22:34:05 Succeeded  to Connect to  MySQL-
+20180423_22:34:05 images/CTG0001/B0003.jpg
+20180423_22:34:05 images/CTG0001/B0001.jpg
+20180423_22:34:08 Succeeded  to Connect to  MySQL-
+20180423_22:34:08 images/CTG0001/B0003.jpg
+20180423_22:34:08 images/CTG0001/B0001.jpg
+20180423_22:34:10 Succeeded  to Connect to  MySQL-
+20180423_22:34:10 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:34:10 Succeeded  to Connect to  MySQL-
+20180423_22:34:10 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:34:10 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:34:10 Succeeded  to Connect to  MySQL-
+20180423_22:34:10 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:34:10 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:34:10 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:34:10 images/CTG0001/B0003.jpg
+20180423_22:34:10 images/CTG0001/B0002.jpg
+20180423_22:34:10 images/CTG0001/B0001.jpg
+20180423_22:34:10 images/CTG0001/B0004.jpg
+20180423_22:34:10 images/CTG0001/B0005.jpg
+20180423_22:34:10 images/CTG0001/B0006.jpg
+20180423_22:34:10 images/CTG0001/B0007.jpg
+20180423_22:34:10 images/CTG0001/B0008.jpg
+20180423_22:34:10 images/CTG0001/B0009.jpg
+20180423_22:34:11 Array
+20180423_22:34:11 Succeeded  to Connect to  MySQL-
+20180423_22:34:11 images/CTG0001/B0003.jpg
+20180423_22:34:11 images/CTG0001/B0001.jpg
+20180423_22:36:00 Succeeded  to Connect to  MySQL-
+20180423_22:36:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:36:00 Succeeded  to Connect to  MySQL-
+20180423_22:36:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:36:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:36:00 Succeeded  to Connect to  MySQL-
+20180423_22:36:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:36:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:36:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:36:00 images/CTG0001/B0003.jpg
+20180423_22:36:00 images/CTG0001/B0002.jpg
+20180423_22:36:00 images/CTG0001/B0001.jpg
+20180423_22:36:00 images/CTG0001/B0004.jpg
+20180423_22:36:00 images/CTG0001/B0005.jpg
+20180423_22:36:00 images/CTG0001/B0006.jpg
+20180423_22:36:00 images/CTG0001/B0007.jpg
+20180423_22:36:00 images/CTG0001/B0008.jpg
+20180423_22:36:00 images/CTG0001/B0009.jpg
+20180423_22:36:01 Array
+20180423_22:36:01 Succeeded  to Connect to  MySQL-
+20180423_22:36:01 images/CTG0001/B0003.jpg
+20180423_22:36:01 images/CTG0001/B0001.jpg
+20180423_22:36:04 Succeeded  to Connect to  MySQL-
+20180423_22:36:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:36:04 Succeeded  to Connect to  MySQL-
+20180423_22:36:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:36:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:36:04 Succeeded  to Connect to  MySQL-
+20180423_22:36:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:36:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:36:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:36:04 images/CTG0001/B0003.jpg
+20180423_22:36:04 images/CTG0001/B0002.jpg
+20180423_22:36:04 images/CTG0001/B0001.jpg
+20180423_22:36:04 images/CTG0001/B0004.jpg
+20180423_22:36:04 images/CTG0001/B0005.jpg
+20180423_22:36:04 images/CTG0001/B0006.jpg
+20180423_22:36:04 images/CTG0001/B0007.jpg
+20180423_22:36:04 images/CTG0001/B0008.jpg
+20180423_22:36:04 images/CTG0001/B0009.jpg
+20180423_22:36:05 Array
+20180423_22:36:05 Succeeded  to Connect to  MySQL-
+20180423_22:36:05 images/CTG0001/B0003.jpg
+20180423_22:36:05 images/CTG0001/B0001.jpg
+20180423_22:56:11 Succeeded  to Connect to  MySQL-
+20180423_22:56:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:56:11 Succeeded  to Connect to  MySQL-
+20180423_22:56:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:56:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:56:11 Succeeded  to Connect to  MySQL-
+20180423_22:56:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:56:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:56:11 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:56:11 images/CTG0001/B0003.jpg
+20180423_22:56:11 images/CTG0001/B0002.jpg
+20180423_22:56:11 images/CTG0001/B0001.jpg
+20180423_22:56:11 images/CTG0001/B0004.jpg
+20180423_22:56:11 images/CTG0001/B0005.jpg
+20180423_22:56:11 images/CTG0001/B0006.jpg
+20180423_22:56:11 images/CTG0001/B0007.jpg
+20180423_22:56:11 images/CTG0001/B0008.jpg
+20180423_22:56:11 images/CTG0001/B0009.jpg
+20180423_22:58:00 Succeeded  to Connect to  MySQL-
+20180423_22:58:00 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:58:04 Succeeded  to Connect to  MySQL-
+20180423_22:58:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:110
+20180423_22:58:04 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = ''
+20180423_22:59:31 Succeeded  to Connect to  MySQL-
+20180423_22:59:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:59:31 Succeeded  to Connect to  MySQL-
+20180423_22:59:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE 
+20180423_22:59:31 Succeeded  to Connect to  MySQL-
+20180423_22:59:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:59:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:59:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:59:31 images/CTG0001/B0003.jpg
+20180423_22:59:31 images/CTG0001/B0002.jpg
+20180423_22:59:31 images/CTG0001/B0001.jpg
+20180423_22:59:31 images/CTG0001/B0004.jpg
+20180423_22:59:31 images/CTG0001/B0005.jpg
+20180423_22:59:31 images/CTG0001/B0006.jpg
+20180423_22:59:31 images/CTG0001/B0007.jpg
+20180423_22:59:31 images/CTG0001/B0008.jpg
+20180423_22:59:31 images/CTG0001/B0009.jpg
+20180423_22:59:32 Succeeded  to Connect to  MySQL-
+20180423_22:59:32 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_22:59:32 Succeeded  to Connect to  MySQL-
+20180423_22:59:32 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE 
+20180423_22:59:32 Succeeded  to Connect to  MySQL-
+20180423_22:59:32 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_22:59:32 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_22:59:32 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_22:59:32 images/CTG0001/B0003.jpg
+20180423_22:59:32 images/CTG0001/B0002.jpg
+20180423_22:59:32 images/CTG0001/B0001.jpg
+20180423_22:59:32 images/CTG0001/B0004.jpg
+20180423_22:59:32 images/CTG0001/B0005.jpg
+20180423_22:59:32 images/CTG0001/B0006.jpg
+20180423_22:59:32 images/CTG0001/B0007.jpg
+20180423_22:59:32 images/CTG0001/B0008.jpg
+20180423_22:59:32 images/CTG0001/B0009.jpg
+20180423_23:01:52 Succeeded  to Connect to  MySQL-
+20180423_23:01:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:01:52 Succeeded  to Connect to  MySQL-
+20180423_23:01:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:01:52 Succeeded  to Connect to  MySQL-
+20180423_23:01:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:01:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:01:52 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:01:52 images/CTG0001/B0003.jpg
+20180423_23:01:52 images/CTG0001/B0002.jpg
+20180423_23:01:52 images/CTG0001/B0001.jpg
+20180423_23:01:52 images/CTG0001/B0004.jpg
+20180423_23:01:52 images/CTG0001/B0005.jpg
+20180423_23:01:52 images/CTG0001/B0006.jpg
+20180423_23:01:52 images/CTG0001/B0007.jpg
+20180423_23:01:52 images/CTG0001/B0008.jpg
+20180423_23:01:52 images/CTG0001/B0009.jpg
+20180423_23:28:01 Succeeded  to Connect to  MySQL-
+20180423_23:28:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:28:01 Succeeded  to Connect to  MySQL-
+20180423_23:28:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:28:01 Succeeded  to Connect to  MySQL-
+20180423_23:28:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:28:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:28:01 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:28:01 images/CTG0001/B0003.jpg
+20180423_23:28:01 images/CTG0001/B0002.jpg
+20180423_23:28:01 images/CTG0001/B0001.jpg
+20180423_23:28:01 images/CTG0001/B0004.jpg
+20180423_23:28:01 images/CTG0001/B0005.jpg
+20180423_23:28:01 images/CTG0001/B0006.jpg
+20180423_23:28:01 images/CTG0001/B0007.jpg
+20180423_23:28:01 images/CTG0001/B0008.jpg
+20180423_23:28:01 images/CTG0001/B0009.jpg
+20180423_23:29:33 Succeeded  to Connect to  MySQL-
+20180423_23:29:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:29:33 Succeeded  to Connect to  MySQL-
+20180423_23:29:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:29:33 Succeeded  to Connect to  MySQL-
+20180423_23:29:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:29:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:29:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:29:33 images/CTG0001/B0003.jpg
+20180423_23:29:33 images/CTG0001/B0002.jpg
+20180423_23:29:33 images/CTG0001/B0001.jpg
+20180423_23:29:33 images/CTG0001/B0004.jpg
+20180423_23:29:33 images/CTG0001/B0005.jpg
+20180423_23:29:33 images/CTG0001/B0006.jpg
+20180423_23:29:33 images/CTG0001/B0007.jpg
+20180423_23:29:33 images/CTG0001/B0008.jpg
+20180423_23:29:33 images/CTG0001/B0009.jpg
+20180423_23:31:20 Succeeded  to Connect to  MySQL-
+20180423_23:31:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:31:20 Succeeded  to Connect to  MySQL-
+20180423_23:31:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:31:20 Succeeded  to Connect to  MySQL-
+20180423_23:31:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:31:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:31:20 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:31:20 images/CTG0001/B0003.jpg
+20180423_23:31:20 images/CTG0001/B0002.jpg
+20180423_23:31:20 images/CTG0001/B0001.jpg
+20180423_23:31:20 images/CTG0001/B0004.jpg
+20180423_23:31:20 images/CTG0001/B0005.jpg
+20180423_23:31:20 images/CTG0001/B0006.jpg
+20180423_23:31:20 images/CTG0001/B0007.jpg
+20180423_23:31:20 images/CTG0001/B0008.jpg
+20180423_23:31:20 images/CTG0001/B0009.jpg
+20180423_23:32:39 Succeeded  to Connect to  MySQL-
+20180423_23:32:39 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:32:39 Succeeded  to Connect to  MySQL-
+20180423_23:32:39 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:32:39 Succeeded  to Connect to  MySQL-
+20180423_23:32:39 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:32:39 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:32:39 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:32:39 images/CTG0001/B0003.jpg
+20180423_23:32:39 images/CTG0001/B0002.jpg
+20180423_23:32:39 images/CTG0001/B0001.jpg
+20180423_23:32:39 images/CTG0001/B0004.jpg
+20180423_23:32:39 images/CTG0001/B0005.jpg
+20180423_23:32:39 images/CTG0001/B0006.jpg
+20180423_23:32:39 images/CTG0001/B0007.jpg
+20180423_23:32:39 images/CTG0001/B0008.jpg
+20180423_23:32:39 images/CTG0001/B0009.jpg
+20180423_23:32:53 Succeeded  to Connect to  MySQL-
+20180423_23:32:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:32:53 Succeeded  to Connect to  MySQL-
+20180423_23:32:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_23:32:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_23:32:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:32:53 Succeeded  to Connect to  MySQL-
+20180423_23:32:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_23:32:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_23:32:53 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_23:32:53 images/CTG0001/B0003.jpg
+20180423_23:32:53 images/CTG0001/B0002.jpg
+20180423_23:32:53 images/CTG0001/B0001.jpg
+20180423_23:32:53 images/CTG0001/B0004.jpg
+20180423_23:32:53 images/CTG0001/B0005.jpg
+20180423_23:32:53 images/CTG0001/B0006.jpg
+20180423_23:32:53 images/CTG0001/B0007.jpg
+20180423_23:32:53 images/CTG0001/B0008.jpg
+20180423_23:32:53 images/CTG0001/B0009.jpg
+20180423_23:33:46 Succeeded  to Connect to  MySQL-
+20180423_23:33:46 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:33:46 Succeeded  to Connect to  MySQL-
+20180423_23:33:46 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:33:46 Succeeded  to Connect to  MySQL-
+20180423_23:33:46 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:33:46 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:33:46 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:33:46 images/CTG0001/B0003.jpg
+20180423_23:33:46 images/CTG0001/B0002.jpg
+20180423_23:33:46 images/CTG0001/B0001.jpg
+20180423_23:33:46 images/CTG0001/B0004.jpg
+20180423_23:33:46 images/CTG0001/B0005.jpg
+20180423_23:33:46 images/CTG0001/B0006.jpg
+20180423_23:33:46 images/CTG0001/B0007.jpg
+20180423_23:33:46 images/CTG0001/B0008.jpg
+20180423_23:33:46 images/CTG0001/B0009.jpg
+20180423_23:33:49 Succeeded  to Connect to  MySQL-
+20180423_23:33:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:33:49 Succeeded  to Connect to  MySQL-
+20180423_23:33:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:33:49 Succeeded  to Connect to  MySQL-
+20180423_23:33:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:33:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:33:49 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:33:49 images/CTG0001/B0003.jpg
+20180423_23:33:49 images/CTG0001/B0002.jpg
+20180423_23:33:49 images/CTG0001/B0001.jpg
+20180423_23:33:49 images/CTG0001/B0004.jpg
+20180423_23:33:49 images/CTG0001/B0005.jpg
+20180423_23:33:49 images/CTG0001/B0006.jpg
+20180423_23:33:49 images/CTG0001/B0007.jpg
+20180423_23:33:49 images/CTG0001/B0008.jpg
+20180423_23:33:49 images/CTG0001/B0009.jpg
+20180423_23:33:55 Succeeded  to Connect to  MySQL-
+20180423_23:33:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:157CTG0001
+20180423_23:33:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175categoryId = 'CTG0001'
+20180423_23:33:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:33:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:183categoryId = 'CTG0001'
+20180423_23:33:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products WHERE categoryId = 'CTG0001'
+20180423_23:33:55 images/CTG0001/B0003.jpg
+20180423_23:33:55 images/CTG0001/B0002.jpg
+20180423_23:33:55 images/CTG0001/B0001.jpg
+20180423_23:33:55 images/CTG0001/B0004.jpg
+20180423_23:33:55 images/CTG0001/B0005.jpg
+20180423_23:33:55 images/CTG0001/B0006.jpg
+20180423_23:33:55 images/CTG0001/B0007.jpg
+20180423_23:33:55 images/CTG0001/B0008.jpg
+20180423_23:33:55 images/CTG0001/B0009.jpg
+20180423_23:33:55 Succeeded  to Connect to  MySQL-
+20180423_23:33:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:33:55 Succeeded  to Connect to  MySQL-
+20180423_23:33:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products WHERE categoryId = 'CTG0001'
+20180423_23:38:37 Succeeded  to Connect to  MySQL-
+20180423_23:38:37 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:38:37 Succeeded  to Connect to  MySQL-
+20180423_23:38:37 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:38:37 Succeeded  to Connect to  MySQL-
+20180423_23:38:37 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:38:37 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:38:37 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:38:37 images/CTG0001/B0003.jpg
+20180423_23:38:37 images/CTG0001/B0002.jpg
+20180423_23:38:37 images/CTG0001/B0001.jpg
+20180423_23:38:37 images/CTG0001/B0004.jpg
+20180423_23:38:37 images/CTG0001/B0005.jpg
+20180423_23:38:37 images/CTG0001/B0006.jpg
+20180423_23:38:37 images/CTG0001/B0007.jpg
+20180423_23:38:37 images/CTG0001/B0008.jpg
+20180423_23:38:37 images/CTG0001/B0009.jpg
+20180423_23:39:38 Succeeded  to Connect to  MySQL-
+20180423_23:39:38 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:39:38 Succeeded  to Connect to  MySQL-
+20180423_23:39:38 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:39:38 Succeeded  to Connect to  MySQL-
+20180423_23:39:38 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:39:38 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:39:38 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:39:38 images/CTG0001/B0003.jpg
+20180423_23:39:38 images/CTG0001/B0002.jpg
+20180423_23:39:38 images/CTG0001/B0001.jpg
+20180423_23:39:38 images/CTG0001/B0004.jpg
+20180423_23:39:38 images/CTG0001/B0005.jpg
+20180423_23:39:38 images/CTG0001/B0006.jpg
+20180423_23:39:38 images/CTG0001/B0007.jpg
+20180423_23:39:38 images/CTG0001/B0008.jpg
+20180423_23:39:38 images/CTG0001/B0009.jpg
+20180423_23:40:14 Succeeded  to Connect to  MySQL-
+20180423_23:40:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:40:14 Succeeded  to Connect to  MySQL-
+20180423_23:40:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:40:14 Succeeded  to Connect to  MySQL-
+20180423_23:40:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:40:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:40:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:40:14 images/CTG0001/B0003.jpg
+20180423_23:40:14 images/CTG0001/B0002.jpg
+20180423_23:40:14 images/CTG0001/B0001.jpg
+20180423_23:40:14 images/CTG0001/B0004.jpg
+20180423_23:40:14 images/CTG0001/B0005.jpg
+20180423_23:40:14 images/CTG0001/B0006.jpg
+20180423_23:40:14 images/CTG0001/B0007.jpg
+20180423_23:40:14 images/CTG0001/B0008.jpg
+20180423_23:40:14 images/CTG0001/B0009.jpg
+20180423_23:40:55 Succeeded  to Connect to  MySQL-
+20180423_23:40:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:40:55 Succeeded  to Connect to  MySQL-
+20180423_23:40:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:40:55 Succeeded  to Connect to  MySQL-
+20180423_23:40:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:40:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:40:55 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:40:55 images/CTG0001/B0003.jpg
+20180423_23:40:55 images/CTG0001/B0002.jpg
+20180423_23:40:55 images/CTG0001/B0001.jpg
+20180423_23:40:55 images/CTG0001/B0004.jpg
+20180423_23:40:55 images/CTG0001/B0005.jpg
+20180423_23:40:55 images/CTG0001/B0006.jpg
+20180423_23:40:55 images/CTG0001/B0007.jpg
+20180423_23:40:55 images/CTG0001/B0008.jpg
+20180423_23:40:55 images/CTG0001/B0009.jpg
+20180423_23:43:51 Succeeded  to Connect to  MySQL-
+20180423_23:43:51 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:43:51 Succeeded  to Connect to  MySQL-
+20180423_23:43:51 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:43:51 Succeeded  to Connect to  MySQL-
+20180423_23:43:51 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:43:51 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:43:51 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:43:51 images/CTG0001/B0003.jpg
+20180423_23:43:51 images/CTG0001/B0002.jpg
+20180423_23:43:51 images/CTG0001/B0001.jpg
+20180423_23:43:51 images/CTG0001/B0004.jpg
+20180423_23:43:51 images/CTG0001/B0005.jpg
+20180423_23:43:51 images/CTG0001/B0006.jpg
+20180423_23:43:51 images/CTG0001/B0007.jpg
+20180423_23:43:51 images/CTG0001/B0008.jpg
+20180423_23:43:51 images/CTG0001/B0009.jpg
+20180423_23:43:56 Succeeded  to Connect to  MySQL-
+20180423_23:43:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:43:56 Succeeded  to Connect to  MySQL-
+20180423_23:43:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:43:56 Succeeded  to Connect to  MySQL-
+20180423_23:43:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:43:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:43:56 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:43:56 images/CTG0001/B0003.jpg
+20180423_23:43:56 images/CTG0001/B0002.jpg
+20180423_23:43:56 images/CTG0001/B0001.jpg
+20180423_23:43:56 images/CTG0001/B0004.jpg
+20180423_23:43:56 images/CTG0001/B0005.jpg
+20180423_23:43:56 images/CTG0001/B0006.jpg
+20180423_23:43:56 images/CTG0001/B0007.jpg
+20180423_23:43:56 images/CTG0001/B0008.jpg
+20180423_23:43:56 images/CTG0001/B0009.jpg
+20180423_23:45:46 Succeeded  to Connect to  MySQL-
+20180423_23:45:46 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:45:46 Succeeded  to Connect to  MySQL-
+20180423_23:45:46 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:45:46 Succeeded  to Connect to  MySQL-
+20180423_23:45:46 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:45:46 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243SELECT * from products WHERE 
+20180423_23:45:47 Succeeded  to Connect to  MySQL-
+20180423_23:45:47 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:45:47 Succeeded  to Connect to  MySQL-
+20180423_23:45:47 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:45:47 Succeeded  to Connect to  MySQL-
+20180423_23:45:47 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:45:47 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243SELECT * from products WHERE 
+20180423_23:46:14 Succeeded  to Connect to  MySQL-
+20180423_23:46:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:46:14 Succeeded  to Connect to  MySQL-
+20180423_23:46:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:46:14 Succeeded  to Connect to  MySQL-
+20180423_23:46:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:46:14 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243SELECT * from products WHERE category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:46:15 Succeeded  to Connect to  MySQL-
+20180423_23:46:15 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:46:15 Succeeded  to Connect to  MySQL-
+20180423_23:46:15 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:46:15 Succeeded  to Connect to  MySQL-
+20180423_23:46:15 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:46:15 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243SELECT * from products WHERE category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:47:42 Succeeded  to Connect to  MySQL-
+20180423_23:47:42 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:47:42 Succeeded  to Connect to  MySQL-
+20180423_23:47:42 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:47:42 Succeeded  to Connect to  MySQL-
+20180423_23:47:42 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:47:42 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243SELECT * from products WHERE category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:47:43 Succeeded  to Connect to  MySQL-
+20180423_23:47:43 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:47:43 Succeeded  to Connect to  MySQL-
+20180423_23:47:43 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:47:43 Succeeded  to Connect to  MySQL-
+20180423_23:47:43 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:47:43 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243SELECT * from products WHERE category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:47:44 Succeeded  to Connect to  MySQL-
+20180423_23:47:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:47:44 Succeeded  to Connect to  MySQL-
+20180423_23:47:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:47:44 Succeeded  to Connect to  MySQL-
+20180423_23:47:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:47:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243SELECT * from products WHERE category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:47:44 Succeeded  to Connect to  MySQL-
+20180423_23:47:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:47:44 Succeeded  to Connect to  MySQL-
+20180423_23:47:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:47:44 Succeeded  to Connect to  MySQL-
+20180423_23:47:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:47:44 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243SELECT * from products WHERE category like '%Toscane%' ORname like '%Toscane%' ORdescription1 like '%Toscane%' ORdescription2 like '%Toscane%'
+20180423_23:49:22 Succeeded  to Connect to  MySQL-
+20180423_23:49:22 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:49:22 Succeeded  to Connect to  MySQL-
+20180423_23:49:22 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:49:22 Succeeded  to Connect to  MySQL-
+20180423_23:49:22 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:236category like '%Toscane%' OR name like '%Toscane%' OR description1 like '%Toscane%' OR description2 like '%Toscane%'
+20180423_23:49:22 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:243SELECT * from products WHERE category like '%Toscane%' OR name like '%Toscane%' OR description1 like '%Toscane%' OR description2 like '%Toscane%'
+20180423_23:49:30 Succeeded  to Connect to  MySQL-
+20180423_23:49:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:49:30 Succeeded  to Connect to  MySQL-
+20180423_23:49:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:49:30 Succeeded  to Connect to  MySQL-
+20180423_23:49:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:49:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:49:30 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:49:31 Succeeded  to Connect to  MySQL-
+20180423_23:49:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:49:31 Succeeded  to Connect to  MySQL-
+20180423_23:49:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:49:31 Succeeded  to Connect to  MySQL-
+20180423_23:49:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:49:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:49:31 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:49:33 Succeeded  to Connect to  MySQL-
+20180423_23:49:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products
+20180423_23:49:33 Succeeded  to Connect to  MySQL-
+20180423_23:49:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products
+20180423_23:49:33 Succeeded  to Connect to  MySQL-
+20180423_23:49:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175
+20180423_23:49:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176
+20180423_23:49:33 C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products 
+20180423_23:57:46 [Succeeded  to Connect to  MySQL-:]
+20180423_23:57:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products:]
+20180423_23:57:46 [Succeeded  to Connect to  MySQL-:]
+20180423_23:57:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products:]
+20180423_23:57:46 [Succeeded  to Connect to  MySQL-:]
+20180423_23:57:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175:]
+20180423_23:57:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176:]
+20180423_23:57:46 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products :]
+20180423_23:57:47 [Succeeded  to Connect to  MySQL-:]
+20180423_23:57:47 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products:]
+20180423_23:57:47 [Succeeded  to Connect to  MySQL-:]
+20180423_23:57:47 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products:]
+20180423_23:57:47 [Succeeded  to Connect to  MySQL-:]
+20180423_23:57:47 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175:]
+20180423_23:57:47 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176:]
+20180423_23:57:47 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products :]
+20180423_23:57:47 [Succeeded  to Connect to  MySQL-:]
+20180423_23:57:47 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:48SELECT DISTINCT(categoryId), category from products:]
+20180423_23:57:48 [Succeeded  to Connect to  MySQL-:]
+20180423_23:57:48 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:120SELECT DISTINCT(brandId), brand from products:]
+20180423_23:57:48 [Succeeded  to Connect to  MySQL-:]
+20180423_23:57:48 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:175:]
+20180423_23:57:48 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:176:]
+20180423_23:57:48 [C:\xampp\htdocs\ThePitStop_PHP\includes\database.php:191SELECT * from products :]
